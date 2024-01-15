@@ -1,0 +1,1758 @@
+{
+  "source_base_path": "D:/repos/docs-src",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Animeska34.Essentials.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Animeska34.Essentials.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "Manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.AutoDestroy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.AutoDestroy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.CameraPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.CameraPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.CameraSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.CameraSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.Editor.CameraSystemEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.Editor.CameraSystemEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.Events.VideoPlayerEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.Events.VideoPlayerEvents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.IAnimeAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.IAnimeAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.IAnimeActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.IAnimeActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioAnalyzer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerHDRColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerHDRColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerRotation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerRotation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.AudioVisualizerScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.Editor.AudioVisualizerEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.Editor.AudioVisualizerEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.IAudioVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.IAudioVisualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.SmoothModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.SmoothModifier.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AudioVisualization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AudioVisualization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.IRTSSelectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.IRTSSelectable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSActionButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSActionButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSActionHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSActionHost.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSCamera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSEventAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSEventAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSSelectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSSelectable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.RTSSelector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.RTS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Commands.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Commands.Command.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Commands.ExportCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Commands.ExportCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Commands.PlayerPrefsCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Commands.PlayerPrefsCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Commands.QualitySettingsCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Commands.QualitySettingsCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Commands.SceneCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Commands.SceneCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.Console.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.Console.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.ConsoleHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.ConsoleHost.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.DebugRayDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.DebugRayDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.ICommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DebugTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DebugTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.Character.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.Character.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.CharacterDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.CharacterDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.CharacterPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.CharacterPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.DialogBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.DialogBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.DialogConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.DialogConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.DialogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.DialogManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.Exceptions.CharacterNotExists.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.Exceptions.CharacterNotExists.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.Exceptions.ManagerNotExists.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.Exceptions.ManagerNotExists.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.SpriteDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.SpriteDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.DialogFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.DialogFramework.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.CustomEditor.PackageImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.CustomEditor.PackageImporter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.CustomEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.CustomEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.Editor.Prefabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.Editor.Prefabs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.Editor.ProjectPrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.Editor.ProjectPrefs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.Editor.ReadOnlyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.Editor.ReadOnlyDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.Editor.SceneHierarchyWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.Editor.SceneHierarchyWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.ReadOnlyAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.SafeAreaFitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.SafeAreaFitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.TransformExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.TransformExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Essentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Essentials.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.IO.CryptoUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.IO.CryptoUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.IO.DeflateUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.IO.DeflateUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.IO.FileUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.IO.FileUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.IO.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.IO.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.IO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Durable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Durable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.IInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.IInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.IntegratedInventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Inventory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.InventoryManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.InventoryManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.ItemData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.ItemData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.ItemLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.ItemLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.ItemObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.ItemObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.ItemSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.ItemSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.LimitedStackable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.LimitedStackable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Ops.PutOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Ops.PutOperation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Ops.TransferOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Ops.TransferOperation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Ops.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Ops.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Sorting.Sort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Sorting.Sort.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Sorting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Sorting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Stackable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Stackable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.Test1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.TestSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.TestSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.TestStaticSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.TestStaticSO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.UI.FullItemView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.UI.FullItemView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.UI.InventoryView.InventorySortMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.UI.InventoryView.InventorySortMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.UI.InventoryView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.UI.InventoryView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.UI.ItemView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.UI.ItemView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.UI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.InventorySystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.NetworkDiscovery.DiscoveredServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.NetworkDiscovery.DiscoveredServer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.NetworkDiscovery.DiscoveryConfirmation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.NetworkDiscovery.DiscoveryConfirmation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.NetworkDiscovery.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.NetworkDiscovery.Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.NetworkDiscovery.Transceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.NetworkDiscovery.Transceiver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.NetworkDiscovery.Transponder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.NetworkDiscovery.Transponder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.NetworkDiscovery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.NetworkDiscovery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.ISaveable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.ISaveable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.Parsers.MonoBehaviourParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.Parsers.MonoBehaviourParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.Parsers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.PrefabLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.PrefabLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.SaveBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.SaveBehaviour.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.SaveManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.SaveManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.SavePrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.SavePrefs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.Saveable.SerializeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.Saveable.SerializeData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.Saveable.Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.Saveable.Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.Saveable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.Saveable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SaveSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SaveSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.ArrayParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.ArrayParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.BooleanParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.BooleanParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.DictionaryParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.DictionaryParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.DoubleParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.DoubleParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.EnumParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.EnumParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Int16Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Int16Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Int32Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Int32Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Int64Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Int64Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.ListParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.ListParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.ObjectParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.ObjectParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.QuaternionParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.QuaternionParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.SingleParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.SingleParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.StringParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.StringParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.UInt16Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.UInt16Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.UInt32Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.UInt32Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.UInt64Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.UInt64Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector2IntParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector2IntParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector2Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector2Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector3IntParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector3IntParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector3Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector3Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector4Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.Vector4Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Parsers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Service.XMLTypeLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Service.XMLTypeLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.Service.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.XMLUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.XMLUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Serialization.XML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Serialization.XML.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Shared.Editor.Prefabs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Shared.Editor.Prefabs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Shared.Editor.SceneHierarchyWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Shared.Editor.SceneHierarchyWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Shared.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Shared.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Shared.TransformExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Shared.TransformExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.Shared.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.Shared.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.UHTTP.UHTTPManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.UHTTP.UHTTPManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.UHTTP.UPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.UHTTP.UPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.UHTTP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.UHTTP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "ScriptReference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/toc.html"
+        },
+        ".json": {
+          "relative_path": "ScriptReference/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.AnimeTools/Assets/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.AnimeTools/Assets/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AnimeActions.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AnimeActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AnimeText.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AnimeText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AnimeTimedActions.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AnimeTimedActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AutoDestoy.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.AnimeTools/Assets/Documentation~/AutoDestoy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.AnimeTools/Assets/Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.AnimeTools/Assets/Readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.DebugTools/Assets/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.DebugTools/Assets/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.DebugTools/Assets/Documentation~/DebugConsole.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.DebugTools/Assets/Documentation~/DebugConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.DebugTools/Assets/Documentation~/DebugRayDrawer.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.DebugTools/Assets/Documentation~/DebugRayDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.DebugTools/Assets/Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.DebugTools/Assets/Readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.Essentials/Assets/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.Essentials/Assets/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.IO/Assets/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.IO/Assets/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

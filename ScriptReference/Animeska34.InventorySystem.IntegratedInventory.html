@@ -1,0 +1,1562 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class IntegratedInventory
+ | Animeska34 Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class IntegratedInventory
+ | Animeska34 Docs ">
+      
+      <meta name="description" content="Inventory, which can be added to any object">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.inventory/new/main/apiSpec/new?filename=Animeska34_InventorySystem_IntegratedInventory.md&amp;value=---%0Auid%3A%20Animeska34.InventorySystem.IntegratedInventory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Animeska34 Docs">
+            Animeska34 Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Animeska34.InventorySystem.IntegratedInventory">
+
+
+
+  <h1 id="Animeska34_InventorySystem_IntegratedInventory" data-uid="Animeska34.InventorySystem.IntegratedInventory" class="text-break">
+    Class IntegratedInventory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.InventorySystem.html">InventorySystem</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Inventory, which can be added to any object</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class IntegratedInventory : IInventory, IEnumerable, IEnumerator</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">IntegratedInventory</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Animeska34.InventorySystem.IInventory.html">IInventory</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Item_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Item*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Item_Animeska34_InventorySystem_Item_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Item(Animeska34.InventorySystem.Item)">
+  this[Item]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get index of item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int this[Item item] { get; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Index of itm in inventory. Returns -1 if item not exists in inventory</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Item_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Item*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Item_System_Int32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get item by index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Item this[int id] { get; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Item index</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item at index</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Item_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Item*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Item_System_String_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Item(System.String)">
+  this[string]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get first item by name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Item this[string name] { get; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Item name</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>First item with matching name</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_cost_" data-uid="Animeska34.InventorySystem.IntegratedInventory.cost*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_cost" data-uid="Animeska34.InventorySystem.IntegratedInventory.cost">
+  cost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current cost of inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual double cost { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_count_" data-uid="Animeska34.InventorySystem.IntegratedInventory.count*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_count" data-uid="Animeska34.InventorySystem.IntegratedInventory.count">
+  count
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current entry count</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual int count { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_limit_" data-uid="Animeska34.InventorySystem.IntegratedInventory.limit*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_limit" data-uid="Animeska34.InventorySystem.IntegratedInventory.limit">
+  limit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Limit of entries in inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual float limit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_loaded_" data-uid="Animeska34.InventorySystem.IntegratedInventory.loaded*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_loaded" data-uid="Animeska34.InventorySystem.IntegratedInventory.loaded">
+  loaded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls, when inventroy was loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent loaded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_onContentUpdated_" data-uid="Animeska34.InventorySystem.IntegratedInventory.onContentUpdated*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_onContentUpdated" data-uid="Animeska34.InventorySystem.IntegratedInventory.onContentUpdated">
+  onContentUpdated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls when something changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onContentUpdated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_onItemAdded_" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemAdded*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_onItemAdded" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemAdded">
+  onItemAdded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls, when item was added to inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Item&gt; onItemAdded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_onItemDestroyed_" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemDestroyed*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_onItemDestroyed" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemDestroyed">
+  onItemDestroyed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls when item was destroyed in inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Item&gt; onItemDestroyed { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_onItemQuantityChanged_" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemQuantityChanged*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_onItemQuantityChanged" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemQuantityChanged">
+  onItemQuantityChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls when number of items changed in inventory. Bool shows if change was positive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Item, uint, bool&gt; onItemQuantityChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_3.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_onItemRemoved_" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemRemoved*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_onItemRemoved" data-uid="Animeska34.InventorySystem.IntegratedInventory.onItemRemoved">
+  onItemRemoved
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls when item was removed from inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Item&gt; onItemRemoved { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_useSlotLimit_" data-uid="Animeska34.InventorySystem.IntegratedInventory.useSlotLimit*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_useSlotLimit" data-uid="Animeska34.InventorySystem.IntegratedInventory.useSlotLimit">
+  useSlotLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Does inventory uses slot limit</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useSlotLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_useWeightLimit_" data-uid="Animeska34.InventorySystem.IntegratedInventory.useWeightLimit*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_useWeightLimit" data-uid="Animeska34.InventorySystem.IntegratedInventory.useWeightLimit">
+  useWeightLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Does inventory uses weight limit</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool useWeightLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_weight_" data-uid="Animeska34.InventorySystem.IntegratedInventory.weight*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_weight" data-uid="Animeska34.InventorySystem.IntegratedInventory.weight">
+  weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current weight of inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual float weight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_weightLimit_" data-uid="Animeska34.InventorySystem.IntegratedInventory.weightLimit*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_weightLimit" data-uid="Animeska34.InventorySystem.IntegratedInventory.weightLimit">
+  weightLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Max weight of inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual float weightLimit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Inventory, which can be added to any object</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Contains_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Contains*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Contains_System_String_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Contains(System.String,System.UInt32)">
+  Contains(string, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Check if inventory contains item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(string name, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of item to check</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of item to check. If item is non-stackable returns false if quantity != 1</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>true, if inventory contains item</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_GetIndexed_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetIndexed*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_GetIndexed__1" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetIndexed``1">
+  GetIndexed&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get items of type as dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, T&gt; GetIndexed&lt;T&gt;() where T : Item</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, T&gt;</dt>
+    <dd><p>Dictionary, where key is index of item in inventory.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of items to get</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_GetItemsIndexed_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsIndexed*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_GetItemsIndexed_System_Type_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsIndexed(System.Type)">
+  GetItemsIndexed(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get items of type as dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, Item&gt; GetItemsIndexed(Type t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>Type of items to get</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd><p>Dictionary, where key is index of item in inventory.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_GetItemsIndexed_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsIndexed*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_GetItemsIndexed__1" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsIndexed``1">
+  GetItemsIndexed&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get items of type as dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;int, Item&gt; GetItemsIndexed&lt;T&gt;() where T : Item</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd><p>Dictionary, where key is index of item in inventory.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of items to get</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_GetItemsList_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsList*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_GetItemsList_System_Type_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsList(System.Type)">
+  GetItemsList(Type)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get items of type as list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Item&gt; GetItemsList(Type t)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>t</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>Type of items to get</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd><p>List of items</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_GetItemsList_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsList*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_GetItemsList__1" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetItemsList``1">
+  GetItemsList&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L419"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get items of type as list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Item&gt; GetItemsList&lt;T&gt;() where T : Item</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a>&gt;</dt>
+    <dd><p>List of items</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of items to get</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_GetList_" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetList*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_GetList__1" data-uid="Animeska34.InventorySystem.IntegratedInventory.GetList``1">
+  GetList&lt;T&gt;()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L405"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get items of type as list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;T&gt; GetList&lt;T&gt;() where T : Item</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
+    <dd><p>List of items</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Type of items to get</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Loaded_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Loaded*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Loaded" data-uid="Animeska34.InventorySystem.IntegratedInventory.Loaded">
+  Loaded()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls when game loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Loaded()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Put_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Put*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Put_Animeska34_InventorySystem_Item_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Put(Animeska34.InventorySystem.Item)">
+  Put(Item)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Put item to inventory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PutOperation Put(Item item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item to put</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Ops.PutOperation.html">PutOperation</a></dt>
+    <dd><p>Result of PutOperation</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Put_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Put*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Put_System_String_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Put(System.String,System.UInt32)">
+  Put(string, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Put item by name. Cannot put mulpiple non-stackable items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PutOperation Put(string name, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of item</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Ops.PutOperation.html">PutOperation</a></dt>
+    <dd><p>Result of PutOperation</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_PutMultiple_" data-uid="Animeska34.InventorySystem.IntegratedInventory.PutMultiple*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_PutMultiple_System_String_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.PutMultiple(System.String,System.UInt32)">
+  PutMultiple(string, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Put multiple items by name. Can be used to put multiple non-stackable items</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PutOperation PutMultiple(string name, uint quantity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of item to put</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Ops.PutOperation.html">PutOperation</a></dt>
+    <dd><p>Result of PutOperation</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Recalculate_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Recalculate*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Recalculate" data-uid="Animeska34.InventorySystem.IntegratedInventory.Recalculate">
+  Recalculate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recalculate weight and cost of inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Recalculate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Remove_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Remove*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Remove_Animeska34_InventorySystem_Item_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Remove(Animeska34.InventorySystem.Item)">
+  Remove(Item)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove item from inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(Item item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item, to remove</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True, if item was removed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Remove_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Remove*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Remove_System_Int32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Remove(System.Int32)">
+  Remove(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove item at specific index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Index of item to remoce</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True, if item was removed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Remove_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Remove*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Remove_System_String_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Remove(System.String)">
+  Remove(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove first item by name from inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Remove(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Name of item to remove</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True, if item was removed</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Take_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Take*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Take_Animeska34_InventorySystem_Item_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Take(Animeska34.InventorySystem.Item,System.UInt32)">
+  Take(Item, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Take item from inventory
+Note: if item is non-stackable returned item equals referenced item, but if item is stackable, returned item not equals to referenced. Consider using returned item then possible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Item Take(Item item, uint quantity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item to take from inventory.</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of items to remove. If item is non stackable and quantity != 1 returns null</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Taken item from inventory</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Take_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Take*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Take_System_Int32_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Take(System.Int32,System.UInt32)">
+  Take(int, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Take item by index from inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Item Take(int index, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Index of item to take</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of items to take. If item is non stackable and quantity != 1 returns null</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item, if it was found in inventory</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Take_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Take*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Take_System_String_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Take(System.String,System.UInt32)">
+  Take(string, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Take first item by name from inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Item Take(string name, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Item to take</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of items to take. If item is non stackable and quantity != 1 returns null</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item, if it was found in inventory</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Transfer_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Transfer*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Transfer_Animeska34_InventorySystem_Item_Animeska34_InventorySystem_IInventory_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Transfer(Animeska34.InventorySystem.Item,Animeska34.InventorySystem.IInventory,System.UInt32)">
+  Transfer(Item, IInventory, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transfer item to another inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TransferOperation Transfer(Item item, IInventory destination, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>item</code> <a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
+    <dd><p>Item to transfer</p>
+</dd>
+    <dt><code>destination</code> <a class="xref" href="Animeska34.InventorySystem.IInventory.html">IInventory</a></dt>
+    <dd><p>Destination inventory</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of items to transfer (works only with stacable items. If item is non-stackable and quantity != 1 returns false)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Ops.TransferOperation.html">TransferOperation</a></dt>
+    <dd><p>True, if item was transfered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Transfer_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Transfer*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Transfer_System_Int32_Animeska34_InventorySystem_IInventory_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Transfer(System.Int32,Animeska34.InventorySystem.IInventory,System.UInt32)">
+  Transfer(int, IInventory, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transfer item by index to another inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TransferOperation Transfer(int index, IInventory destination, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Item to transfer</p>
+</dd>
+    <dt><code>destination</code> <a class="xref" href="Animeska34.InventorySystem.IInventory.html">IInventory</a></dt>
+    <dd><p>Destination inventory</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of items to transfer (works only with stacable items. If item is non-stackable and quantity != 1 returns false)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Ops.TransferOperation.html">TransferOperation</a></dt>
+    <dd><p>True, if item was transfered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_IntegratedInventory_Transfer_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Transfer*"></a>
+
+  <h3 id="Animeska34_InventorySystem_IntegratedInventory_Transfer_System_String_Animeska34_InventorySystem_IInventory_System_UInt32_" data-uid="Animeska34.InventorySystem.IntegratedInventory.Transfer(System.String,Animeska34.InventorySystem.IInventory,System.UInt32)">
+  Transfer(string, IInventory, uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Transfer first item item by name to another inventory</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TransferOperation Transfer(string name, IInventory destination, uint quantity = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Item to transfer</p>
+</dd>
+    <dt><code>destination</code> <a class="xref" href="Animeska34.InventorySystem.IInventory.html">IInventory</a></dt>
+    <dd><p>Destination inventory</p>
+</dd>
+    <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Quantity of items to transfer (works only with stacable items. If item is non-stackable and quantity != 1 returns false)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Animeska34.InventorySystem.Ops.TransferOperation.html">TransferOperation</a></dt>
+    <dd><p>True, if item was transfered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/IntegratedInventory.cs/#L15" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

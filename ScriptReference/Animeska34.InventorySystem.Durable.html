@@ -1,0 +1,805 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Durable
+ | Animeska34 Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Durable
+ | Animeska34 Docs ">
+      
+      <meta name="description" content="Item, which has durability, and can be damaged">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.inventory/new/main/apiSpec/new?filename=Animeska34_InventorySystem_Durable.md&amp;value=---%0Auid%3A%20Animeska34.InventorySystem.Durable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Animeska34 Docs">
+            Animeska34 Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Animeska34.InventorySystem.Durable">
+
+
+
+  <h1 id="Animeska34_InventorySystem_Durable" data-uid="Animeska34.InventorySystem.Durable" class="text-break">
+    Class Durable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.InventorySystem.html">InventorySystem</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Item, which has durability, and can be damaged</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[CreateAssetMenu(menuName = &quot;Animeska34/Inventory System/Item (Durable)&quot;, order = 1)]
+public class Durable : Item</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.html">Object</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html">ScriptableObject</a></div>
+      <div><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></div>
+      <div><span class="xref">Durable</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_data">Item.data</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_name">Item.name</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_visualName">Item.visualName</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_description">Item.description</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_icon">Item.icon</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_itemObject">Item.itemObject</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_weight">Item.weight</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_overallWeight">Item.overallWeight</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_instantiatable">Item.instantiatable</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_instance">Item.instance</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_onDestroy">Item.onDestroy</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_onUpdated">Item.onUpdated</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Refresh">Item.Refresh()</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Instantiate_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Item.Instantiate(Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Instantiate_UnityEngine_Vector3_UnityEngine_Quaternion_">Item.Instantiate(Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Instantiate_UnityEngine_Transform_">Item.Instantiate(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_OnDestroy">Item.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.SetDirty.html">ScriptableObject.SetDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ScriptableObject.CreateInstance(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">ScriptableObject.CreateInstance(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.CreateInstance.html">ScriptableObject.CreateInstance&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.GetInstanceID.html">Object.GetInstanceID()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.GetHashCode.html">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.Instantiate.html">Object.Instantiate(Object, Vector3, Quaternion, Transform)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Destroy(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyImmediate(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsByType(Type, FindObjectsInactive, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.DontDestroyOnLoad.html">Object.DontDestroyOnLoad(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.DestroyObject(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyObject(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindObjectsOfType.html">Object.FindObjectsOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindObjectsByType.html">Object.FindObjectsByType&lt;T&gt;(FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectsOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindObjectsByType.html">Object.FindObjectsByType&lt;T&gt;(FindObjectsInactive, FindObjectsSortMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindObjectOfType.html">Object.FindObjectOfType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.FindObjectOfType&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindFirstObjectByType.html">Object.FindFirstObjectByType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindAnyObjectByType.html">Object.FindAnyObjectByType&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindFirstObjectByType.html">Object.FindFirstObjectByType&lt;T&gt;(FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.FindAnyObjectByType.html">Object.FindAnyObjectByType&lt;T&gt;(FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindFirstObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindAnyObjectByType(Type, FindObjectsInactive)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.ToString.html">Object.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Animeska34_InventorySystem_Durable_onBroken" data-uid="Animeska34.InventorySystem.Durable.onBroken">
+  onBroken
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls, when item was broken</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public UnityEvent onBroken</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_InventorySystem_Durable_onDamage" data-uid="Animeska34.InventorySystem.Durable.onDamage">
+  onDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls, when item was damaged</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public UnityEvent onDamage</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_InventorySystem_Durable_onRepair" data-uid="Animeska34.InventorySystem.Durable.onRepair">
+  onRepair
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls, when item was repaired</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public UnityEvent onRepair</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_InventorySystem_Durable_onRepaired" data-uid="Animeska34.InventorySystem.Durable.onRepaired">
+  onRepaired
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calls, when item was fully repaired</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public UnityEvent onRepaired</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Animeska34_InventorySystem_Durable_cost_" data-uid="Animeska34.InventorySystem.Durable.cost*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_cost" data-uid="Animeska34.InventorySystem.Durable.cost">
+  cost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cost of single item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float cost { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_durability_" data-uid="Animeska34.InventorySystem.Durable.durability*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_durability" data-uid="Animeska34.InventorySystem.Durable.durability">
+  durability
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Current durability of item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual float durability { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_durabilityNormalized_" data-uid="Animeska34.InventorySystem.Durable.durabilityNormalized*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_durabilityNormalized" data-uid="Animeska34.InventorySystem.Durable.durabilityNormalized">
+  durabilityNormalized
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Normalized current durability of item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float durabilityNormalized { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_maxDurability_" data-uid="Animeska34.InventorySystem.Durable.maxDurability*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_maxDurability" data-uid="Animeska34.InventorySystem.Durable.maxDurability">
+  maxDurability
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Max durability of item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual float maxDurability { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_overallCost_" data-uid="Animeska34.InventorySystem.Durable.overallCost*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_overallCost" data-uid="Animeska34.InventorySystem.Durable.overallCost">
+  overallCost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Item cost. If items is stackable, represents cost of stack</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float overallCost { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Item, which has durability, and can be damaged</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Animeska34_InventorySystem_Durable_Damage_" data-uid="Animeska34.InventorySystem.Durable.Damage*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_Damage_System_Single_" data-uid="Animeska34.InventorySystem.Durable.Damage(System.Single)">
+  Damage(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Damage item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Damage(float points)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Damage to apply</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_Repair_" data-uid="Animeska34.InventorySystem.Durable.Repair*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_Repair_System_Single_" data-uid="Animeska34.InventorySystem.Durable.Repair(System.Single)">
+  Repair(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Repair item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Repair(float points)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>points</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Repair to apply</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_SetDurability_" data-uid="Animeska34.InventorySystem.Durable.SetDurability*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_SetDurability_System_Single_" data-uid="Animeska34.InventorySystem.Durable.SetDurability(System.Single)">
+  SetDurability(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set durability of item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetDurability(float newDurability)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newDurability</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>New durability</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_InventorySystem_Durable_Validate_" data-uid="Animeska34.InventorySystem.Durable.Validate*"></a>
+
+  <h3 id="Animeska34_InventorySystem_Durable_Validate" data-uid="Animeska34.InventorySystem.Durable.Validate">
+  Validate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Validates values of item</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool Validate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Animeska34/com.animeska34.inventory/blob/main/Assets/Items/Durable.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
