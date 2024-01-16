@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class LimitedStackable
+      <title>Class CanvasAutoMainCamAssigner
  | Animeska34 Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class LimitedStackable
+      <meta name="title" content="Class CanvasAutoMainCamAssigner
  | Animeska34 Docs ">
       
-      <meta name="description" content="Item, which can be stacked up to custom limit">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Inventory/new/main/apiSpec/new?filename=Animeska34_InventorySystem_LimitedStackable.md&amp;value=---%0Auid%3A%20Animeska34.InventorySystem.LimitedStackable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.ercore/new/main/apiSpec/new?filename=Animeska34_ERCore_CanvasAutoMainCamAssigner.md&amp;value=---%0Auid%3A%20Animeska34.ERCore.CanvasAutoMainCamAssigner%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,28 +86,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Animeska34.InventorySystem.LimitedStackable">
+        <article data-uid="Animeska34.ERCore.CanvasAutoMainCamAssigner">
 
 
 
-  <h1 id="Animeska34_InventorySystem_LimitedStackable" data-uid="Animeska34.InventorySystem.LimitedStackable" class="text-break">
-    Class LimitedStackable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/LimitedStackable.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Animeska34_ERCore_CanvasAutoMainCamAssigner" data-uid="Animeska34.ERCore.CanvasAutoMainCamAssigner" class="text-break">
+    Class CanvasAutoMainCamAssigner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.ercore/blob/main/Assets/Scripts/Runtime/CanvasAutoMainCamAssigner.cs/#L5"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.InventorySystem.html">InventorySystem</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.ERCore.html">ERCore</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.ERCore.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Item, which can be stacked up to custom limit</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-[CreateAssetMenu(menuName = &quot;Animeska34/Inventory System/Item (Limited Stackable)&quot;, order = 3)]
-public class LimitedStackable : Stackable</code></pre>
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(Canvas))]
+[AddComponentMenu(&quot;Animeska34/ER Core/Canvas Auto Main Camera Assigner&quot;)]
+public class CanvasAutoMainCamAssigner : MonoBehaviour</code></pre>
   </div>
 
 
@@ -118,10 +117,10 @@ public class LimitedStackable : Stackable</code></pre>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.html">Object</a></div>
-      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html">ScriptableObject</a></div>
-      <div><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></div>
-      <div><a class="xref" href="Animeska34.InventorySystem.Stackable.html">Stackable</a></div>
-      <div><span class="xref">LimitedStackable</span></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+      <div><span class="xref">CanvasAutoMainCamAssigner</span></div>
     </dd>
   </dl>
 
@@ -131,82 +130,196 @@ public class LimitedStackable : Stackable</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Stackable.html#Animeska34_InventorySystem_Stackable_quantity">Stackable.quantity</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Stackable.html#Animeska34_InventorySystem_Stackable_overallWeight">Stackable.overallWeight</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.CancelInvoke.html">MonoBehaviour.CancelInvoke()</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Stackable.html#Animeska34_InventorySystem_Stackable_overallCost">Stackable.overallCost</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Stackable.html#Animeska34_InventorySystem_Stackable_Take_System_UInt32_">Stackable.Take(uint)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_data">Item.data</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_name">Item.name</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_visualName">Item.visualName</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_description">Item.description</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_icon">Item.icon</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_itemObject">Item.itemObject</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine_Auto(IEnumerator)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_cost">Item.cost</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_weight">Item.weight</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StopCoroutine.html">MonoBehaviour.StopCoroutine(Coroutine)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_instantiatable">Item.instantiatable</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_instance">Item.instance</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StopAllCoroutines.html">MonoBehaviour.StopAllCoroutines()</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_onDestroy">Item.onDestroy</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_onUpdated">Item.onUpdated</a>
+      <span class="xref">MonoBehaviour.destroyCancellationToken</span>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Refresh">Item.Refresh()</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour-useGUILayout.html">MonoBehaviour.useGUILayout</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Validate">Item.Validate()</a>
+      <span class="xref">MonoBehaviour.runInEditMode</span>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Instantiate_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Transform_">Item.Instantiate(Vector3, Quaternion, Transform)</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html">Behaviour.enabled</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Instantiate_UnityEngine_Vector3_UnityEngine_Quaternion_">Item.Instantiate(Vector3, Quaternion)</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour-isActiveAndEnabled.html">Behaviour.isActiveAndEnabled</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_Instantiate_UnityEngine_Transform_">Item.Instantiate(Transform)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_OnDestroy">Item.OnDestroy()</a>
+      <span class="xref">Component.GetComponent&lt;T&gt;()</span>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.SetDirty.html">ScriptableObject.SetDirty()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ScriptableObject.CreateInstance(string)</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.TryGetComponent.html">Component.TryGetComponent&lt;T&gt;(out T)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">ScriptableObject.CreateInstance(Type)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.CreateInstance.html">ScriptableObject.CreateInstance&lt;T&gt;()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.GetComponentsInChildren.html">Component.GetComponentsInChildren&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.GetComponentInParent.html">Component.GetComponentInParent&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.GetComponentsInParent.html">Component.GetComponentsInParent&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <span class="xref">Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">Component.tag</span>
     </div>
     <div>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.GetInstanceID.html">Object.GetInstanceID()</a>
@@ -341,6 +454,9 @@ public class LimitedStackable : Stackable</code></pre>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.ToString.html">Object.ToString()</a>
     </div>
     <div>
+      <span class="xref">Object.name</span>
+    </div>
+    <div>
       <span class="xref">Object.hideFlags</span>
     </div>
     <div>
@@ -362,120 +478,11 @@ public class LimitedStackable : Stackable</code></pre>
 
 
 
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="Animeska34_InventorySystem_LimitedStackable_limit_" data-uid="Animeska34.InventorySystem.LimitedStackable.limit*"></a>
-
-  <h3 id="Animeska34_InventorySystem_LimitedStackable_limit" data-uid="Animeska34.InventorySystem.LimitedStackable.limit">
-  limit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/LimitedStackable.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Limit of items in stack</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual uint limit { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd>Item, which can be stacked up to custom limit</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_InventorySystem_LimitedStackable_quantityNormalized_" data-uid="Animeska34.InventorySystem.LimitedStackable.quantityNormalized*"></a>
-
-  <h3 id="Animeska34_InventorySystem_LimitedStackable_quantityNormalized" data-uid="Animeska34.InventorySystem.LimitedStackable.quantityNormalized">
-  quantityNormalized
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/LimitedStackable.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Normalized quantity of items in inventory. Can be from 0 to 1.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float quantityNormalized { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Item, which can be stacked up to custom limit</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="Animeska34_InventorySystem_LimitedStackable_SetQuantity_" data-uid="Animeska34.InventorySystem.LimitedStackable.SetQuantity*"></a>
-
-  <h3 id="Animeska34_InventorySystem_LimitedStackable_SetQuantity_System_UInt32_" data-uid="Animeska34.InventorySystem.LimitedStackable.SetQuantity(System.UInt32)">
-  SetQuantity(uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/LimitedStackable.cs/#L24"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Set quantity of items in stack</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool SetQuantity(uint newQuantity)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>newQuantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/LimitedStackable.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/com.animeska34.ercore/blob/main/Assets/Scripts/Runtime/CanvasAutoMainCamAssigner.cs/#L5" class="edit-link">Edit this page</a>
         </div>
 
 

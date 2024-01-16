@@ -22,6 +22,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Manual/Animeska34.InventorySystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Animeska34.InventorySystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Manual/getting-started.md",
       "output": {
         ".html": {
@@ -649,6 +659,186 @@
       "output": {
         ".html": {
           "relative_path": "ScriptReference/Animeska34.DialogFramework.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.BreakVideo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.BreakVideo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.CanvasAutoMainCamAssigner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.CanvasAutoMainCamAssigner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.CanvasScalerAdjuster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.CanvasScalerAdjuster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.CanvasScalerPreset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.CanvasScalerPreset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.ConnectionManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.ConnectionManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.ConsoleControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.ConsoleControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.DBCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.DBCounter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.DBLevelVizualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.DBLevelVizualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.DefaultScenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.DefaultScenario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.DefaultStage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.DefaultStage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.ERCoreConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.ERCoreConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.PlatformDependantStageLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.PlatformDependantStageLibrary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.Remote.ApplicationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.Remote.ApplicationInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.Remote.ERCorePage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.Remote.ERCorePage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.Remote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.Remote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.SceneCon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.SceneCon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.StageCanvasOffsetAdjuster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.StageCanvasOffsetAdjuster.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.ERCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.ERCore.html"
         }
       },
       "version": ""
@@ -1732,6 +1922,16 @@
       "output": {
         ".html": {
           "relative_path": "src/Animeska34.IO/Assets/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "src/Animeska34.InventorySystem/Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "src/Animeska34.InventorySystem/Readme.html"
         }
       },
       "version": ""

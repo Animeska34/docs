@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Inventory System | Animeska34 Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Inventory System | Animeska34 Docs ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../../Manual/toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/Inventory/blob/main/Readme.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="Animeska34 Docs">
+            Animeska34 Docs
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="inventory-system">Inventory System</h1>
+
+<p><a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.html">API Reference</a></p>
+<p>Basic inventory system which allows to store items. Compatible with Save System.</p>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li>Add <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.InventoryManager.html"><code>InventoryManager</code></a> to a scene.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p><code>InventoryManager</code> is a singleton class which is required for <code>InventorySystem</code> to operate
+2. Create <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.Item.html"><code>Item</code></a> object from asset menu.
+3. Set <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.Item.html#Animeska34_InventorySystem_Item_name"><code>Item name</code></a></p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Item name</code> must be unique.
+4. Create <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.ItemData.html"><code>ItemData</code></a> from asset manu, and fill <code>visualName</code>, <code>description</code>, <code>sprite</code> and <code>itemObject</code></p>
+</div>
+<ul>
+<li><code>visualName</code> - is name which displays to player</li>
+<li><code>description</code> - is description of item</li>
+<li><code>sprite</code> - is a item icon which will be displayed to player</li>
+<li><code>itemObjecct</code> - is object, which will be instantiated, by calling <code>Item.Instantiate()</code>. Can be any prefab with <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.ItemObject.html"><code>ItemObject</code></a> compoonent.</li>
+</ul>
+<ol start="5">
+<li>Create <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.ItemLibrary.html"><code>ItemLibrary</code></a> from asset menu</li>
+<li>Add created <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.Item.html"><code>Item</code></a> to created <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.ItemLibrary.html"><code>ItemLibrary</code></a>.</li>
+<li>Add <a href="https://animeska34.github.io/docs/ScriptReference/Animeska34.InventorySystem.Inventory.html"><code>Inventory</code></a> to your game object.</li>
+</ol>
+<h2 id="inventory-operations">Inventory Operations</h2>
+<p>Put item to inventory:</p>
+<pre><code class="lang-csharp">//Get inventory component from gameobject
+Inventory inventory = GetComponent&lt;Inventory&gt;();
+
+//Put one item named &quot;item&quot; to inventory
+inventory.Put(&quot;item&quot;);
+
+//Put 10 &quot;stackable&quot; items to inventory:
+inventory.Put(&quot;stackable&quot;, 10);
+
+//Put custom item to inventory
+
+//Get instance of item from &quot;InventoryManager&quot; and cast to item type
+Stackable item = (Stackable) InventoryManager.instance[&quot;itemName&quot;];
+//Modify item properties
+item.SetQuantity(10);
+//Put item to inventory
+inventory.Put(item);
+
+
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Inventory.Put(name, quantity)</code> can only be used with <code>StackabeItem</code> type items. If you want to put few non-stackable items to inventory, use <code>Inventory.PutMultiple(name, quantity)</code></p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Item</code> which was put to <code>Inventory</code> is managed by that inventory. So do not call <code>Destroy()</code> on that item.</p>
+</div>
+<p>Take item from inventory:</p>
+<pre><code class="lang-csharp">//Get inventory component from gameobject
+Inventory inventory = GetComponent&lt;Inventory&gt;();
+
+//Take one item named &quot;item&quot; from inventory
+inventory.Take(&quot;item&quot;);
+
+//Put 10 &quot;stackable&quot; items from inventory:
+inventory.Take(&quot;stackable&quot;, 10);
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Inventory.Take(name, quantity)</code> can only be used with <code>StackabeItem</code> type items.</p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Item</code>, taken from <code>Inventory</code> is no more managed by it. So should be destroyed manualy by calling <code>Destroy(item)</code> if it is not required any more.</p>
+</div>
+<p>Remove item from inventory:</p>
+<pre><code class="lang-csharp">//Get inventory component from gameobject
+Inventory inventory = GetComponent&lt;Inventory&gt;();
+
+//Remove item named &quot;itemName&quot; from inventory
+inventory.Remove(&quot;itemName&quot;);
+
+//Remove 10 item named &quot;stackable&quot; from inventory
+inventory.Remove(&quot;stackable&quot;, 10)
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><code>Inventory.Remove(name, quantity)</code> can only be used with <code>StackabeItem</code> type items.</p>
+</div>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p><code>Item</code> is <code>ScriptableObject</code> type, so is unmanaged. Do not forget to call <code>Destroy()</code> on item, which is not required anymore if it is not assigned to any inventory.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p><code>Inventory</code> automatically manages all items assigned to it. So there is no need to destroy items which is assigned to <code>Inventory</code></p>
+</div>
+<p>Create item at scene:</p>
+<pre><code class="lang-csharp">//Get inventory component from gameobject
+Inventory inventory = GetComponent&lt;Inventory&gt;();
+
+//Take item from inventory
+Item item = inventory.Take(&quot;itemName&quot;);
+//Instantiate it at scene
+item.Instantiate();
+</code></pre>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Instantiated that way can be only item which has <code>itemObject</code> property assigned in <code>ItemData</code>.</p>
+</div>
+<h2 id="creating-custom-item-type">Creating custom item type</h2>
+<p>Custom item type can be created by inheriting <code>Item</code> class.</p>
+<p>For example:</p>
+<pre><code class="lang-csharp">//Create custom basic item type:
+public class MyCustomItem : Item
+{
+    public int myCustomSerializableVariable = 5;
+}
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Besides inheriting <code>Item</code> type, also <code>Stackable</code> and <code>Durable</code> types can be inherited creating custom item.</p>
+</div>
+<h2 id="serialization">Serialization</h2>
+<p>Inventory uses XML serialization. It works same way as Unity's 'JsonUtility': Automatically serializes all public variables.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Private variables can be serialized by marking them with <code>[SerializeField]</code> attribute.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Public and marked with <code>[SerializeField]</code> attribute variables can be ignored by marking with <code>[XmlIgnore]</code> attribute.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Class can be serialized only if it marked with <code>[System.Serializable]</code> attribute</p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Animeska34/Inventory/blob/main/Readme.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
