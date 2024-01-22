@@ -1884,6 +1884,106 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Beam2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Beam2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Cannon2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Cannon2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Damageable2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Damageable2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Explosion2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Explosion2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Firearm2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Firearm2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.IDamageable2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.IDamageable2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Melee2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Melee2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Shell2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Shell2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Weapon2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.Weapon2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "ScriptReference/toc.yml",
       "output": {

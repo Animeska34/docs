@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Firearm
+      <title>Class Melee2D
  | Animeska34 Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Firearm
+      <meta name="title" content="Class Melee2D
  | Animeska34 Docs ">
       
-      <meta name="description" content="Basic firearm using physical raycast to damage objects">
+      <meta name="description" content="Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Firearm.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Firearm%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem2D/new/main/apiSpec/new?filename=Animeska34_WeaponSystem2D_Melee2D.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem2D.Melee2D%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,26 +86,28 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Animeska34.WeaponSystem.Firearm">
+        <article data-uid="Animeska34.WeaponSystem2D.Melee2D">
 
 
 
-  <h1 id="Animeska34_WeaponSystem_Firearm" data-uid="Animeska34.WeaponSystem.Firearm" class="text-break">
-    Class Firearm
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Animeska34_WeaponSystem2D_Melee2D" data-uid="Animeska34.WeaponSystem2D.Melee2D" class="text-break">
+    Class Melee2D
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.WeaponSystem.html">WeaponSystem</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.WeaponSystem2D.html">WeaponSystem2D</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem2D.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Basic firearm using physical raycast to damage objects</p>
+  <div class="markdown summary"><p>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Firearm : Weapon</code></pre>
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(Collider2D))]
+[AddComponentMenu(&quot;Animeska34/Weapon System 2D/Melee 2D&quot;)]
+public class Melee2D : Weapon2D</code></pre>
   </div>
 
 
@@ -119,8 +121,8 @@
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-      <div><a class="xref" href="Animeska34.WeaponSystem.Weapon.html">Weapon</a></div>
-      <div><span class="xref">Firearm</span></div>
+      <div><a class="xref" href="Animeska34.WeaponSystem2D.Weapon2D.html">Weapon2D</a></div>
+      <div><span class="xref">Melee2D</span></div>
     </dd>
   </dl>
 
@@ -130,10 +132,10 @@
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="Animeska34.WeaponSystem.Weapon.html#Animeska34_WeaponSystem_Weapon_safeLock">Weapon.safeLock</a>
+      <a class="xref" href="Animeska34.WeaponSystem2D.Weapon2D.html#Animeska34_WeaponSystem2D_Weapon2D_safeLock">Weapon2D.safeLock</a>
     </div>
     <div>
-      <a class="xref" href="Animeska34.WeaponSystem.Weapon.html#Animeska34_WeaponSystem_Weapon_GetSpread_System_Single_">Weapon.GetSpread(float)</a>
+      <a class="xref" href="Animeska34.WeaponSystem2D.Weapon2D.html#Animeska34_WeaponSystem2D_Weapon2D_GetSpread_System_Single_">Weapon2D.GetSpread(float)</a>
     </div>
     <div>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
@@ -489,79 +491,17 @@
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_applyExplosionForce" data-uid="Animeska34.WeaponSystem.Firearm.applyExplosionForce">
-  applyExplosionForce
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L99"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Explosion&quot;)]
-public bool applyExplosionForce</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_damage" data-uid="Animeska34.WeaponSystem.Firearm.damage">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_damage" data-uid="Animeska34.WeaponSystem2D.Melee2D.damage">
   damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Damage&quot;)]
-public float damage</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_damageScale" data-uid="Animeska34.WeaponSystem.Firearm.damageScale">
-  damageScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L72"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Scale normalized distance to</p>
+  <div class="markdown level1 summary"><p>Base damage of the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float damageScale</code></pre>
+    <pre><code class="lang-csharp hljs">public float damage</code></pre>
   </div>
 
 
@@ -570,7 +510,7 @@ public float damage</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -582,12 +522,12 @@ public float damage</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_damageType" data-uid="Animeska34.WeaponSystem.Firearm.damageType">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_damageType" data-uid="Animeska34.WeaponSystem2D.Melee2D.damageType">
   damageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of damage</p>
+  <div class="markdown level1 summary"><p>Type of damage dealt by the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -601,7 +541,7 @@ public float damage</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -613,110 +553,17 @@ public float damage</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_force" data-uid="Animeska34.WeaponSystem.Firearm.force">
-  force
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L107"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Base force of explosion</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float force</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_mask" data-uid="Animeska34.WeaponSystem.Firearm.mask">
-  mask
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L43"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Layers to interact with</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LayerMask mask</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/LayerMask.html">LayerMask</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_maxRange" data-uid="Animeska34.WeaponSystem.Firearm.maxRange">
-  maxRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L36"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Max shoot range</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float maxRange</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_onFire" data-uid="Animeska34.WeaponSystem.Firearm.onFire">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_onFire" data-uid="Animeska34.WeaponSystem2D.Melee2D.onFire">
   onFire
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>UnityEvent triggered when the melee attack is completed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Events&quot;)]
-public UnityEvent onFire</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent onFire</code></pre>
   </div>
 
 
@@ -725,7 +572,7 @@ public UnityEvent onFire</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -737,17 +584,17 @@ public UnityEvent onFire</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_onHit" data-uid="Animeska34.WeaponSystem.Firearm.onHit">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_onHit" data-uid="Animeska34.WeaponSystem2D.Melee2D.onHit">
   onHit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes, when raycast hits collider at point</p>
+  <div class="markdown level1 summary"><p>Invokes when hits damageable object</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Collider, Vector3&gt; onHit</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;IDamageable2D&gt; onHit</code></pre>
   </div>
 
 
@@ -755,8 +602,8 @@ public UnityEvent onFire</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_2.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Collider.html">Collider</a>, <span class="xref">Vector3</span>&gt;</dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.WeaponSystem2D.IDamageable2D.html">IDamageable2D</a>&gt;</dt>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -768,110 +615,17 @@ public UnityEvent onFire</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_onRay" data-uid="Animeska34.WeaponSystem.Firearm.onRay">
-  onRay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L129"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes, when ray shooting from origint to certain direction</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Transform, Vector3&gt; onRay</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_2.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a>, <span class="xref">Vector3</span>&gt;</dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_origins" data-uid="Animeska34.WeaponSystem.Firearm.origins">
-  origins
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Origins of rays</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform[] origins</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a>[]</dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_radius" data-uid="Animeska34.WeaponSystem.Firearm.radius">
-  radius
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L103"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Radius of explosion</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float radius</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_reload" data-uid="Animeska34.WeaponSystem.Firearm.reload">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_reload" data-uid="Animeska34.WeaponSystem2D.Melee2D.reload">
   reload
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Time interval between consecutive melee attacks.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Header(&quot;Reloading&quot;)]
-public float reload</code></pre>
+    <pre><code class="lang-csharp hljs">public float reload</code></pre>
   </div>
 
 
@@ -880,162 +634,7 @@ public float reload</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_scaleForce" data-uid="Animeska34.WeaponSystem.Firearm.scaleForce">
-  scaleForce
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L111"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Add force scaled to normalized distance to explosion</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool scaleForce</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_scaledDamage" data-uid="Animeska34.WeaponSystem.Firearm.scaledDamage">
-  scaledDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L65"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Add damage scaled to normalized distance</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool scaledDamage</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_scaledForce" data-uid="Animeska34.WeaponSystem.Firearm.scaledForce">
-  scaledForce
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L115"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Scale normalized distance to</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float scaledForce</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_spread" data-uid="Animeska34.WeaponSystem.Firearm.spread">
-  spread
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Spread of cannon in degrees</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float spread</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Animeska34_WeaponSystem_Firearm_upwardsModifier" data-uid="Animeska34.WeaponSystem.Firearm.upwardsModifier">
-  upwardsModifier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L119"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Adjustment to the apparent position of the explosion to make it seem to lift</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float upwardsModifier</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -1050,14 +649,14 @@ public float reload</code></pre>
 </h2>
 
 
-  <a id="Animeska34_WeaponSystem_Firearm_cooldown_" data-uid="Animeska34.WeaponSystem.Firearm.cooldown*"></a>
+  <a id="Animeska34_WeaponSystem2D_Melee2D_cooldown_" data-uid="Animeska34.WeaponSystem2D.Melee2D.cooldown*"></a>
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_cooldown" data-uid="Animeska34.WeaponSystem.Firearm.cooldown">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_cooldown" data-uid="Animeska34.WeaponSystem2D.Melee2D.cooldown">
   cooldown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remains to load next shells</p>
+  <div class="markdown level1 summary"><p>Time remaining until the next melee attack becomes possible.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1072,7 +671,7 @@ public float reload</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -1082,14 +681,14 @@ public float reload</code></pre>
 
 
 
-  <a id="Animeska34_WeaponSystem_Firearm_reloading_" data-uid="Animeska34.WeaponSystem.Firearm.reloading*"></a>
+  <a id="Animeska34_WeaponSystem2D_Melee2D_reloading_" data-uid="Animeska34.WeaponSystem2D.Melee2D.reloading*"></a>
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_reloading" data-uid="Animeska34.WeaponSystem.Firearm.reloading">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_reloading" data-uid="Animeska34.WeaponSystem2D.Melee2D.reloading">
   reloading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is weapon currently reloading</p>
+  <div class="markdown level1 summary"><p>Returns true if the melee attack is currently in cooldown; otherwise, false.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1104,7 +703,7 @@ public float reload</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Basic firearm using physical raycast to damage objects</dd>
+    <dd>Melee weapon implementation of Weapon2D. Damages all objects affected by trigger by invoking the Fire() method.</dd>
   </dl>
 
 
@@ -1118,20 +717,19 @@ public float reload</code></pre>
 </h2>
 
 
-  <a id="Animeska34_WeaponSystem_Firearm_Fire_" data-uid="Animeska34.WeaponSystem.Firearm.Fire*"></a>
+  <a id="Animeska34_WeaponSystem2D_Melee2D_Fire_" data-uid="Animeska34.WeaponSystem2D.Melee2D.Fire*"></a>
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_Fire" data-uid="Animeska34.WeaponSystem.Firearm.Fire">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_Fire" data-uid="Animeska34.WeaponSystem2D.Melee2D.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Fire now</p>
+  <div class="markdown level1 summary"><p>Performs a melee attack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ContextMenu(&quot;Fire&quot;)]
-public override void Fire()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Fire()</code></pre>
   </div>
 
 
@@ -1146,11 +744,11 @@ public override void Fire()</code></pre>
 
 
 
-  <a id="Animeska34_WeaponSystem_Firearm_Update_" data-uid="Animeska34.WeaponSystem.Firearm.Update*"></a>
+  <a id="Animeska34_WeaponSystem2D_Melee2D_Update_" data-uid="Animeska34.WeaponSystem2D.Melee2D.Update*"></a>
 
-  <h3 id="Animeska34_WeaponSystem_Firearm_Update" data-uid="Animeska34.WeaponSystem.Firearm.Update">
+  <h3 id="Animeska34_WeaponSystem2D_Melee2D_Update" data-uid="Animeska34.WeaponSystem2D.Melee2D.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1176,7 +774,7 @@ public override void Fire()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Firearm.cs/#L13" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Melee2D.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 
