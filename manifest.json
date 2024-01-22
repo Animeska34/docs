@@ -1175,46 +1175,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Test.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ScriptReference/Animeska34.InventorySystem.Test.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.Test1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ScriptReference/Animeska34.InventorySystem.Test1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.TestSO.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ScriptReference/Animeska34.InventorySystem.TestSO.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ScriptReference/Animeska34.InventorySystem.TestStaticSO.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ScriptReference/Animeska34.InventorySystem.TestStaticSO.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "ScriptReference/Animeska34.InventorySystem.UI.FullItemView.yml",
       "output": {
         ".html": {
@@ -1439,6 +1399,36 @@
       "output": {
         ".html": {
           "relative_path": "ScriptReference/Animeska34.SaveSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SceneLoading.SceneLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SceneLoading.SceneLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SceneLoading.SceneLoaderConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SceneLoading.SceneLoaderConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.SceneLoading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.SceneLoading.html"
         }
       },
       "version": ""
@@ -1779,6 +1769,116 @@
       "output": {
         ".html": {
           "relative_path": "ScriptReference/Animeska34.UHTTP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Beam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Beam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Cannon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Cannon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Damageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Damageable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Explosion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Explosion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Firearm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Firearm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.IDamageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.IDamageable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Meele.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Meele.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.PhysicalMelee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.PhysicalMelee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Shell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Shell.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.Weapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.WeaponSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.WeaponSystem.html"
         }
       },
       "version": ""

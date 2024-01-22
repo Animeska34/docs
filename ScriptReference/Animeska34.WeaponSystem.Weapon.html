@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class AudioVisualizerEditor
+      <title>Class Weapon
  | Animeska34 Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class AudioVisualizerEditor
+      <meta name="title" content="Class Weapon
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Base weapon class">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/AudioVizualization/new/main/apiSpec/new?filename=Animeska34_AudioVisualization_Editor_AudioVisualizerEditor.md&amp;value=---%0Auid%3A%20Animeska34.AudioVisualization.Editor.AudioVisualizerEditor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,27 +86,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Animeska34.AudioVisualization.Editor.AudioVisualizerEditor">
+        <article data-uid="Animeska34.WeaponSystem.Weapon">
 
 
 
-  <h1 id="Animeska34_AudioVisualization_Editor_AudioVisualizerEditor" data-uid="Animeska34.AudioVisualization.Editor.AudioVisualizerEditor" class="text-break">
-    Class AudioVisualizerEditor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AudioVizualization/blob/main/Assets/Editor/AudioVisualizerEditor.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Animeska34_WeaponSystem_Weapon" data-uid="Animeska34.WeaponSystem.Weapon" class="text-break">
+    Class Weapon
+  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.AudioVisualization.html">AudioVisualization</a>.<a class="xref" href="Animeska34.AudioVisualization.Editor.html">Editor</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Animeska34.AudioVisualization.Editor.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.WeaponSystem.html">WeaponSystem</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Base weapon class</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[CustomEditor(typeof(AudioVisualizer), true)]
-[CanEditMultipleObjects]
-public class AudioVisualizerEditor : Editor</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Weapon : MonoBehaviour</code></pre>
   </div>
 
 
@@ -117,145 +116,219 @@ public class AudioVisualizerEditor : Editor</code></pre>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.html">Object</a></div>
-      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html">ScriptableObject</a></div>
-      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.html">Editor</a></div>
-      <div><span class="xref">AudioVisualizerEditor</span></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
+      <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+      <div><span class="xref">Weapon</span></div>
     </dd>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Animeska34.WeaponSystem.Beam.html">Beam</a></div>
+      <div><a class="xref" href="Animeska34.WeaponSystem.Cannon.html">Cannon</a></div>
+      <div><a class="xref" href="Animeska34.WeaponSystem.Firearm.html">Firearm</a></div>
+      <div><a class="xref" href="Animeska34.WeaponSystem.Meele.html">Meele</a></div>
+      <div><a class="xref" href="Animeska34.WeaponSystem.PhysicalMelee.html">PhysicalMelee</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.SaveChanges.html">Editor.SaveChanges()</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.DiscardChanges.html">Editor.DiscardChanges()</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.CancelInvoke.html">MonoBehaviour.CancelInvoke()</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateEditorWithContext(Object[], Object, Type)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
     </div>
     <div>
-      <span class="xref">Editor.CreateEditorWithContext(Object[], Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditorWithContext(Object, Object, Type, ref Editor)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditorWithContext(Object[], Object, Type, ref Editor)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditor(Object, Type, ref Editor)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateCachedEditor(Object[], Type, ref Editor)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
     </div>
     <div>
-      <span class="xref">Editor.CreateEditor(Object)</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateEditor(Object, Type)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine_Auto(IEnumerator)</a>
     </div>
     <div>
-      <span class="xref">Editor.CreateEditor(Object[])</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Editor.CreateEditor(Object[], Type)</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StopCoroutine.html">MonoBehaviour.StopCoroutine(Coroutine)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Editor.DrawPropertiesExcluding(SerializedObject, params string[])</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.DrawDefaultInspector.html">Editor.DrawDefaultInspector()</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StopAllCoroutines.html">MonoBehaviour.StopAllCoroutines()</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.Repaint.html">Editor.Repaint()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.CreateInspectorGUI.html">Editor.CreateInspectorGUI()</a>
+      <span class="xref">MonoBehaviour.destroyCancellationToken</span>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.RequiresConstantRepaint.html">Editor.RequiresConstantRepaint()</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour-useGUILayout.html">MonoBehaviour.useGUILayout</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.DrawHeader.html">Editor.DrawHeader()</a>
+      <span class="xref">MonoBehaviour.runInEditMode</span>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.OnHeaderGUI.html">Editor.OnHeaderGUI()</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html">Behaviour.enabled</a>
     </div>
     <div>
-      <span class="xref">Editor.ShouldHideOpenButton()</span>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour-isActiveAndEnabled.html">Behaviour.isActiveAndEnabled</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.DrawFoldoutInspector.html">Editor.DrawFoldoutInspector(Object, ref Editor)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.HasPreviewGUI.html">Editor.HasPreviewGUI()</a>
+      <span class="xref">Component.GetComponent&lt;T&gt;()</span>
     </div>
     <div>
-      <span class="xref">Editor.GetPreviewTitle()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Editor.RenderStaticPreview(string, Object[], int, int)</a>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.TryGetComponent.html">Component.TryGetComponent&lt;T&gt;(out T)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.OnPreviewGUI.html">Editor.OnPreviewGUI(Rect, GUIStyle)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.OnInteractivePreviewGUI.html">Editor.OnInteractivePreviewGUI(Rect, GUIStyle)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.OnPreviewSettings.html">Editor.OnPreviewSettings()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
     </div>
     <div>
-      <span class="xref">Editor.GetInfoString()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.DrawPreview.html">Editor.DrawPreview(Rect)</a>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.ReloadPreviewInstances.html">Editor.ReloadPreviewInstances()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.UseDefaultMargins.html">Editor.UseDefaultMargins()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.MoveNextTarget.html">Editor.MoveNextTarget()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Editor.ResetTarget.html">Editor.ResetTarget()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
     </div>
     <div>
-      <span class="xref">Editor.hasUnsavedChanges</span>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.GetComponentsInChildren.html">Component.GetComponentsInChildren&lt;T&gt;()</a>
     </div>
     <div>
-      <span class="xref">Editor.saveChangesMessage</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
     </div>
     <div>
-      <span class="xref">Editor.target</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type, bool)</a>
     </div>
     <div>
-      <span class="xref">Editor.targets</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
     </div>
     <div>
-      <span class="xref">Editor.serializedObject</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInParent&lt;T&gt;(bool)</a>
     </div>
     <div>
-      <span class="xref">Editor.finishedDefaultHeaderGUI</span>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.GetComponentInParent.html">Component.GetComponentInParent&lt;T&gt;()</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.SetDirty.html">ScriptableObject.SetDirty()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">ScriptableObject.CreateInstance(string)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">ScriptableObject.CreateInstance(Type)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
     </div>
     <div>
-      <a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.CreateInstance.html">ScriptableObject.CreateInstance&lt;T&gt;()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.GetComponentsInParent.html">Component.GetComponentsInParent&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <span class="xref">Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">Component.tag</span>
     </div>
     <div>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.GetInstanceID.html">Object.GetInstanceID()</a>
@@ -414,26 +487,100 @@ public class AudioVisualizerEditor : Editor</code></pre>
 
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="fields">Fields
 </h2>
 
 
-  <a id="Animeska34_AudioVisualization_Editor_AudioVisualizerEditor_OnInspectorGUI_" data-uid="Animeska34.AudioVisualization.Editor.AudioVisualizerEditor.OnInspectorGUI*"></a>
 
-  <h3 id="Animeska34_AudioVisualization_Editor_AudioVisualizerEditor_OnInspectorGUI" data-uid="Animeska34.AudioVisualization.Editor.AudioVisualizerEditor.OnInspectorGUI">
-  OnInspectorGUI()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AudioVizualization/blob/main/Assets/Editor/AudioVisualizerEditor.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Weapon_safeLock" data-uid="Animeska34.WeaponSystem.Weapon.safeLock">
+  safeLock
+  
   </h3>
 
-  <div class="markdown level1 summary"><p>Implement this function to make a custom inspector.</p>
+  <div class="markdown level1 summary"><p>Restricts firing from the gun</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnInspectorGUI()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool safeLock</code></pre>
   </div>
 
 
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Base weapon class</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Animeska34_WeaponSystem_Weapon_Fire_" data-uid="Animeska34.WeaponSystem.Weapon.Fire*"></a>
+
+  <h3 id="Animeska34_WeaponSystem_Weapon_Fire" data-uid="Animeska34.WeaponSystem.Weapon.Fire">
+  Fire()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fire now</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Fire()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Animeska34_WeaponSystem_Weapon_GetSpread_" data-uid="Animeska34.WeaponSystem.Weapon.GetSpread*"></a>
+
+  <h3 id="Animeska34_WeaponSystem_Weapon_GetSpread_System_Single_" data-uid="Animeska34.WeaponSystem.Weapon.GetSpread(System.Single)">
+  GetSpread(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get spread angle from maxSpread</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetSpread(float maxSpread)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxSpread</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>Maximum allowed shell spread</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd><p>Calculated spread</p>
+</dd>
+  </dl>
 
 
 
@@ -449,7 +596,6 @@ public class AudioVisualizerEditor : Editor</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/AudioVizualization/blob/main/Assets/Editor/AudioVisualizerEditor.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 
