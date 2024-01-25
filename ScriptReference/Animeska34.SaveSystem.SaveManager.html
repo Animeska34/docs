@@ -8,7 +8,7 @@
       <meta name="title" content="Class SaveManager
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="SaveManager class responsible for game saving and loading features.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.save/new/main/apiSpec/new?filename=Animeska34_SaveSystem_SaveManager.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.SaveManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/SaveSystem/new/main/apiSpec/new?filename=Animeska34_SaveSystem_SaveManager.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.SaveManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_SaveSystem_SaveManager" data-uid="Animeska34.SaveSystem.SaveManager" class="text-break">
     Class SaveManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.SaveSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>SaveManager class responsible for game saving and loading features.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -475,6 +476,10 @@ public class SaveManager : MonoBehaviour</code></pre>
 
 
 
+  <h2 id="Animeska34_SaveSystem_SaveManager_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class is designed to handle the management of saving and loading game-related data.
+Developers can use this class as a central component for implementing save and load functionalities in their Unity projects.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -484,14 +489,16 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_compressData" data-uid="Animeska34.SaveSystem.SaveManager.compressData">
   compressData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flag indicating whether to compress save data.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool compressData</code></pre>
+    <pre><code class="lang-csharp hljs">[Header(&quot;Compression&quot;)]
+public bool compressData</code></pre>
   </div>
 
 
@@ -500,13 +507,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_compressData_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the save data will be compressed to reduce storage space.
+Developers can use this flag to control whether compression is applied to save data.</p>
+</div>
 
 
 
@@ -514,10 +525,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_compression" data-uid="Animeska34.SaveSystem.SaveManager.compression">
   compression
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The compression strength used for compressing save data.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -530,13 +542,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.compression.compressionlevel">CompressionLevel</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_compression_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This enum variable represents the compression level or strength used for compressing save data.
+Developers can adjust this value to control the compression strength when compressData is set to true.</p>
+</div>
 
 
 
@@ -544,10 +560,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_defaultSaveName" data-uid="Animeska34.SaveSystem.SaveManager.defaultSaveName">
   defaultSaveName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The default save name used for saving scenes when a specific save name is not provided.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -560,13 +577,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_defaultSaveName_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This string variable represents the default save name that will be used if a save name is not explicitly provided to the SaveScene method.
+Developers can adjust this value to set the default save name for saving scenes.</p>
+</div>
 
 
 
@@ -574,10 +595,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_encryptData" data-uid="Animeska34.SaveSystem.SaveManager.encryptData">
   encryptData
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flag indicating whether to encrypt compressed save data with a password.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -590,13 +612,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_encryptData_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the compressed save data will be encrypted using a password.
+Developers can use this flag to control whether encryption is applied to compressed save data.</p>
+</div>
 
 
 
@@ -604,10 +630,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_libraries" data-uid="Animeska34.SaveSystem.SaveManager.libraries">
   libraries
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>List of PrefabLibrary instances representing saveable object libraries.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -620,13 +647,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Animeska34.SaveSystem.PrefabLibrary.html">PrefabLibrary</a>&gt;</dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_libraries_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This List contains PrefabLibrary instances that serve as libraries for saveable objects.
+Developers can add PrefabLibrary instances to this list to organize and manage saveable objects in the game.</p>
+</div>
 
 
 
@@ -634,10 +665,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_onSceneLoadingFinished" data-uid="Animeska34.SaveSystem.SaveManager.onSceneLoadingFinished">
   onSceneLoadingFinished
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L135"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the scene loading process has finished.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -650,13 +682,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_onSceneLoadingFinished_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is invoked when the scene loading process is successfully completed.
+Subscribers can listen to this event to perform actions when the loading of a scene is finished.</p>
+</div>
 
 
 
@@ -664,10 +700,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_onSceneLoadingStarted" data-uid="Animeska34.SaveSystem.SaveManager.onSceneLoadingStarted">
   onSceneLoadingStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the scene loading process has started.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -680,13 +717,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_onSceneLoadingStarted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is invoked when the scene loading process is initiated.
+Subscribers can listen to this event to perform actions when the loading of a scene has begun.</p>
+</div>
 
 
 
@@ -694,10 +735,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_onSceneSavingFinished" data-uid="Animeska34.SaveSystem.SaveManager.onSceneSavingFinished">
   onSceneSavingFinished
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L151"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the scene saving process has finished.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -710,13 +752,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_onSceneSavingFinished_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is invoked when the scene saving process is successfully completed.
+Subscribers can listen to this event to perform actions when the saving of a scene is finished.</p>
+</div>
 
 
 
@@ -724,10 +770,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_onSceneSavingStarted" data-uid="Animeska34.SaveSystem.SaveManager.onSceneSavingStarted">
   onSceneSavingStarted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the scene saving process has started.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -740,13 +787,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_onSceneSavingStarted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is invoked when the scene saving process is initiated.
+Subscribers can listen to this event to perform actions when the saving of a scene has begun.</p>
+</div>
 
 
 
@@ -754,10 +805,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_onXMLDocumentCreated" data-uid="Animeska34.SaveSystem.SaveManager.onXMLDocumentCreated">
   onXMLDocumentCreated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when an XML document is created during game loading, providing access to the XMLUtility instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -770,13 +822,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a>&gt;</dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_onXMLDocumentCreated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is invoked when an XML document is created or loaded during game loading.
+Subscribers can listen to this event to perform actions when the XML document is ready, such as parsing custom data.</p>
+</div>
 
 
 
@@ -784,10 +840,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_onXMLDocumentLoaded" data-uid="Animeska34.SaveSystem.SaveManager.onXMLDocumentLoaded">
   onXMLDocumentLoaded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when an XML document is loaded, providing access to the XMLUtility instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -800,13 +857,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a>&gt;</dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_onXMLDocumentLoaded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is invoked when an XML document is created or loaded.
+Subscribers can listen to this event to perform actions when the XML document is ready, such as inserting custom data into the save file.</p>
+</div>
 
 
 
@@ -814,10 +875,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_password" data-uid="Animeska34.SaveSystem.SaveManager.password">
   password
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The password used for encrypting save data if encryption is enabled.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -830,13 +892,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_password_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This string variable represents the password used for encrypting save data when encryption is enabled.
+Developers should set this value with a secure password to enhance the security of encrypted save data.</p>
+</div>
 
 
 
@@ -844,10 +910,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_savePath" data-uid="Animeska34.SaveSystem.SaveManager.savePath">
   savePath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Partial path from FileUtility.savePath to the folder containing all save game files.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -860,13 +927,17 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_savePath_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This string variable represents the partial path from FileUtility.savePath to the folder containing all save game files.
+Developers can adjust this value to customize the directory structure for storing save game data.</p>
+</div>
 
 
 
@@ -874,10 +945,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_type" data-uid="Animeska34.SaveSystem.SaveManager.type">
   type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Constant string representing the type of save.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -890,13 +962,16 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_type_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This constant string is used to determine if a save uses the same format supported by the current save system.</p>
+</div>
 
 
 
@@ -909,10 +984,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_instance" data-uid="Animeska34.SaveSystem.SaveManager.instance">
   instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The singleton instance of the SaveManager class.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -926,12 +1002,16 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.SaveSystem.SaveManager.html">SaveManager</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_instance_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This static property provides access to the singleton instance of the SaveManager class.
+Developers can use this instance to access save and load functionalities across the game.</p>
+</div>
 
 
 
@@ -940,10 +1020,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_loading" data-uid="Animeska34.SaveSystem.SaveManager.loading">
   loading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Property indicating whether the game is currently in the process of loading.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -957,12 +1038,16 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_loading_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This boolean property returns true if the game is actively loading and can be set privately.
+Developers can use this property to check the loading status of the SaveManager.</p>
+</div>
 
 
 
@@ -971,10 +1056,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_saving" data-uid="Animeska34.SaveSystem.SaveManager.saving">
   saving
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Property indicating whether the game is currently in the process of saving.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -988,12 +1074,16 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>SaveManager class responsible for game saving and loading features.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_saving_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This boolean property returns true if the game is actively saving and can be set privately.
+Developers can use this property to check the saving status of the SaveManager.</p>
+</div>
 
 
 
@@ -1006,10 +1096,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_Deserialize_System_String_" data-uid="Animeska34.SaveSystem.SaveManager.Deserialize(System.String)">
   Deserialize(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L362"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Deserializes the current scene from XML format.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1019,7 +1110,8 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>xml</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The XML data representing the scene to be deserialized.</p>
+</dd>
   </dl>
 
 
@@ -1029,6 +1121,10 @@ public class SaveManager : MonoBehaviour</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_Deserialize_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method deserializes the current scene using the provided XML data.
+Developers can use this method to restore the scene state from previously serialized XML data.</p>
+</div>
 
 
 
@@ -1037,10 +1133,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_GetPath_System_String_" data-uid="Animeska34.SaveSystem.SaveManager.GetPath(System.String)">
   GetPath(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L297"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the full path to a save file based on its name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1050,13 +1147,15 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>saveName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the save file.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The full path to the save file.</p>
+</dd>
   </dl>
 
 
@@ -1065,6 +1164,10 @@ public class SaveManager : MonoBehaviour</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_GetPath_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method returns the full path to a save file based on its name.
+Developers can use this method to obtain the complete file path for a specific save file.</p>
+</div>
 
 
 
@@ -1073,10 +1176,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_LoadScene_System_String_" data-uid="Animeska34.SaveSystem.SaveManager.LoadScene(System.String)">
   LoadScene(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Loads a scene with an optional custom save name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1086,7 +1190,8 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>saveName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Optional custom save name for loading a specific scene.</p>
+</dd>
   </dl>
 
 
@@ -1096,6 +1201,9 @@ public class SaveManager : MonoBehaviour</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_LoadScene_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method initiates the process of loading a scene, allowing developers to provide a custom save name if desired.</p>
+</div>
 
 
 
@@ -1104,10 +1212,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_SaveScene_System_String_" data-uid="Animeska34.SaveSystem.SaveManager.SaveScene(System.String)">
   SaveScene(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Saves the current scene with an optional custom save name.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1117,7 +1226,8 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>saveName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Optional custom save name for the scene.</p>
+</dd>
   </dl>
 
 
@@ -1127,6 +1237,9 @@ public class SaveManager : MonoBehaviour</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_SaveScene_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method initiates the process of saving the current scene, allowing developers to provide a custom save name if desired.</p>
+</div>
 
 
 
@@ -1135,10 +1248,11 @@ public class SaveManager : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveManager_Serialize" data-uid="Animeska34.SaveSystem.SaveManager.Serialize">
   Serialize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L317"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Serializes the current scene to XML format.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1149,7 +1263,8 @@ public class SaveManager : MonoBehaviour</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The serialized XML representation of the current scene.</p>
+</dd>
   </dl>
 
 
@@ -1158,6 +1273,10 @@ public class SaveManager : MonoBehaviour</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveManager_Serialize_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method serializes the current scene and returns the XML representation of its data.
+Developers can use this method to obtain the serialized XML data for further processing or saving.</p>
+</div>
 
 
 
@@ -1166,7 +1285,7 @@ public class SaveManager : MonoBehaviour</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveManager.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveManager.cs/#L23" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -32,19 +32,6 @@ references:
   fullName.vb: Animeska34.AnimeTools.AnimeAction.New
   nameWithType: AnimeAction.AnimeAction
   nameWithType.vb: AnimeAction.New
-- uid: Animeska34.AnimeTools.AnimeAction.Enabled
-  name: Enabled
-  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_Enabled
-  commentId: P:Animeska34.AnimeTools.AnimeAction.Enabled
-  fullName: Animeska34.AnimeTools.AnimeAction.Enabled
-  nameWithType: AnimeAction.Enabled
-- uid: Animeska34.AnimeTools.AnimeAction.Enabled*
-  name: Enabled
-  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_Enabled_
-  commentId: Overload:Animeska34.AnimeTools.AnimeAction.Enabled
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.AnimeAction.Enabled
-  nameWithType: AnimeAction.Enabled
 - uid: Animeska34.AnimeTools.AnimeAction.Execute
   name: Execute()
   href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_Execute
@@ -58,19 +45,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeAction.Execute
   nameWithType: AnimeAction.Execute
-- uid: Animeska34.AnimeTools.AnimeAction.Name
-  name: Name
-  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_Name
-  commentId: P:Animeska34.AnimeTools.AnimeAction.Name
-  fullName: Animeska34.AnimeTools.AnimeAction.Name
-  nameWithType: AnimeAction.Name
-- uid: Animeska34.AnimeTools.AnimeAction.Name*
-  name: Name
-  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_Name_
-  commentId: Overload:Animeska34.AnimeTools.AnimeAction.Name
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.AnimeAction.Name
-  nameWithType: AnimeAction.Name
 - uid: Animeska34.AnimeTools.AnimeAction.Reset
   name: Reset()
   href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_Reset
@@ -84,10 +58,30 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeAction.Reset
   nameWithType: AnimeAction.Reset
+- uid: Animeska34.AnimeTools.AnimeAction.enabled
+  name: enabled
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_enabled
+  commentId: P:Animeska34.AnimeTools.AnimeAction.enabled
+  fullName: Animeska34.AnimeTools.AnimeAction.enabled
+  nameWithType: AnimeAction.enabled
+- uid: Animeska34.AnimeTools.AnimeAction.enabled*
+  name: enabled
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_enabled_
+  commentId: Overload:Animeska34.AnimeTools.AnimeAction.enabled
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeAction.enabled
+  nameWithType: AnimeAction.enabled
 - uid: Animeska34.AnimeTools.AnimeAction.events
   name: events
   href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_events
-  commentId: F:Animeska34.AnimeTools.AnimeAction.events
+  commentId: P:Animeska34.AnimeTools.AnimeAction.events
+  fullName: Animeska34.AnimeTools.AnimeAction.events
+  nameWithType: AnimeAction.events
+- uid: Animeska34.AnimeTools.AnimeAction.events*
+  name: events
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_events_
+  commentId: Overload:Animeska34.AnimeTools.AnimeAction.events
+  isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeAction.events
   nameWithType: AnimeAction.events
 - uid: Animeska34.AnimeTools.AnimeAction.executeOnce
@@ -96,6 +90,32 @@ references:
   commentId: F:Animeska34.AnimeTools.AnimeAction.executeOnce
   fullName: Animeska34.AnimeTools.AnimeAction.executeOnce
   nameWithType: AnimeAction.executeOnce
+- uid: Animeska34.AnimeTools.AnimeAction.executed
+  name: executed
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_executed
+  commentId: P:Animeska34.AnimeTools.AnimeAction.executed
+  fullName: Animeska34.AnimeTools.AnimeAction.executed
+  nameWithType: AnimeAction.executed
+- uid: Animeska34.AnimeTools.AnimeAction.executed*
+  name: executed
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_executed_
+  commentId: Overload:Animeska34.AnimeTools.AnimeAction.executed
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeAction.executed
+  nameWithType: AnimeAction.executed
+- uid: Animeska34.AnimeTools.AnimeAction.name
+  name: name
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_name
+  commentId: P:Animeska34.AnimeTools.AnimeAction.name
+  fullName: Animeska34.AnimeTools.AnimeAction.name
+  nameWithType: AnimeAction.name
+- uid: Animeska34.AnimeTools.AnimeAction.name*
+  name: name
+  href: ScriptReference/Animeska34.AnimeTools.AnimeAction.html#Animeska34_AnimeTools_AnimeAction_name_
+  commentId: Overload:Animeska34.AnimeTools.AnimeAction.name
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeAction.name
+  nameWithType: AnimeAction.name
 - uid: Animeska34.AnimeTools.AnimeActions
   name: AnimeActions
   href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html
@@ -115,19 +135,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeActions.Add
   nameWithType: AnimeActions.Add
-- uid: Animeska34.AnimeTools.AnimeActions.Count
-  name: Count
-  href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_Count
-  commentId: P:Animeska34.AnimeTools.AnimeActions.Count
-  fullName: Animeska34.AnimeTools.AnimeActions.Count
-  nameWithType: AnimeActions.Count
-- uid: Animeska34.AnimeTools.AnimeActions.Count*
-  name: Count
-  href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_Count_
-  commentId: Overload:Animeska34.AnimeTools.AnimeActions.Count
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.AnimeActions.Count
-  nameWithType: AnimeActions.Count
 - uid: Animeska34.AnimeTools.AnimeActions.Execute(System.String)
   name: Execute(string)
   href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_Execute_System_String_
@@ -281,12 +288,70 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeActions.Set
   nameWithType: AnimeActions.Set
+- uid: Animeska34.AnimeTools.AnimeActions.actions
+  name: actions
+  href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_actions
+  commentId: P:Animeska34.AnimeTools.AnimeActions.actions
+  fullName: Animeska34.AnimeTools.AnimeActions.actions
+  nameWithType: AnimeActions.actions
+- uid: Animeska34.AnimeTools.AnimeActions.actions*
+  name: actions
+  href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_actions_
+  commentId: Overload:Animeska34.AnimeTools.AnimeActions.actions
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeActions.actions
+  nameWithType: AnimeActions.actions
+- uid: Animeska34.AnimeTools.AnimeActions.count
+  name: count
+  href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_count
+  commentId: P:Animeska34.AnimeTools.AnimeActions.count
+  fullName: Animeska34.AnimeTools.AnimeActions.count
+  nameWithType: AnimeActions.count
+- uid: Animeska34.AnimeTools.AnimeActions.count*
+  name: count
+  href: ScriptReference/Animeska34.AnimeTools.AnimeActions.html#Animeska34_AnimeTools_AnimeActions_count_
+  commentId: Overload:Animeska34.AnimeTools.AnimeActions.count
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeActions.count
+  nameWithType: AnimeActions.count
 - uid: Animeska34.AnimeTools.AnimeText
   name: AnimeText
   href: ScriptReference/Animeska34.AnimeTools.AnimeText.html
   commentId: T:Animeska34.AnimeTools.AnimeText
   fullName: Animeska34.AnimeTools.AnimeText
   nameWithType: AnimeText
+- uid: Animeska34.AnimeTools.AnimeText.normalized
+  name: normalized
+  href: ScriptReference/Animeska34.AnimeTools.AnimeText.html#Animeska34_AnimeTools_AnimeText_normalized
+  commentId: P:Animeska34.AnimeTools.AnimeText.normalized
+  fullName: Animeska34.AnimeTools.AnimeText.normalized
+  nameWithType: AnimeText.normalized
+- uid: Animeska34.AnimeTools.AnimeText.normalized*
+  name: normalized
+  href: ScriptReference/Animeska34.AnimeTools.AnimeText.html#Animeska34_AnimeTools_AnimeText_normalized_
+  commentId: Overload:Animeska34.AnimeTools.AnimeText.normalized
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeText.normalized
+  nameWithType: AnimeText.normalized
+- uid: Animeska34.AnimeTools.AnimeText.position
+  name: position
+  href: ScriptReference/Animeska34.AnimeTools.AnimeText.html#Animeska34_AnimeTools_AnimeText_position
+  commentId: P:Animeska34.AnimeTools.AnimeText.position
+  fullName: Animeska34.AnimeTools.AnimeText.position
+  nameWithType: AnimeText.position
+- uid: Animeska34.AnimeTools.AnimeText.position*
+  name: position
+  href: ScriptReference/Animeska34.AnimeTools.AnimeText.html#Animeska34_AnimeTools_AnimeText_position_
+  commentId: Overload:Animeska34.AnimeTools.AnimeText.position
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeText.position
+  nameWithType: AnimeText.position
+- uid: Animeska34.AnimeTools.AnimeText.richText
+  name: richText
+  href: ScriptReference/Animeska34.AnimeTools.AnimeText.html#Animeska34_AnimeTools_AnimeText_richText
+  commentId: F:Animeska34.AnimeTools.AnimeText.richText
+  fullName: Animeska34.AnimeTools.AnimeText.richText
+  nameWithType: AnimeText.richText
 - uid: Animeska34.AnimeTools.AnimeText.speed
   name: speed
   href: ScriptReference/Animeska34.AnimeTools.AnimeText.html#Animeska34_AnimeTools_AnimeText_speed
@@ -353,19 +418,6 @@ references:
   fullName.vb: Animeska34.AnimeTools.AnimeTimedAction.New
   nameWithType: AnimeTimedAction.AnimeTimedAction
   nameWithType.vb: AnimeTimedAction.New
-- uid: Animeska34.AnimeTools.AnimeTimedAction.Enabled
-  name: Enabled
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_Enabled
-  commentId: P:Animeska34.AnimeTools.AnimeTimedAction.Enabled
-  fullName: Animeska34.AnimeTools.AnimeTimedAction.Enabled
-  nameWithType: AnimeTimedAction.Enabled
-- uid: Animeska34.AnimeTools.AnimeTimedAction.Enabled*
-  name: Enabled
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_Enabled_
-  commentId: Overload:Animeska34.AnimeTools.AnimeTimedAction.Enabled
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.AnimeTimedAction.Enabled
-  nameWithType: AnimeTimedAction.Enabled
 - uid: Animeska34.AnimeTools.AnimeTimedAction.Execute
   name: Execute()
   href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_Execute
@@ -379,19 +431,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeTimedAction.Execute
   nameWithType: AnimeTimedAction.Execute
-- uid: Animeska34.AnimeTools.AnimeTimedAction.Name
-  name: Name
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_Name
-  commentId: P:Animeska34.AnimeTools.AnimeTimedAction.Name
-  fullName: Animeska34.AnimeTools.AnimeTimedAction.Name
-  nameWithType: AnimeTimedAction.Name
-- uid: Animeska34.AnimeTools.AnimeTimedAction.Name*
-  name: Name
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_Name_
-  commentId: Overload:Animeska34.AnimeTools.AnimeTimedAction.Name
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.AnimeTimedAction.Name
-  nameWithType: AnimeTimedAction.Name
 - uid: Animeska34.AnimeTools.AnimeTimedAction.Reset
   name: Reset()
   href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_Reset
@@ -431,12 +470,45 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeTimedAction.Update
   nameWithType: AnimeTimedAction.Update
+- uid: Animeska34.AnimeTools.AnimeTimedAction.enabled
+  name: enabled
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_enabled
+  commentId: P:Animeska34.AnimeTools.AnimeTimedAction.enabled
+  fullName: Animeska34.AnimeTools.AnimeTimedAction.enabled
+  nameWithType: AnimeTimedAction.enabled
+- uid: Animeska34.AnimeTools.AnimeTimedAction.enabled*
+  name: enabled
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_enabled_
+  commentId: Overload:Animeska34.AnimeTools.AnimeTimedAction.enabled
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeTimedAction.enabled
+  nameWithType: AnimeTimedAction.enabled
 - uid: Animeska34.AnimeTools.AnimeTimedAction.events
   name: events
   href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_events
-  commentId: F:Animeska34.AnimeTools.AnimeTimedAction.events
+  commentId: P:Animeska34.AnimeTools.AnimeTimedAction.events
   fullName: Animeska34.AnimeTools.AnimeTimedAction.events
   nameWithType: AnimeTimedAction.events
+- uid: Animeska34.AnimeTools.AnimeTimedAction.events*
+  name: events
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_events_
+  commentId: Overload:Animeska34.AnimeTools.AnimeTimedAction.events
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeTimedAction.events
+  nameWithType: AnimeTimedAction.events
+- uid: Animeska34.AnimeTools.AnimeTimedAction.name
+  name: name
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_name
+  commentId: P:Animeska34.AnimeTools.AnimeTimedAction.name
+  fullName: Animeska34.AnimeTools.AnimeTimedAction.name
+  nameWithType: AnimeTimedAction.name
+- uid: Animeska34.AnimeTools.AnimeTimedAction.name*
+  name: name
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_name_
+  commentId: Overload:Animeska34.AnimeTools.AnimeTimedAction.name
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeTimedAction.name
+  nameWithType: AnimeTimedAction.name
 - uid: Animeska34.AnimeTools.AnimeTimedAction.repeat
   name: repeat
   href: ScriptReference/Animeska34.AnimeTools.AnimeTimedAction.html#Animeska34_AnimeTools_AnimeTimedAction_repeat
@@ -467,15 +539,6 @@ references:
   commentId: M:Animeska34.AnimeTools.AnimeTimedActions.Add(Animeska34.AnimeTools.AnimeTimedAction)
   fullName: Animeska34.AnimeTools.AnimeTimedActions.Add(Animeska34.AnimeTools.AnimeTimedAction)
   nameWithType: AnimeTimedActions.Add(AnimeTimedAction)
-- uid: Animeska34.AnimeTools.AnimeTimedActions.Add(System.String,System.Single,UnityEngine.Events.UnityEvent,System.Boolean,System.Boolean,System.Single)
-  name: Add(string, float, UnityEvent, bool, bool, float)
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_Add_System_String_System_Single_UnityEngine_Events_UnityEvent_System_Boolean_System_Boolean_System_Single_
-  commentId: M:Animeska34.AnimeTools.AnimeTimedActions.Add(System.String,System.Single,UnityEngine.Events.UnityEvent,System.Boolean,System.Boolean,System.Single)
-  name.vb: Add(String, Single, UnityEvent, Boolean, Boolean, Single)
-  fullName: Animeska34.AnimeTools.AnimeTimedActions.Add(string, float, UnityEngine.Events.UnityEvent, bool, bool, float)
-  fullName.vb: Animeska34.AnimeTools.AnimeTimedActions.Add(String, Single, UnityEngine.Events.UnityEvent, Boolean, Boolean, Single)
-  nameWithType: AnimeTimedActions.Add(string, float, UnityEvent, bool, bool, float)
-  nameWithType.vb: AnimeTimedActions.Add(String, Single, UnityEvent, Boolean, Boolean, Single)
 - uid: Animeska34.AnimeTools.AnimeTimedActions.Add*
   name: Add
   href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_Add_
@@ -483,19 +546,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeTimedActions.Add
   nameWithType: AnimeTimedActions.Add
-- uid: Animeska34.AnimeTools.AnimeTimedActions.Count
-  name: Count
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_Count
-  commentId: P:Animeska34.AnimeTools.AnimeTimedActions.Count
-  fullName: Animeska34.AnimeTools.AnimeTimedActions.Count
-  nameWithType: AnimeTimedActions.Count
-- uid: Animeska34.AnimeTools.AnimeTimedActions.Count*
-  name: Count
-  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_Count_
-  commentId: Overload:Animeska34.AnimeTools.AnimeTimedActions.Count
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.AnimeTimedActions.Count
-  nameWithType: AnimeTimedActions.Count
 - uid: Animeska34.AnimeTools.AnimeTimedActions.Execute(System.String)
   name: Execute(string)
   href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_Execute_System_String_
@@ -645,6 +695,32 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.AnimeTimedActions.RemoveAt
   nameWithType: AnimeTimedActions.RemoveAt
+- uid: Animeska34.AnimeTools.AnimeTimedActions.actions
+  name: actions
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_actions
+  commentId: P:Animeska34.AnimeTools.AnimeTimedActions.actions
+  fullName: Animeska34.AnimeTools.AnimeTimedActions.actions
+  nameWithType: AnimeTimedActions.actions
+- uid: Animeska34.AnimeTools.AnimeTimedActions.actions*
+  name: actions
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_actions_
+  commentId: Overload:Animeska34.AnimeTools.AnimeTimedActions.actions
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeTimedActions.actions
+  nameWithType: AnimeTimedActions.actions
+- uid: Animeska34.AnimeTools.AnimeTimedActions.count
+  name: count
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_count
+  commentId: P:Animeska34.AnimeTools.AnimeTimedActions.count
+  fullName: Animeska34.AnimeTools.AnimeTimedActions.count
+  nameWithType: AnimeTimedActions.count
+- uid: Animeska34.AnimeTools.AnimeTimedActions.count*
+  name: count
+  href: ScriptReference/Animeska34.AnimeTools.AnimeTimedActions.html#Animeska34_AnimeTools_AnimeTimedActions_count_
+  commentId: Overload:Animeska34.AnimeTools.AnimeTimedActions.count
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.AnimeTimedActions.count
+  nameWithType: AnimeTimedActions.count
 - uid: Animeska34.AnimeTools.AutoDestroy
   name: AutoDestroy
   href: ScriptReference/Animeska34.AnimeTools.AutoDestroy.html
@@ -813,6 +889,36 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.CameraSystem.instance
   nameWithType: CameraSystem.instance
+- uid: Animeska34.AnimeTools.ConstantTransformation
+  name: ConstantTransformation
+  href: ScriptReference/Animeska34.AnimeTools.ConstantTransformation.html
+  commentId: T:Animeska34.AnimeTools.ConstantTransformation
+  fullName: Animeska34.AnimeTools.ConstantTransformation
+  nameWithType: ConstantTransformation
+- uid: Animeska34.AnimeTools.ConstantTransformation.move
+  name: move
+  href: ScriptReference/Animeska34.AnimeTools.ConstantTransformation.html#Animeska34_AnimeTools_ConstantTransformation_move
+  commentId: F:Animeska34.AnimeTools.ConstantTransformation.move
+  fullName: Animeska34.AnimeTools.ConstantTransformation.move
+  nameWithType: ConstantTransformation.move
+- uid: Animeska34.AnimeTools.ConstantTransformation.rotate
+  name: rotate
+  href: ScriptReference/Animeska34.AnimeTools.ConstantTransformation.html#Animeska34_AnimeTools_ConstantTransformation_rotate
+  commentId: F:Animeska34.AnimeTools.ConstantTransformation.rotate
+  fullName: Animeska34.AnimeTools.ConstantTransformation.rotate
+  nameWithType: ConstantTransformation.rotate
+- uid: Animeska34.AnimeTools.ConstantTransformation.rotationVelocity
+  name: rotationVelocity
+  href: ScriptReference/Animeska34.AnimeTools.ConstantTransformation.html#Animeska34_AnimeTools_ConstantTransformation_rotationVelocity
+  commentId: F:Animeska34.AnimeTools.ConstantTransformation.rotationVelocity
+  fullName: Animeska34.AnimeTools.ConstantTransformation.rotationVelocity
+  nameWithType: ConstantTransformation.rotationVelocity
+- uid: Animeska34.AnimeTools.ConstantTransformation.velocity
+  name: velocity
+  href: ScriptReference/Animeska34.AnimeTools.ConstantTransformation.html#Animeska34_AnimeTools_ConstantTransformation_velocity
+  commentId: F:Animeska34.AnimeTools.ConstantTransformation.velocity
+  fullName: Animeska34.AnimeTools.ConstantTransformation.velocity
+  nameWithType: ConstantTransformation.velocity
 - uid: Animeska34.AnimeTools.Editor
   name: Animeska34.AnimeTools.Editor
   href: ScriptReference/Animeska34.AnimeTools.Editor.html
@@ -887,19 +993,6 @@ references:
   commentId: T:Animeska34.AnimeTools.IAnimeAction
   fullName: Animeska34.AnimeTools.IAnimeAction
   nameWithType: IAnimeAction
-- uid: Animeska34.AnimeTools.IAnimeAction.Enabled
-  name: Enabled
-  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_Enabled
-  commentId: P:Animeska34.AnimeTools.IAnimeAction.Enabled
-  fullName: Animeska34.AnimeTools.IAnimeAction.Enabled
-  nameWithType: IAnimeAction.Enabled
-- uid: Animeska34.AnimeTools.IAnimeAction.Enabled*
-  name: Enabled
-  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_Enabled_
-  commentId: Overload:Animeska34.AnimeTools.IAnimeAction.Enabled
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.IAnimeAction.Enabled
-  nameWithType: IAnimeAction.Enabled
 - uid: Animeska34.AnimeTools.IAnimeAction.Execute
   name: Execute()
   href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_Execute
@@ -913,19 +1006,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.IAnimeAction.Execute
   nameWithType: IAnimeAction.Execute
-- uid: Animeska34.AnimeTools.IAnimeAction.Name
-  name: Name
-  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_Name
-  commentId: P:Animeska34.AnimeTools.IAnimeAction.Name
-  fullName: Animeska34.AnimeTools.IAnimeAction.Name
-  nameWithType: IAnimeAction.Name
-- uid: Animeska34.AnimeTools.IAnimeAction.Name*
-  name: Name
-  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_Name_
-  commentId: Overload:Animeska34.AnimeTools.IAnimeAction.Name
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.IAnimeAction.Name
-  nameWithType: IAnimeAction.Name
 - uid: Animeska34.AnimeTools.IAnimeAction.Reset
   name: Reset()
   href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_Reset
@@ -939,25 +1019,51 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.IAnimeAction.Reset
   nameWithType: IAnimeAction.Reset
+- uid: Animeska34.AnimeTools.IAnimeAction.enabled
+  name: enabled
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_enabled
+  commentId: P:Animeska34.AnimeTools.IAnimeAction.enabled
+  fullName: Animeska34.AnimeTools.IAnimeAction.enabled
+  nameWithType: IAnimeAction.enabled
+- uid: Animeska34.AnimeTools.IAnimeAction.enabled*
+  name: enabled
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_enabled_
+  commentId: Overload:Animeska34.AnimeTools.IAnimeAction.enabled
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.IAnimeAction.enabled
+  nameWithType: IAnimeAction.enabled
+- uid: Animeska34.AnimeTools.IAnimeAction.events
+  name: events
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_events
+  commentId: P:Animeska34.AnimeTools.IAnimeAction.events
+  fullName: Animeska34.AnimeTools.IAnimeAction.events
+  nameWithType: IAnimeAction.events
+- uid: Animeska34.AnimeTools.IAnimeAction.events*
+  name: events
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_events_
+  commentId: Overload:Animeska34.AnimeTools.IAnimeAction.events
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.IAnimeAction.events
+  nameWithType: IAnimeAction.events
+- uid: Animeska34.AnimeTools.IAnimeAction.name
+  name: name
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_name
+  commentId: P:Animeska34.AnimeTools.IAnimeAction.name
+  fullName: Animeska34.AnimeTools.IAnimeAction.name
+  nameWithType: IAnimeAction.name
+- uid: Animeska34.AnimeTools.IAnimeAction.name*
+  name: name
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeAction.html#Animeska34_AnimeTools_IAnimeAction_name_
+  commentId: Overload:Animeska34.AnimeTools.IAnimeAction.name
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.IAnimeAction.name
+  nameWithType: IAnimeAction.name
 - uid: Animeska34.AnimeTools.IAnimeActions
   name: IAnimeActions
   href: ScriptReference/Animeska34.AnimeTools.IAnimeActions.html
   commentId: T:Animeska34.AnimeTools.IAnimeActions
   fullName: Animeska34.AnimeTools.IAnimeActions
   nameWithType: IAnimeActions
-- uid: Animeska34.AnimeTools.IAnimeActions.Count
-  name: Count
-  href: ScriptReference/Animeska34.AnimeTools.IAnimeActions.html#Animeska34_AnimeTools_IAnimeActions_Count
-  commentId: P:Animeska34.AnimeTools.IAnimeActions.Count
-  fullName: Animeska34.AnimeTools.IAnimeActions.Count
-  nameWithType: IAnimeActions.Count
-- uid: Animeska34.AnimeTools.IAnimeActions.Count*
-  name: Count
-  href: ScriptReference/Animeska34.AnimeTools.IAnimeActions.html#Animeska34_AnimeTools_IAnimeActions_Count_
-  commentId: Overload:Animeska34.AnimeTools.IAnimeActions.Count
-  isSpec: "True"
-  fullName: Animeska34.AnimeTools.IAnimeActions.Count
-  nameWithType: IAnimeActions.Count
 - uid: Animeska34.AnimeTools.IAnimeActions.Execute(System.String)
   name: Execute(string)
   href: ScriptReference/Animeska34.AnimeTools.IAnimeActions.html#Animeska34_AnimeTools_IAnimeActions_Execute_System_String_
@@ -1035,6 +1141,19 @@ references:
   isSpec: "True"
   fullName: Animeska34.AnimeTools.IAnimeActions.RemoveAt
   nameWithType: IAnimeActions.RemoveAt
+- uid: Animeska34.AnimeTools.IAnimeActions.count
+  name: count
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeActions.html#Animeska34_AnimeTools_IAnimeActions_count
+  commentId: P:Animeska34.AnimeTools.IAnimeActions.count
+  fullName: Animeska34.AnimeTools.IAnimeActions.count
+  nameWithType: IAnimeActions.count
+- uid: Animeska34.AnimeTools.IAnimeActions.count*
+  name: count
+  href: ScriptReference/Animeska34.AnimeTools.IAnimeActions.html#Animeska34_AnimeTools_IAnimeActions_count_
+  commentId: Overload:Animeska34.AnimeTools.IAnimeActions.count
+  isSpec: "True"
+  fullName: Animeska34.AnimeTools.IAnimeActions.count
+  nameWithType: IAnimeActions.count
 - uid: Animeska34.AudioVisualization
   name: Animeska34.AudioVisualization
   href: ScriptReference/Animeska34.AudioVisualization.html
@@ -1978,6 +2097,116 @@ references:
   commentId: F:Animeska34.AudioVisualization.SmoothModifier.factor
   fullName: Animeska34.AudioVisualization.SmoothModifier.factor
   nameWithType: SmoothModifier.factor
+- uid: Animeska34.C2D.JRPG
+  name: Animeska34.C2D.JRPG
+  href: ScriptReference/Animeska34.C2D.JRPG.html
+  commentId: N:Animeska34.C2D.JRPG
+  fullName: Animeska34.C2D.JRPG
+  nameWithType: Animeska34.C2D.JRPG
+- uid: Animeska34.C2D.JRPG.Direction
+  name: Direction
+  href: ScriptReference/Animeska34.C2D.JRPG.Direction.html
+  commentId: T:Animeska34.C2D.JRPG.Direction
+  fullName: Animeska34.C2D.JRPG.Direction
+  nameWithType: Direction
+- uid: Animeska34.C2D.JRPG.Direction.Back
+  name: Back
+  href: ScriptReference/Animeska34.C2D.JRPG.Direction.html#Animeska34_C2D_JRPG_Direction_Back
+  commentId: F:Animeska34.C2D.JRPG.Direction.Back
+  fullName: Animeska34.C2D.JRPG.Direction.Back
+  nameWithType: Direction.Back
+- uid: Animeska34.C2D.JRPG.Direction.Front
+  name: Front
+  href: ScriptReference/Animeska34.C2D.JRPG.Direction.html#Animeska34_C2D_JRPG_Direction_Front
+  commentId: F:Animeska34.C2D.JRPG.Direction.Front
+  fullName: Animeska34.C2D.JRPG.Direction.Front
+  nameWithType: Direction.Front
+- uid: Animeska34.C2D.JRPG.Direction.Left
+  name: Left
+  href: ScriptReference/Animeska34.C2D.JRPG.Direction.html#Animeska34_C2D_JRPG_Direction_Left
+  commentId: F:Animeska34.C2D.JRPG.Direction.Left
+  fullName: Animeska34.C2D.JRPG.Direction.Left
+  nameWithType: Direction.Left
+- uid: Animeska34.C2D.JRPG.Direction.Right
+  name: Right
+  href: ScriptReference/Animeska34.C2D.JRPG.Direction.html#Animeska34_C2D_JRPG_Direction_Right
+  commentId: F:Animeska34.C2D.JRPG.Direction.Right
+  fullName: Animeska34.C2D.JRPG.Direction.Right
+  nameWithType: Direction.Right
+- uid: Animeska34.C2D.JRPG.JRPGAnimator
+  name: JRPGAnimator
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGAnimator.html
+  commentId: T:Animeska34.C2D.JRPG.JRPGAnimator
+  fullName: Animeska34.C2D.JRPG.JRPGAnimator
+  nameWithType: JRPGAnimator
+- uid: Animeska34.C2D.JRPG.JRPGAnimator.controller
+  name: controller
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGAnimator.html#Animeska34_C2D_JRPG_JRPGAnimator_controller
+  commentId: F:Animeska34.C2D.JRPG.JRPGAnimator.controller
+  fullName: Animeska34.C2D.JRPG.JRPGAnimator.controller
+  nameWithType: JRPGAnimator.controller
+- uid: Animeska34.C2D.JRPG.JRPGController
+  name: JRPGController
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html
+  commentId: T:Animeska34.C2D.JRPG.JRPGController
+  fullName: Animeska34.C2D.JRPG.JRPGController
+  nameWithType: JRPGController
+- uid: Animeska34.C2D.JRPG.JRPGController.allowRotation
+  name: allowRotation
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_allowRotation
+  commentId: F:Animeska34.C2D.JRPG.JRPGController.allowRotation
+  fullName: Animeska34.C2D.JRPG.JRPGController.allowRotation
+  nameWithType: JRPGController.allowRotation
+- uid: Animeska34.C2D.JRPG.JRPGController.currentDirection
+  name: currentDirection
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_currentDirection
+  commentId: P:Animeska34.C2D.JRPG.JRPGController.currentDirection
+  fullName: Animeska34.C2D.JRPG.JRPGController.currentDirection
+  nameWithType: JRPGController.currentDirection
+- uid: Animeska34.C2D.JRPG.JRPGController.currentDirection*
+  name: currentDirection
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_currentDirection_
+  commentId: Overload:Animeska34.C2D.JRPG.JRPGController.currentDirection
+  isSpec: "True"
+  fullName: Animeska34.C2D.JRPG.JRPGController.currentDirection
+  nameWithType: JRPGController.currentDirection
+- uid: Animeska34.C2D.JRPG.JRPGController.directionChanged
+  name: directionChanged
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_directionChanged
+  commentId: F:Animeska34.C2D.JRPG.JRPGController.directionChanged
+  fullName: Animeska34.C2D.JRPG.JRPGController.directionChanged
+  nameWithType: JRPGController.directionChanged
+- uid: Animeska34.C2D.JRPG.JRPGController.isMoving
+  name: isMoving
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_isMoving
+  commentId: P:Animeska34.C2D.JRPG.JRPGController.isMoving
+  fullName: Animeska34.C2D.JRPG.JRPGController.isMoving
+  nameWithType: JRPGController.isMoving
+- uid: Animeska34.C2D.JRPG.JRPGController.isMoving*
+  name: isMoving
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_isMoving_
+  commentId: Overload:Animeska34.C2D.JRPG.JRPGController.isMoving
+  isSpec: "True"
+  fullName: Animeska34.C2D.JRPG.JRPGController.isMoving
+  nameWithType: JRPGController.isMoving
+- uid: Animeska34.C2D.JRPG.JRPGController.lookAtMouse
+  name: lookAtMouse
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_lookAtMouse
+  commentId: F:Animeska34.C2D.JRPG.JRPGController.lookAtMouse
+  fullName: Animeska34.C2D.JRPG.JRPGController.lookAtMouse
+  nameWithType: JRPGController.lookAtMouse
+- uid: Animeska34.C2D.JRPG.JRPGController.moveStateChanged
+  name: moveStateChanged
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_moveStateChanged
+  commentId: F:Animeska34.C2D.JRPG.JRPGController.moveStateChanged
+  fullName: Animeska34.C2D.JRPG.JRPGController.moveStateChanged
+  nameWithType: JRPGController.moveStateChanged
+- uid: Animeska34.C2D.JRPG.JRPGController.speed
+  name: speed
+  href: ScriptReference/Animeska34.C2D.JRPG.JRPGController.html#Animeska34_C2D_JRPG_JRPGController_speed
+  commentId: F:Animeska34.C2D.JRPG.JRPGController.speed
+  fullName: Animeska34.C2D.JRPG.JRPGController.speed
+  nameWithType: JRPGController.speed
 - uid: Animeska34.C2D.RTS
   name: Animeska34.C2D.RTS
   href: ScriptReference/Animeska34.C2D.RTS.html
@@ -2505,6 +2734,284 @@ references:
   isSpec: "True"
   fullName: Animeska34.C2D.RTS.RTSSelector.selected
   nameWithType: RTSSelector.selected
+- uid: Animeska34.C2D.SS
+  name: Animeska34.C2D.SS
+  href: ScriptReference/Animeska34.C2D.SS.html
+  commentId: N:Animeska34.C2D.SS
+  fullName: Animeska34.C2D.SS
+  nameWithType: Animeska34.C2D.SS
+- uid: Animeska34.C2D.SS.SSCamera
+  name: SSCamera
+  href: ScriptReference/Animeska34.C2D.SS.SSCamera.html
+  commentId: T:Animeska34.C2D.SS.SSCamera
+  fullName: Animeska34.C2D.SS.SSCamera
+  nameWithType: SSCamera
+- uid: Animeska34.C2D.SS.SSCamera.speed
+  name: speed
+  href: ScriptReference/Animeska34.C2D.SS.SSCamera.html#Animeska34_C2D_SS_SSCamera_speed
+  commentId: F:Animeska34.C2D.SS.SSCamera.speed
+  fullName: Animeska34.C2D.SS.SSCamera.speed
+  nameWithType: SSCamera.speed
+- uid: Animeska34.C2D.SS.SSController
+  name: SSController
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html
+  commentId: T:Animeska34.C2D.SS.SSController
+  fullName: Animeska34.C2D.SS.SSController
+  nameWithType: SSController
+- uid: Animeska34.C2D.SS.SSController.EnsureInViewport
+  name: EnsureInViewport()
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_EnsureInViewport
+  commentId: M:Animeska34.C2D.SS.SSController.EnsureInViewport
+  fullName: Animeska34.C2D.SS.SSController.EnsureInViewport()
+  nameWithType: SSController.EnsureInViewport()
+- uid: Animeska34.C2D.SS.SSController.EnsureInViewport*
+  name: EnsureInViewport
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_EnsureInViewport_
+  commentId: Overload:Animeska34.C2D.SS.SSController.EnsureInViewport
+  isSpec: "True"
+  fullName: Animeska34.C2D.SS.SSController.EnsureInViewport
+  nameWithType: SSController.EnsureInViewport
+- uid: Animeska34.C2D.SS.SSController.destroyDelay
+  name: destroyDelay
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_destroyDelay
+  commentId: F:Animeska34.C2D.SS.SSController.destroyDelay
+  fullName: Animeska34.C2D.SS.SSController.destroyDelay
+  nameWithType: SSController.destroyDelay
+- uid: Animeska34.C2D.SS.SSController.destroyOnCollision
+  name: destroyOnCollision
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_destroyOnCollision
+  commentId: F:Animeska34.C2D.SS.SSController.destroyOnCollision
+  fullName: Animeska34.C2D.SS.SSController.destroyOnCollision
+  nameWithType: SSController.destroyOnCollision
+- uid: Animeska34.C2D.SS.SSController.forceInsideViewport
+  name: forceInsideViewport
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_forceInsideViewport
+  commentId: F:Animeska34.C2D.SS.SSController.forceInsideViewport
+  fullName: Animeska34.C2D.SS.SSController.forceInsideViewport
+  nameWithType: SSController.forceInsideViewport
+- uid: Animeska34.C2D.SS.SSController.moveWithRigidbody
+  name: moveWithRigidbody
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_moveWithRigidbody
+  commentId: F:Animeska34.C2D.SS.SSController.moveWithRigidbody
+  fullName: Animeska34.C2D.SS.SSController.moveWithRigidbody
+  nameWithType: SSController.moveWithRigidbody
+- uid: Animeska34.C2D.SS.SSController.speed
+  name: speed
+  href: ScriptReference/Animeska34.C2D.SS.SSController.html#Animeska34_C2D_SS_SSController_speed
+  commentId: F:Animeska34.C2D.SS.SSController.speed
+  fullName: Animeska34.C2D.SS.SSController.speed
+  nameWithType: SSController.speed
+- uid: Animeska34.C3D
+  name: Animeska34.C3D
+  href: ScriptReference/Animeska34.C3D.html
+  commentId: N:Animeska34.C3D
+  fullName: Animeska34.C3D
+  nameWithType: Animeska34.C3D
+- uid: Animeska34.C3D.Controller3D
+  name: Controller3D
+  href: ScriptReference/Animeska34.C3D.Controller3D.html
+  commentId: T:Animeska34.C3D.Controller3D
+  fullName: Animeska34.C3D.Controller3D
+  nameWithType: Controller3D
+- uid: Animeska34.C3D.Controller3D.allowCrouch
+  name: allowCrouch
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_allowCrouch
+  commentId: F:Animeska34.C3D.Controller3D.allowCrouch
+  fullName: Animeska34.C3D.Controller3D.allowCrouch
+  nameWithType: Controller3D.allowCrouch
+- uid: Animeska34.C3D.Controller3D.allowJump
+  name: allowJump
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_allowJump
+  commentId: F:Animeska34.C3D.Controller3D.allowJump
+  fullName: Animeska34.C3D.Controller3D.allowJump
+  nameWithType: Controller3D.allowJump
+- uid: Animeska34.C3D.Controller3D.allowLook
+  name: allowLook
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_allowLook
+  commentId: F:Animeska34.C3D.Controller3D.allowLook
+  fullName: Animeska34.C3D.Controller3D.allowLook
+  nameWithType: Controller3D.allowLook
+- uid: Animeska34.C3D.Controller3D.allowMove
+  name: allowMove
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_allowMove
+  commentId: F:Animeska34.C3D.Controller3D.allowMove
+  fullName: Animeska34.C3D.Controller3D.allowMove
+  nameWithType: Controller3D.allowMove
+- uid: Animeska34.C3D.Controller3D.controller
+  name: controller
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_controller
+  commentId: P:Animeska34.C3D.Controller3D.controller
+  fullName: Animeska34.C3D.Controller3D.controller
+  nameWithType: Controller3D.controller
+- uid: Animeska34.C3D.Controller3D.controller*
+  name: controller
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_controller_
+  commentId: Overload:Animeska34.C3D.Controller3D.controller
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.controller
+  nameWithType: Controller3D.controller
+- uid: Animeska34.C3D.Controller3D.crouching
+  name: crouching
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_crouching
+  commentId: P:Animeska34.C3D.Controller3D.crouching
+  fullName: Animeska34.C3D.Controller3D.crouching
+  nameWithType: Controller3D.crouching
+- uid: Animeska34.C3D.Controller3D.crouching*
+  name: crouching
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_crouching_
+  commentId: Overload:Animeska34.C3D.Controller3D.crouching
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.crouching
+  nameWithType: Controller3D.crouching
+- uid: Animeska34.C3D.Controller3D.crouchingSpeed
+  name: crouchingSpeed
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_crouchingSpeed
+  commentId: F:Animeska34.C3D.Controller3D.crouchingSpeed
+  fullName: Animeska34.C3D.Controller3D.crouchingSpeed
+  nameWithType: Controller3D.crouchingSpeed
+- uid: Animeska34.C3D.Controller3D.falling
+  name: falling
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_falling
+  commentId: P:Animeska34.C3D.Controller3D.falling
+  fullName: Animeska34.C3D.Controller3D.falling
+  nameWithType: Controller3D.falling
+- uid: Animeska34.C3D.Controller3D.falling*
+  name: falling
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_falling_
+  commentId: Overload:Animeska34.C3D.Controller3D.falling
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.falling
+  nameWithType: Controller3D.falling
+- uid: Animeska34.C3D.Controller3D.grounded
+  name: grounded
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_grounded
+  commentId: P:Animeska34.C3D.Controller3D.grounded
+  fullName: Animeska34.C3D.Controller3D.grounded
+  nameWithType: Controller3D.grounded
+- uid: Animeska34.C3D.Controller3D.grounded*
+  name: grounded
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_grounded_
+  commentId: Overload:Animeska34.C3D.Controller3D.grounded
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.grounded
+  nameWithType: Controller3D.grounded
+- uid: Animeska34.C3D.Controller3D.heightCrouching
+  name: heightCrouching
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_heightCrouching
+  commentId: F:Animeska34.C3D.Controller3D.heightCrouching
+  fullName: Animeska34.C3D.Controller3D.heightCrouching
+  nameWithType: Controller3D.heightCrouching
+- uid: Animeska34.C3D.Controller3D.heightStanding
+  name: heightStanding
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_heightStanding
+  commentId: F:Animeska34.C3D.Controller3D.heightStanding
+  fullName: Animeska34.C3D.Controller3D.heightStanding
+  nameWithType: Controller3D.heightStanding
+- uid: Animeska34.C3D.Controller3D.jumpHeight
+  name: jumpHeight
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_jumpHeight
+  commentId: F:Animeska34.C3D.Controller3D.jumpHeight
+  fullName: Animeska34.C3D.Controller3D.jumpHeight
+  nameWithType: Controller3D.jumpHeight
+- uid: Animeska34.C3D.Controller3D.jumping
+  name: jumping
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_jumping
+  commentId: P:Animeska34.C3D.Controller3D.jumping
+  fullName: Animeska34.C3D.Controller3D.jumping
+  nameWithType: Controller3D.jumping
+- uid: Animeska34.C3D.Controller3D.jumping*
+  name: jumping
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_jumping_
+  commentId: Overload:Animeska34.C3D.Controller3D.jumping
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.jumping
+  nameWithType: Controller3D.jumping
+- uid: Animeska34.C3D.Controller3D.lookDelta
+  name: lookDelta
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_lookDelta
+  commentId: P:Animeska34.C3D.Controller3D.lookDelta
+  fullName: Animeska34.C3D.Controller3D.lookDelta
+  nameWithType: Controller3D.lookDelta
+- uid: Animeska34.C3D.Controller3D.lookDelta*
+  name: lookDelta
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_lookDelta_
+  commentId: Overload:Animeska34.C3D.Controller3D.lookDelta
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.lookDelta
+  nameWithType: Controller3D.lookDelta
+- uid: Animeska34.C3D.Controller3D.lookSensetivity
+  name: lookSensetivity
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_lookSensetivity
+  commentId: F:Animeska34.C3D.Controller3D.lookSensetivity
+  fullName: Animeska34.C3D.Controller3D.lookSensetivity
+  nameWithType: Controller3D.lookSensetivity
+- uid: Animeska34.C3D.Controller3D.moveDelta
+  name: moveDelta
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_moveDelta
+  commentId: P:Animeska34.C3D.Controller3D.moveDelta
+  fullName: Animeska34.C3D.Controller3D.moveDelta
+  nameWithType: Controller3D.moveDelta
+- uid: Animeska34.C3D.Controller3D.moveDelta*
+  name: moveDelta
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_moveDelta_
+  commentId: Overload:Animeska34.C3D.Controller3D.moveDelta
+  isSpec: "True"
+  fullName: Animeska34.C3D.Controller3D.moveDelta
+  nameWithType: Controller3D.moveDelta
+- uid: Animeska34.C3D.Controller3D.moveSpeed
+  name: moveSpeed
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_moveSpeed
+  commentId: F:Animeska34.C3D.Controller3D.moveSpeed
+  fullName: Animeska34.C3D.Controller3D.moveSpeed
+  nameWithType: Controller3D.moveSpeed
+- uid: Animeska34.C3D.Controller3D.onCrouch
+  name: onCrouch
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_onCrouch
+  commentId: F:Animeska34.C3D.Controller3D.onCrouch
+  fullName: Animeska34.C3D.Controller3D.onCrouch
+  nameWithType: Controller3D.onCrouch
+- uid: Animeska34.C3D.Controller3D.onFall
+  name: onFall
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_onFall
+  commentId: F:Animeska34.C3D.Controller3D.onFall
+  fullName: Animeska34.C3D.Controller3D.onFall
+  nameWithType: Controller3D.onFall
+- uid: Animeska34.C3D.Controller3D.onGround
+  name: onGround
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_onGround
+  commentId: F:Animeska34.C3D.Controller3D.onGround
+  fullName: Animeska34.C3D.Controller3D.onGround
+  nameWithType: Controller3D.onGround
+- uid: Animeska34.C3D.Controller3D.onJump
+  name: onJump
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_onJump
+  commentId: F:Animeska34.C3D.Controller3D.onJump
+  fullName: Animeska34.C3D.Controller3D.onJump
+  nameWithType: Controller3D.onJump
+- uid: Animeska34.C3D.Controller3D.onStand
+  name: onStand
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_onStand
+  commentId: F:Animeska34.C3D.Controller3D.onStand
+  fullName: Animeska34.C3D.Controller3D.onStand
+  nameWithType: Controller3D.onStand
+- uid: Animeska34.C3D.Controller3D.switchMode
+  name: switchMode
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_switchMode
+  commentId: F:Animeska34.C3D.Controller3D.switchMode
+  fullName: Animeska34.C3D.Controller3D.switchMode
+  nameWithType: Controller3D.switchMode
+- uid: Animeska34.C3D.Controller3D.verticalAxis
+  name: verticalAxis
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_verticalAxis
+  commentId: F:Animeska34.C3D.Controller3D.verticalAxis
+  fullName: Animeska34.C3D.Controller3D.verticalAxis
+  nameWithType: Controller3D.verticalAxis
+- uid: Animeska34.C3D.Controller3D.verticalBounds
+  name: verticalBounds
+  href: ScriptReference/Animeska34.C3D.Controller3D.html#Animeska34_C3D_Controller3D_verticalBounds
+  commentId: F:Animeska34.C3D.Controller3D.verticalBounds
+  fullName: Animeska34.C3D.Controller3D.verticalBounds
+  nameWithType: Controller3D.verticalBounds
 - uid: Animeska34.DebugTools
   name: Animeska34.DebugTools
   href: ScriptReference/Animeska34.DebugTools.html
@@ -5860,19 +6367,6 @@ references:
   fullName.vb: Animeska34.InventorySystem.IInventory.this[]
   nameWithType: IInventory.this
   nameWithType.vb: IInventory.this[]
-- uid: Animeska34.InventorySystem.IInventory.Loaded
-  name: Loaded()
-  href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_Loaded
-  commentId: M:Animeska34.InventorySystem.IInventory.Loaded
-  fullName: Animeska34.InventorySystem.IInventory.Loaded()
-  nameWithType: IInventory.Loaded()
-- uid: Animeska34.InventorySystem.IInventory.Loaded*
-  name: Loaded
-  href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_Loaded_
-  commentId: Overload:Animeska34.InventorySystem.IInventory.Loaded
-  isSpec: "True"
-  fullName: Animeska34.InventorySystem.IInventory.Loaded
-  nameWithType: IInventory.Loaded
 - uid: Animeska34.InventorySystem.IInventory.Put(Animeska34.InventorySystem.Item)
   name: Put(Item)
   href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_Put_Animeska34_InventorySystem_Item_
@@ -6049,19 +6543,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.InventorySystem.IInventory.count
   nameWithType: IInventory.count
-- uid: Animeska34.InventorySystem.IInventory.limit
-  name: limit
-  href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_limit
-  commentId: P:Animeska34.InventorySystem.IInventory.limit
-  fullName: Animeska34.InventorySystem.IInventory.limit
-  nameWithType: IInventory.limit
-- uid: Animeska34.InventorySystem.IInventory.limit*
-  name: limit
-  href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_limit_
-  commentId: Overload:Animeska34.InventorySystem.IInventory.limit
-  isSpec: "True"
-  fullName: Animeska34.InventorySystem.IInventory.limit
-  nameWithType: IInventory.limit
 - uid: Animeska34.InventorySystem.IInventory.loaded
   name: loaded
   href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_loaded
@@ -6140,6 +6621,19 @@ references:
   isSpec: "True"
   fullName: Animeska34.InventorySystem.IInventory.onItemRemoved
   nameWithType: IInventory.onItemRemoved
+- uid: Animeska34.InventorySystem.IInventory.slotLimit
+  name: slotLimit
+  href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_slotLimit
+  commentId: P:Animeska34.InventorySystem.IInventory.slotLimit
+  fullName: Animeska34.InventorySystem.IInventory.slotLimit
+  nameWithType: IInventory.slotLimit
+- uid: Animeska34.InventorySystem.IInventory.slotLimit*
+  name: slotLimit
+  href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_slotLimit_
+  commentId: Overload:Animeska34.InventorySystem.IInventory.slotLimit
+  isSpec: "True"
+  fullName: Animeska34.InventorySystem.IInventory.slotLimit
+  nameWithType: IInventory.slotLimit
 - uid: Animeska34.InventorySystem.IInventory.useSlotLimit
   name: useSlotLimit
   href: ScriptReference/Animeska34.InventorySystem.IInventory.html#Animeska34_InventorySystem_IInventory_useSlotLimit
@@ -6516,19 +7010,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.InventorySystem.IntegratedInventory.count
   nameWithType: IntegratedInventory.count
-- uid: Animeska34.InventorySystem.IntegratedInventory.limit
-  name: limit
-  href: ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html#Animeska34_InventorySystem_IntegratedInventory_limit
-  commentId: P:Animeska34.InventorySystem.IntegratedInventory.limit
-  fullName: Animeska34.InventorySystem.IntegratedInventory.limit
-  nameWithType: IntegratedInventory.limit
-- uid: Animeska34.InventorySystem.IntegratedInventory.limit*
-  name: limit
-  href: ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html#Animeska34_InventorySystem_IntegratedInventory_limit_
-  commentId: Overload:Animeska34.InventorySystem.IntegratedInventory.limit
-  isSpec: "True"
-  fullName: Animeska34.InventorySystem.IntegratedInventory.limit
-  nameWithType: IntegratedInventory.limit
 - uid: Animeska34.InventorySystem.IntegratedInventory.loaded
   name: loaded
   href: ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html#Animeska34_InventorySystem_IntegratedInventory_loaded
@@ -6607,6 +7088,19 @@ references:
   isSpec: "True"
   fullName: Animeska34.InventorySystem.IntegratedInventory.onItemRemoved
   nameWithType: IntegratedInventory.onItemRemoved
+- uid: Animeska34.InventorySystem.IntegratedInventory.slotLimit
+  name: slotLimit
+  href: ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html#Animeska34_InventorySystem_IntegratedInventory_slotLimit
+  commentId: P:Animeska34.InventorySystem.IntegratedInventory.slotLimit
+  fullName: Animeska34.InventorySystem.IntegratedInventory.slotLimit
+  nameWithType: IntegratedInventory.slotLimit
+- uid: Animeska34.InventorySystem.IntegratedInventory.slotLimit*
+  name: slotLimit
+  href: ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html#Animeska34_InventorySystem_IntegratedInventory_slotLimit_
+  commentId: Overload:Animeska34.InventorySystem.IntegratedInventory.slotLimit
+  isSpec: "True"
+  fullName: Animeska34.InventorySystem.IntegratedInventory.slotLimit
+  nameWithType: IntegratedInventory.slotLimit
 - uid: Animeska34.InventorySystem.IntegratedInventory.useSlotLimit
   name: useSlotLimit
   href: ScriptReference/Animeska34.InventorySystem.IntegratedInventory.html#Animeska34_InventorySystem_IntegratedInventory_useSlotLimit
@@ -6970,19 +7464,6 @@ references:
   isSpec: "True"
   fullName: Animeska34.InventorySystem.Inventory.count
   nameWithType: Inventory.count
-- uid: Animeska34.InventorySystem.Inventory.limit
-  name: limit
-  href: ScriptReference/Animeska34.InventorySystem.Inventory.html#Animeska34_InventorySystem_Inventory_limit
-  commentId: P:Animeska34.InventorySystem.Inventory.limit
-  fullName: Animeska34.InventorySystem.Inventory.limit
-  nameWithType: Inventory.limit
-- uid: Animeska34.InventorySystem.Inventory.limit*
-  name: limit
-  href: ScriptReference/Animeska34.InventorySystem.Inventory.html#Animeska34_InventorySystem_Inventory_limit_
-  commentId: Overload:Animeska34.InventorySystem.Inventory.limit
-  isSpec: "True"
-  fullName: Animeska34.InventorySystem.Inventory.limit
-  nameWithType: Inventory.limit
 - uid: Animeska34.InventorySystem.Inventory.loaded
   name: loaded
   href: ScriptReference/Animeska34.InventorySystem.Inventory.html#Animeska34_InventorySystem_Inventory_loaded
@@ -7061,6 +7542,19 @@ references:
   isSpec: "True"
   fullName: Animeska34.InventorySystem.Inventory.onItemRemoved
   nameWithType: Inventory.onItemRemoved
+- uid: Animeska34.InventorySystem.Inventory.slotLimit
+  name: slotLimit
+  href: ScriptReference/Animeska34.InventorySystem.Inventory.html#Animeska34_InventorySystem_Inventory_slotLimit
+  commentId: P:Animeska34.InventorySystem.Inventory.slotLimit
+  fullName: Animeska34.InventorySystem.Inventory.slotLimit
+  nameWithType: Inventory.slotLimit
+- uid: Animeska34.InventorySystem.Inventory.slotLimit*
+  name: slotLimit
+  href: ScriptReference/Animeska34.InventorySystem.Inventory.html#Animeska34_InventorySystem_Inventory_slotLimit_
+  commentId: Overload:Animeska34.InventorySystem.Inventory.slotLimit
+  isSpec: "True"
+  fullName: Animeska34.InventorySystem.Inventory.slotLimit
+  nameWithType: Inventory.slotLimit
 - uid: Animeska34.InventorySystem.Inventory.useSlotLimit
   name: useSlotLimit
   href: ScriptReference/Animeska34.InventorySystem.Inventory.html#Animeska34_InventorySystem_Inventory_useSlotLimit
@@ -8502,22 +8996,25 @@ references:
   commentId: T:Animeska34.SaveSystem.PrefabLibrary
   fullName: Animeska34.SaveSystem.PrefabLibrary
   nameWithType: PrefabLibrary
-- uid: Animeska34.SaveSystem.PrefabLibrary.Get(System.String)
-  name: Get(string)
-  href: ScriptReference/Animeska34.SaveSystem.PrefabLibrary.html#Animeska34_SaveSystem_PrefabLibrary_Get_System_String_
-  commentId: M:Animeska34.SaveSystem.PrefabLibrary.Get(System.String)
-  name.vb: Get(String)
-  fullName: Animeska34.SaveSystem.PrefabLibrary.Get(string)
-  fullName.vb: Animeska34.SaveSystem.PrefabLibrary.Get(String)
-  nameWithType: PrefabLibrary.Get(string)
-  nameWithType.vb: PrefabLibrary.Get(String)
-- uid: Animeska34.SaveSystem.PrefabLibrary.Get*
-  name: Get
-  href: ScriptReference/Animeska34.SaveSystem.PrefabLibrary.html#Animeska34_SaveSystem_PrefabLibrary_Get_
-  commentId: Overload:Animeska34.SaveSystem.PrefabLibrary.Get
+- uid: Animeska34.SaveSystem.PrefabLibrary.Item(System.String)
+  name: this[string]
+  href: ScriptReference/Animeska34.SaveSystem.PrefabLibrary.html#Animeska34_SaveSystem_PrefabLibrary_Item_System_String_
+  commentId: P:Animeska34.SaveSystem.PrefabLibrary.Item(System.String)
+  name.vb: this[](String)
+  fullName: Animeska34.SaveSystem.PrefabLibrary.this[string]
+  fullName.vb: Animeska34.SaveSystem.PrefabLibrary.this[](String)
+  nameWithType: PrefabLibrary.this[string]
+  nameWithType.vb: PrefabLibrary.this[](String)
+- uid: Animeska34.SaveSystem.PrefabLibrary.Item*
+  name: this
+  href: ScriptReference/Animeska34.SaveSystem.PrefabLibrary.html#Animeska34_SaveSystem_PrefabLibrary_Item_
+  commentId: Overload:Animeska34.SaveSystem.PrefabLibrary.Item
   isSpec: "True"
-  fullName: Animeska34.SaveSystem.PrefabLibrary.Get
-  nameWithType: PrefabLibrary.Get
+  name.vb: this[]
+  fullName: Animeska34.SaveSystem.PrefabLibrary.this
+  fullName.vb: Animeska34.SaveSystem.PrefabLibrary.this[]
+  nameWithType: PrefabLibrary.this
+  nameWithType.vb: PrefabLibrary.this[]
 - uid: Animeska34.SaveSystem.PrefabLibrary.prefabs
   name: prefabs
   href: ScriptReference/Animeska34.SaveSystem.PrefabLibrary.html#Animeska34_SaveSystem_PrefabLibrary_prefabs
@@ -8900,6 +9397,32 @@ references:
   commentId: T:Animeska34.SaveSystem.Saveable
   fullName: Animeska34.SaveSystem.Saveable
   nameWithType: Saveable
+- uid: Animeska34.SaveSystem.Saveable.Deserialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)
+  name: Deserialize(XmlElement, XMLUtility)
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_
+  commentId: M:Animeska34.SaveSystem.Saveable.Deserialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)
+  fullName: Animeska34.SaveSystem.Saveable.Deserialize(System.Xml.XmlElement, Animeska34.Serialization.XML.XMLUtility)
+  nameWithType: Saveable.Deserialize(XmlElement, XMLUtility)
+- uid: Animeska34.SaveSystem.Saveable.Deserialize*
+  name: Deserialize
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_Deserialize_
+  commentId: Overload:Animeska34.SaveSystem.Saveable.Deserialize
+  isSpec: "True"
+  fullName: Animeska34.SaveSystem.Saveable.Deserialize
+  nameWithType: Saveable.Deserialize
+- uid: Animeska34.SaveSystem.Saveable.Serialize(Animeska34.Serialization.XML.XMLUtility)
+  name: Serialize(XMLUtility)
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_Serialize_Animeska34_Serialization_XML_XMLUtility_
+  commentId: M:Animeska34.SaveSystem.Saveable.Serialize(Animeska34.Serialization.XML.XMLUtility)
+  fullName: Animeska34.SaveSystem.Saveable.Serialize(Animeska34.Serialization.XML.XMLUtility)
+  nameWithType: Saveable.Serialize(XMLUtility)
+- uid: Animeska34.SaveSystem.Saveable.Serialize*
+  name: Serialize
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_Serialize_
+  commentId: Overload:Animeska34.SaveSystem.Saveable.Serialize
+  isSpec: "True"
+  fullName: Animeska34.SaveSystem.Saveable.Serialize
+  nameWithType: Saveable.Serialize
 - uid: Animeska34.SaveSystem.Saveable.SerializeData
   name: Saveable.SerializeData
   href: ScriptReference/Animeska34.SaveSystem.Saveable.SerializeData.html
@@ -8972,19 +9495,25 @@ references:
   commentId: F:Animeska34.SaveSystem.Saveable.Type.Static
   fullName: Animeska34.SaveSystem.Saveable.Type.Static
   nameWithType: Saveable.Type.Static
-- uid: Animeska34.SaveSystem.Saveable.id
-  name: id
-  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_id
-  commentId: P:Animeska34.SaveSystem.Saveable.id
-  fullName: Animeska34.SaveSystem.Saveable.id
-  nameWithType: Saveable.id
-- uid: Animeska34.SaveSystem.Saveable.id*
-  name: id
-  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_id_
-  commentId: Overload:Animeska34.SaveSystem.Saveable.id
+- uid: Animeska34.SaveSystem.Saveable.guid
+  name: guid
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_guid
+  commentId: P:Animeska34.SaveSystem.Saveable.guid
+  fullName: Animeska34.SaveSystem.Saveable.guid
+  nameWithType: Saveable.guid
+- uid: Animeska34.SaveSystem.Saveable.guid*
+  name: guid
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_guid_
+  commentId: Overload:Animeska34.SaveSystem.Saveable.guid
   isSpec: "True"
-  fullName: Animeska34.SaveSystem.Saveable.id
-  nameWithType: Saveable.id
+  fullName: Animeska34.SaveSystem.Saveable.guid
+  nameWithType: Saveable.guid
+- uid: Animeska34.SaveSystem.Saveable.ignore
+  name: ignore
+  href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_ignore
+  commentId: F:Animeska34.SaveSystem.Saveable.ignore
+  fullName: Animeska34.SaveSystem.Saveable.ignore
+  nameWithType: Saveable.ignore
 - uid: Animeska34.SaveSystem.Saveable.type
   name: type
   href: ScriptReference/Animeska34.SaveSystem.Saveable.html#Animeska34_SaveSystem_Saveable_type
@@ -11088,6 +11617,12 @@ references:
   isSpec: "True"
   fullName: Animeska34.WeaponSystem.Beam.Update
   nameWithType: Beam.Update
+- uid: Animeska34.WeaponSystem.Beam.beamOffset
+  name: beamOffset
+  href: ScriptReference/Animeska34.WeaponSystem.Beam.html#Animeska34_WeaponSystem_Beam_beamOffset
+  commentId: F:Animeska34.WeaponSystem.Beam.beamOffset
+  fullName: Animeska34.WeaponSystem.Beam.beamOffset
+  nameWithType: Beam.beamOffset
 - uid: Animeska34.WeaponSystem.Beam.damageType
   name: damageType
   href: ScriptReference/Animeska34.WeaponSystem.Beam.html#Animeska34_WeaponSystem_Beam_damageType
@@ -11119,6 +11654,12 @@ references:
   isSpec: "True"
   fullName: Animeska34.WeaponSystem.Beam.firing
   nameWithType: Beam.firing
+- uid: Animeska34.WeaponSystem.Beam.line
+  name: line
+  href: ScriptReference/Animeska34.WeaponSystem.Beam.html#Animeska34_WeaponSystem_Beam_line
+  commentId: F:Animeska34.WeaponSystem.Beam.line
+  fullName: Animeska34.WeaponSystem.Beam.line
+  nameWithType: Beam.line
 - uid: Animeska34.WeaponSystem.Beam.mask
   name: mask
   href: ScriptReference/Animeska34.WeaponSystem.Beam.html#Animeska34_WeaponSystem_Beam_mask
@@ -11131,6 +11672,12 @@ references:
   commentId: F:Animeska34.WeaponSystem.Beam.maxLength
   fullName: Animeska34.WeaponSystem.Beam.maxLength
   nameWithType: Beam.maxLength
+- uid: Animeska34.WeaponSystem.Beam.maxReflections
+  name: maxReflections
+  href: ScriptReference/Animeska34.WeaponSystem.Beam.html#Animeska34_WeaponSystem_Beam_maxReflections
+  commentId: F:Animeska34.WeaponSystem.Beam.maxReflections
+  fullName: Animeska34.WeaponSystem.Beam.maxReflections
+  nameWithType: Beam.maxReflections
 - uid: Animeska34.WeaponSystem.Beam.origin
   name: origin
   href: ScriptReference/Animeska34.WeaponSystem.Beam.html#Animeska34_WeaponSystem_Beam_origin
@@ -11321,22 +11868,34 @@ references:
   isSpec: "True"
   fullName: Animeska34.WeaponSystem.Damageable.Damage
   nameWithType: Damageable.Damage
-- uid: Animeska34.WeaponSystem.Damageable.Restore(System.Single)
-  name: Restore(float)
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_Restore_System_Single_
-  commentId: M:Animeska34.WeaponSystem.Damageable.Restore(System.Single)
-  name.vb: Restore(Single)
-  fullName: Animeska34.WeaponSystem.Damageable.Restore(float)
-  fullName.vb: Animeska34.WeaponSystem.Damageable.Restore(Single)
-  nameWithType: Damageable.Restore(float)
-  nameWithType.vb: Damageable.Restore(Single)
-- uid: Animeska34.WeaponSystem.Damageable.Restore*
-  name: Restore
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_Restore_
-  commentId: Overload:Animeska34.WeaponSystem.Damageable.Restore
+- uid: Animeska34.WeaponSystem.Damageable.Heal(System.Single)
+  name: Heal(float)
+  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_Heal_System_Single_
+  commentId: M:Animeska34.WeaponSystem.Damageable.Heal(System.Single)
+  name.vb: Heal(Single)
+  fullName: Animeska34.WeaponSystem.Damageable.Heal(float)
+  fullName.vb: Animeska34.WeaponSystem.Damageable.Heal(Single)
+  nameWithType: Damageable.Heal(float)
+  nameWithType.vb: Damageable.Heal(Single)
+- uid: Animeska34.WeaponSystem.Damageable.Heal*
+  name: Heal
+  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_Heal_
+  commentId: Overload:Animeska34.WeaponSystem.Damageable.Heal
   isSpec: "True"
-  fullName: Animeska34.WeaponSystem.Damageable.Restore
-  nameWithType: Damageable.Restore
+  fullName: Animeska34.WeaponSystem.Damageable.Heal
+  nameWithType: Damageable.Heal
+- uid: Animeska34.WeaponSystem.Damageable.autoDestroy
+  name: autoDestroy
+  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_autoDestroy
+  commentId: F:Animeska34.WeaponSystem.Damageable.autoDestroy
+  fullName: Animeska34.WeaponSystem.Damageable.autoDestroy
+  nameWithType: Damageable.autoDestroy
+- uid: Animeska34.WeaponSystem.Damageable.destroyDelay
+  name: destroyDelay
+  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_destroyDelay
+  commentId: F:Animeska34.WeaponSystem.Damageable.destroyDelay
+  fullName: Animeska34.WeaponSystem.Damageable.destroyDelay
+  nameWithType: Damageable.destroyDelay
 - uid: Animeska34.WeaponSystem.Damageable.hp
   name: hp
   href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_hp
@@ -11350,113 +11909,42 @@ references:
   isSpec: "True"
   fullName: Animeska34.WeaponSystem.Damageable.hp
   nameWithType: Damageable.hp
-- uid: Animeska34.WeaponSystem.Damageable.m_autoDestroy
-  name: m_autoDestroy
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_autoDestroy
-  commentId: F:Animeska34.WeaponSystem.Damageable.m_autoDestroy
-  fullName: Animeska34.WeaponSystem.Damageable.m_autoDestroy
-  nameWithType: Damageable.m_autoDestroy
 - uid: Animeska34.WeaponSystem.Damageable.m_hp
   name: m_hp
   href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_hp
   commentId: F:Animeska34.WeaponSystem.Damageable.m_hp
   fullName: Animeska34.WeaponSystem.Damageable.m_hp
   nameWithType: Damageable.m_hp
-- uid: Animeska34.WeaponSystem.Damageable.m_maxHp
-  name: m_maxHp
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_maxHp
-  commentId: F:Animeska34.WeaponSystem.Damageable.m_maxHp
-  fullName: Animeska34.WeaponSystem.Damageable.m_maxHp
-  nameWithType: Damageable.m_maxHp
-- uid: Animeska34.WeaponSystem.Damageable.m_onDamage
-  name: m_onDamage
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_onDamage
-  commentId: F:Animeska34.WeaponSystem.Damageable.m_onDamage
-  fullName: Animeska34.WeaponSystem.Damageable.m_onDamage
-  nameWithType: Damageable.m_onDamage
-- uid: Animeska34.WeaponSystem.Damageable.m_onDie
-  name: m_onDie
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_onDie
-  commentId: F:Animeska34.WeaponSystem.Damageable.m_onDie
-  fullName: Animeska34.WeaponSystem.Damageable.m_onDie
-  nameWithType: Damageable.m_onDie
-- uid: Animeska34.WeaponSystem.Damageable.m_onRestore
-  name: m_onRestore
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_onRestore
-  commentId: F:Animeska34.WeaponSystem.Damageable.m_onRestore
-  fullName: Animeska34.WeaponSystem.Damageable.m_onRestore
-  nameWithType: Damageable.m_onRestore
-- uid: Animeska34.WeaponSystem.Damageable.m_onRestored
-  name: m_onRestored
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_m_onRestored
-  commentId: F:Animeska34.WeaponSystem.Damageable.m_onRestored
-  fullName: Animeska34.WeaponSystem.Damageable.m_onRestored
-  nameWithType: Damageable.m_onRestored
 - uid: Animeska34.WeaponSystem.Damageable.maxHp
   name: maxHp
   href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_maxHp
-  commentId: P:Animeska34.WeaponSystem.Damageable.maxHp
-  fullName: Animeska34.WeaponSystem.Damageable.maxHp
-  nameWithType: Damageable.maxHp
-- uid: Animeska34.WeaponSystem.Damageable.maxHp*
-  name: maxHp
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_maxHp_
-  commentId: Overload:Animeska34.WeaponSystem.Damageable.maxHp
-  isSpec: "True"
+  commentId: F:Animeska34.WeaponSystem.Damageable.maxHp
   fullName: Animeska34.WeaponSystem.Damageable.maxHp
   nameWithType: Damageable.maxHp
 - uid: Animeska34.WeaponSystem.Damageable.onDamage
   name: onDamage
   href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onDamage
-  commentId: P:Animeska34.WeaponSystem.Damageable.onDamage
-  fullName: Animeska34.WeaponSystem.Damageable.onDamage
-  nameWithType: Damageable.onDamage
-- uid: Animeska34.WeaponSystem.Damageable.onDamage*
-  name: onDamage
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onDamage_
-  commentId: Overload:Animeska34.WeaponSystem.Damageable.onDamage
-  isSpec: "True"
+  commentId: F:Animeska34.WeaponSystem.Damageable.onDamage
   fullName: Animeska34.WeaponSystem.Damageable.onDamage
   nameWithType: Damageable.onDamage
 - uid: Animeska34.WeaponSystem.Damageable.onDie
   name: onDie
   href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onDie
-  commentId: P:Animeska34.WeaponSystem.Damageable.onDie
+  commentId: F:Animeska34.WeaponSystem.Damageable.onDie
   fullName: Animeska34.WeaponSystem.Damageable.onDie
   nameWithType: Damageable.onDie
-- uid: Animeska34.WeaponSystem.Damageable.onDie*
-  name: onDie
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onDie_
-  commentId: Overload:Animeska34.WeaponSystem.Damageable.onDie
-  isSpec: "True"
-  fullName: Animeska34.WeaponSystem.Damageable.onDie
-  nameWithType: Damageable.onDie
-- uid: Animeska34.WeaponSystem.Damageable.onRestore
-  name: onRestore
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onRestore
-  commentId: P:Animeska34.WeaponSystem.Damageable.onRestore
-  fullName: Animeska34.WeaponSystem.Damageable.onRestore
-  nameWithType: Damageable.onRestore
-- uid: Animeska34.WeaponSystem.Damageable.onRestore*
-  name: onRestore
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onRestore_
-  commentId: Overload:Animeska34.WeaponSystem.Damageable.onRestore
-  isSpec: "True"
-  fullName: Animeska34.WeaponSystem.Damageable.onRestore
-  nameWithType: Damageable.onRestore
-- uid: Animeska34.WeaponSystem.Damageable.onRestored
-  name: onRestored
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onRestored
-  commentId: P:Animeska34.WeaponSystem.Damageable.onRestored
-  fullName: Animeska34.WeaponSystem.Damageable.onRestored
-  nameWithType: Damageable.onRestored
-- uid: Animeska34.WeaponSystem.Damageable.onRestored*
-  name: onRestored
-  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onRestored_
-  commentId: Overload:Animeska34.WeaponSystem.Damageable.onRestored
-  isSpec: "True"
-  fullName: Animeska34.WeaponSystem.Damageable.onRestored
-  nameWithType: Damageable.onRestored
+- uid: Animeska34.WeaponSystem.Damageable.onHeal
+  name: onHeal
+  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onHeal
+  commentId: F:Animeska34.WeaponSystem.Damageable.onHeal
+  fullName: Animeska34.WeaponSystem.Damageable.onHeal
+  nameWithType: Damageable.onHeal
+- uid: Animeska34.WeaponSystem.Damageable.onHealed
+  name: onHealed
+  href: ScriptReference/Animeska34.WeaponSystem.Damageable.html#Animeska34_WeaponSystem_Damageable_onHealed
+  commentId: F:Animeska34.WeaponSystem.Damageable.onHealed
+  fullName: Animeska34.WeaponSystem.Damageable.onHealed
+  nameWithType: Damageable.onHealed
 - uid: Animeska34.WeaponSystem.Explosion
   name: Explosion
   href: ScriptReference/Animeska34.WeaponSystem.Explosion.html
@@ -11705,22 +12193,22 @@ references:
   isSpec: "True"
   fullName: Animeska34.WeaponSystem.IDamageable.Damage
   nameWithType: IDamageable.Damage
-- uid: Animeska34.WeaponSystem.IDamageable.Restore(System.Single)
-  name: Restore(float)
-  href: ScriptReference/Animeska34.WeaponSystem.IDamageable.html#Animeska34_WeaponSystem_IDamageable_Restore_System_Single_
-  commentId: M:Animeska34.WeaponSystem.IDamageable.Restore(System.Single)
-  name.vb: Restore(Single)
-  fullName: Animeska34.WeaponSystem.IDamageable.Restore(float)
-  fullName.vb: Animeska34.WeaponSystem.IDamageable.Restore(Single)
-  nameWithType: IDamageable.Restore(float)
-  nameWithType.vb: IDamageable.Restore(Single)
-- uid: Animeska34.WeaponSystem.IDamageable.Restore*
-  name: Restore
-  href: ScriptReference/Animeska34.WeaponSystem.IDamageable.html#Animeska34_WeaponSystem_IDamageable_Restore_
-  commentId: Overload:Animeska34.WeaponSystem.IDamageable.Restore
+- uid: Animeska34.WeaponSystem.IDamageable.Heal(System.Single)
+  name: Heal(float)
+  href: ScriptReference/Animeska34.WeaponSystem.IDamageable.html#Animeska34_WeaponSystem_IDamageable_Heal_System_Single_
+  commentId: M:Animeska34.WeaponSystem.IDamageable.Heal(System.Single)
+  name.vb: Heal(Single)
+  fullName: Animeska34.WeaponSystem.IDamageable.Heal(float)
+  fullName.vb: Animeska34.WeaponSystem.IDamageable.Heal(Single)
+  nameWithType: IDamageable.Heal(float)
+  nameWithType.vb: IDamageable.Heal(Single)
+- uid: Animeska34.WeaponSystem.IDamageable.Heal*
+  name: Heal
+  href: ScriptReference/Animeska34.WeaponSystem.IDamageable.html#Animeska34_WeaponSystem_IDamageable_Heal_
+  commentId: Overload:Animeska34.WeaponSystem.IDamageable.Heal
   isSpec: "True"
-  fullName: Animeska34.WeaponSystem.IDamageable.Restore
-  nameWithType: IDamageable.Restore
+  fullName: Animeska34.WeaponSystem.IDamageable.Heal
+  nameWithType: IDamageable.Heal
 - uid: Animeska34.WeaponSystem.Meele
   name: Meele
   href: ScriptReference/Animeska34.WeaponSystem.Meele.html
@@ -11932,12 +12420,12 @@ references:
   commentId: F:Animeska34.WeaponSystem.Shell.forceMode
   fullName: Animeska34.WeaponSystem.Shell.forceMode
   nameWithType: Shell.forceMode
-- uid: Animeska34.WeaponSystem.Shell.m_lifetime
-  name: m_lifetime
-  href: ScriptReference/Animeska34.WeaponSystem.Shell.html#Animeska34_WeaponSystem_Shell_m_lifetime
-  commentId: F:Animeska34.WeaponSystem.Shell.m_lifetime
-  fullName: Animeska34.WeaponSystem.Shell.m_lifetime
-  nameWithType: Shell.m_lifetime
+- uid: Animeska34.WeaponSystem.Shell.lifetime
+  name: lifetime
+  href: ScriptReference/Animeska34.WeaponSystem.Shell.html#Animeska34_WeaponSystem_Shell_lifetime
+  commentId: F:Animeska34.WeaponSystem.Shell.lifetime
+  fullName: Animeska34.WeaponSystem.Shell.lifetime
+  nameWithType: Shell.lifetime
 - uid: Animeska34.WeaponSystem.Shell.m_rigidbody
   name: m_rigidbody
   href: ScriptReference/Animeska34.WeaponSystem.Shell.html#Animeska34_WeaponSystem_Shell_m_rigidbody
@@ -12066,6 +12554,12 @@ references:
   isSpec: "True"
   fullName: Animeska34.WeaponSystem2D.Beam2D.Update
   nameWithType: Beam2D.Update
+- uid: Animeska34.WeaponSystem2D.Beam2D.beamOffset
+  name: beamOffset
+  href: ScriptReference/Animeska34.WeaponSystem2D.Beam2D.html#Animeska34_WeaponSystem2D_Beam2D_beamOffset
+  commentId: F:Animeska34.WeaponSystem2D.Beam2D.beamOffset
+  fullName: Animeska34.WeaponSystem2D.Beam2D.beamOffset
+  nameWithType: Beam2D.beamOffset
 - uid: Animeska34.WeaponSystem2D.Beam2D.damageType
   name: damageType
   href: ScriptReference/Animeska34.WeaponSystem2D.Beam2D.html#Animeska34_WeaponSystem2D_Beam2D_damageType
@@ -12115,6 +12609,12 @@ references:
   commentId: F:Animeska34.WeaponSystem2D.Beam2D.maxLength
   fullName: Animeska34.WeaponSystem2D.Beam2D.maxLength
   nameWithType: Beam2D.maxLength
+- uid: Animeska34.WeaponSystem2D.Beam2D.maxReflections
+  name: maxReflections
+  href: ScriptReference/Animeska34.WeaponSystem2D.Beam2D.html#Animeska34_WeaponSystem2D_Beam2D_maxReflections
+  commentId: F:Animeska34.WeaponSystem2D.Beam2D.maxReflections
+  fullName: Animeska34.WeaponSystem2D.Beam2D.maxReflections
+  nameWithType: Beam2D.maxReflections
 - uid: Animeska34.WeaponSystem2D.Beam2D.origin
   name: origin
   href: ScriptReference/Animeska34.WeaponSystem2D.Beam2D.html#Animeska34_WeaponSystem2D_Beam2D_origin

@@ -8,7 +8,7 @@
       <meta name="title" content="Class ItemObject
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Represents an instantiated item within the game.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_InventorySystem_ItemObject" data-uid="Animeska34.InventorySystem.ItemObject" class="text-break">
     Class ItemObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,13 +100,14 @@
   <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Represents an instantiated item within the game.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
-[AddComponentMenu(&quot;Animeska34/Inventory System/Inventory Manager&quot;)]
-public class ItemObject : SaveBehaviour, ISaveable</code></pre>
+[AddComponentMenu(&quot;Animeska34/Inventory System/Item Object&quot;)]
+public class ItemObject : MonoBehaviour</code></pre>
   </div>
 
 
@@ -120,40 +121,15 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-      <div><a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html">SaveBehaviour</a></div>
       <div><span class="xref">ItemObject</span></div>
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="Animeska34.SaveSystem.ISaveable.html">ISaveable</a></div>
-    </dd>
-  </dl>
 
 
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html#Animeska34_SaveSystem_SaveBehaviour_Load">SaveBehaviour.Load()</a>
-    </div>
-    <div>
-      <a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html#Animeska34_SaveSystem_SaveBehaviour_Loaded">SaveBehaviour.Loaded()</a>
-    </div>
-    <div>
-      <a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html#Animeska34_SaveSystem_SaveBehaviour_Save">SaveBehaviour.Save()</a>
-    </div>
-    <div>
-      <a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html#Animeska34_SaveSystem_SaveBehaviour_Saved">SaveBehaviour.Saved()</a>
-    </div>
-    <div>
-      <a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html#Animeska34_SaveSystem_SaveBehaviour_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_">SaveBehaviour.Deserialize(XmlElement, XMLUtility)</a>
-    </div>
-    <div>
-      <a class="xref" href="Animeska34.SaveSystem.SaveBehaviour.html#Animeska34_SaveSystem_SaveBehaviour_Serialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_">SaveBehaviour.Serialize(XmlElement, XMLUtility)</a>
-    </div>
     <div>
       <a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.IsInvoking.html">MonoBehaviour.IsInvoking()</a>
     </div>
@@ -511,10 +487,11 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_InventorySystem_ItemObject_properties" data-uid="Animeska34.InventorySystem.ItemObject.properties">
   properties
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Accesses the properties of the item.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -528,7 +505,7 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
-    <dd></dd>
+    <dd>Represents an instantiated item within the game.</dd>
   </dl>
 
 
@@ -546,10 +523,11 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_InventorySystem_ItemObject_GetProperties" data-uid="Animeska34.InventorySystem.ItemObject.GetProperties">
   GetProperties()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the properties of the item.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -560,7 +538,8 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
-    <dd></dd>
+    <dd><p>The properties of the item.</p>
+</dd>
   </dl>
 
 
@@ -577,10 +556,11 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_InventorySystem_ItemObject_GetProperties__1" data-uid="Animeska34.InventorySystem.ItemObject.GetProperties``1">
   GetProperties&lt;T&gt;()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the properties of the item.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -591,13 +571,15 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">T</span></dt>
-    <dd></dd>
+    <dd><p>The properties of the item.</p>
+</dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
   <dl class="parameters">
     <dt><code>T</code></dt>
-    <dd></dd>
+    <dd><p>Type of the properties.</p>
+</dd>
   </dl>
 
 
@@ -613,7 +595,7 @@ public class ItemObject : SaveBehaviour, ISaveable</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L7" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemObject.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

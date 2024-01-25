@@ -8,7 +8,7 @@
       <meta name="title" content="Class Weapon
  | Animeska34 Docs ">
       
-      <meta name="description" content="Base weapon class">
+      <meta name="description" content="Abstract class representing a generic weapon in the game.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Weapon.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Weapon%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Weapon.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Weapon%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Weapon" data-uid="Animeska34.WeaponSystem.Weapon" class="text-break">
     Class Weapon
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Weapon.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Weapon.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,7 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Base weapon class</p>
+  <div class="markdown summary"><p>Abstract class representing a generic weapon in the game.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -485,6 +485,10 @@
 
 
 
+  <h2 id="Animeska34_WeaponSystem_Weapon_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class is designed to serve as a base class for various types of weapons in the game.
+Developers can derive specific weapon classes from this base class to implement custom functionality for different types of weapons.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -494,10 +498,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Weapon_safeLock" data-uid="Animeska34.WeaponSystem.Weapon.safeLock">
   safeLock
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Weapon.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Weapon.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Restricts firing from the gun</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether the weapon is in a safe-locked state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -511,13 +515,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Base weapon class</dd>
+    <dd>Abstract class representing a generic weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Weapon_safeLock_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the weapon is in a safe-locked state, meaning it cannot be fired or used.
+Developers can use this flag to implement safety features for the weapon.</p>
+</div>
 
 
 
@@ -530,10 +538,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Weapon_Fire" data-uid="Animeska34.WeaponSystem.Weapon.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Weapon.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Weapon.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Fire now</p>
+  <div class="markdown level1 summary"><p>Abstract method for firing the weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -549,6 +557,9 @@
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Weapon_Fire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Derived classes must implement this method to define the firing behavior specific to each type of weapon.</p>
+</div>
 
 
 
@@ -557,10 +568,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Weapon_GetSpread_System_Single_" data-uid="Animeska34.WeaponSystem.Weapon.GetSpread(System.Single)">
   GetSpread(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Weapon.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Weapon.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get spread angle from maxSpread</p>
+  <div class="markdown level1 summary"><p>Calculates the spread vector based on the specified maximum spread in degrees.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -571,14 +582,14 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>maxSpread</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Maximum allowed shell spread</p>
+    <dd><p>The maximum spread in degrees.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Vector3</span></dt>
-    <dd><p>Calculated spread</p>
+    <dd><p>A Vector3 representing the spread in degrees around the Euler x and y axes.</p>
 </dd>
   </dl>
 
@@ -588,6 +599,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Weapon_GetSpread_System_Single__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is used to calculate the spread vector for weapons based on the specified maximum spread angle.
+Developers can use the returned Vector3 to introduce randomization in the firing direction within the specified spread range.</p>
+</div>
 
 
 
@@ -596,7 +611,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Weapon.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Weapon.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

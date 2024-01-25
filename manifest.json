@@ -145,6 +145,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.AnimeTools.ConstantTransformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.AnimeTools.ConstantTransformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ScriptReference/Animeska34.AnimeTools.Editor.CameraSystemEditor.yml",
       "output": {
         ".html": {
@@ -355,6 +365,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.JRPG.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.JRPG.Direction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.JRPG.JRPGAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.JRPG.JRPGAnimator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.JRPG.JRPGController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.JRPG.JRPGController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.JRPG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.JRPG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ScriptReference/Animeska34.C2D.RTS.IRTSSelectable.yml",
       "output": {
         ".html": {
@@ -439,6 +489,56 @@
       "output": {
         ".html": {
           "relative_path": "ScriptReference/Animeska34.C2D.RTS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.SS.SSCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.SS.SSCamera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.SS.SSController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.SS.SSController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C2D.SS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C2D.SS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C3D.Controller3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C3D.Controller3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ScriptReference/Animeska34.C3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ScriptReference/Animeska34.C3D.html"
         }
       },
       "version": ""

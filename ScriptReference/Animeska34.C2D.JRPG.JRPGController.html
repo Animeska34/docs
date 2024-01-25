@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class InventoryManager
+      <title>Class JRPGController
  | Animeska34 Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class InventoryManager
+      <meta name="title" content="Class JRPGController
  | Animeska34 Docs ">
       
-      <meta name="description" content="Manages all item libraries, providing access to items and their properties.">
+      <meta name="description" content="Simple JRPG-style player controller.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Inventory/new/main/apiSpec/new?filename=Animeska34_InventorySystem_InventoryManager.md&amp;value=---%0Auid%3A%20Animeska34.InventorySystem.InventoryManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/C2D.JRPG/new/main/apiSpec/new?filename=Animeska34_C2D_JRPG_JRPGController.md&amp;value=---%0Auid%3A%20Animeska34.C2D.JRPG.JRPGController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,28 +86,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Animeska34.InventorySystem.InventoryManager">
+        <article data-uid="Animeska34.C2D.JRPG.JRPGController">
 
 
 
-  <h1 id="Animeska34_InventorySystem_InventoryManager" data-uid="Animeska34.InventorySystem.InventoryManager" class="text-break">
-    Class InventoryManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Animeska34_C2D_JRPG_JRPGController" data-uid="Animeska34.C2D.JRPG.JRPGController" class="text-break">
+    Class JRPGController
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.InventorySystem.html">InventorySystem</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.C2D.html">C2D</a>.<a class="xref" href="Animeska34.C2D.JRPG.html">JRPG</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.C2D.JRPG.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Manages all item libraries, providing access to items and their properties.</p>
+  <div class="markdown summary"><p>Simple JRPG-style player controller.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
-[AddComponentMenu(&quot;Animeska34/Inventory System/Inventory Manager&quot;)]
-public class InventoryManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Controllers 2D/JRPG/JRPG Controller&quot;)]
+public class JRPGController : MonoBehaviour</code></pre>
   </div>
 
 
@@ -121,7 +120,7 @@ public class InventoryManager : MonoBehaviour</code></pre>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-      <div><span class="xref">InventoryManager</span></div>
+      <div><span class="xref">JRPGController</span></div>
     </dd>
   </dl>
 
@@ -477,45 +476,194 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
 
 
-  <h2 id="Animeska34_InventorySystem_InventoryManager_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This class is marked as disallowing multiple components and can be found in the &quot;Animeska34/Inventory System&quot; menu.</p>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_allowRotation" data-uid="Animeska34.C2D.JRPG.JRPGController.allowRotation">
+  allowRotation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether to allow rotating the player along the z-axis. If false, the direction value will change.</p>
 </div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowRotation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Simple JRPG-style player controller.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_directionChanged" data-uid="Animeska34.C2D.JRPG.JRPGController.directionChanged">
+  directionChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UnityEvent triggered when the movement direction changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Direction&gt; directionChanged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.C2D.JRPG.Direction.html">Direction</a>&gt;</dt>
+    <dd>Simple JRPG-style player controller.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_lookAtMouse" data-uid="Animeska34.C2D.JRPG.JRPGController.lookAtMouse">
+  lookAtMouse
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the player should rotate towards the mouse position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool lookAtMouse</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Simple JRPG-style player controller.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_moveStateChanged" data-uid="Animeska34.C2D.JRPG.JRPGController.moveStateChanged">
+  moveStateChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>UnityEvent triggered when the player starts or stops moving.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;bool&gt; moveStateChanged</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd>Simple JRPG-style player controller.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_speed" data-uid="Animeska34.C2D.JRPG.JRPGController.speed">
+  speed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Movement speed of the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float speed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Simple JRPG-style player controller.</dd>
+  </dl>
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Animeska34_InventorySystem_InventoryManager_Item_" data-uid="Animeska34.InventorySystem.InventoryManager.Item*"></a>
+  <a id="Animeska34_C2D_JRPG_JRPGController_currentDirection_" data-uid="Animeska34.C2D.JRPG.JRPGController.currentDirection*"></a>
 
-  <h3 id="Animeska34_InventorySystem_InventoryManager_Item_System_String_" data-uid="Animeska34.InventorySystem.InventoryManager.Item(System.String)">
-  this[string]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_currentDirection" data-uid="Animeska34.C2D.JRPG.JRPGController.currentDirection">
+  currentDirection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds an item by its name.</p>
+  <div class="markdown level1 summary"><p>Current movement direction. Updates only if allowRotation is set to false.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Item this[string name] { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Direction currentDirection { get; set; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Name of the item to search for.</p>
-</dd>
-  </dl>
 
 
 
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
-    <dd><p>The found item, if any.</p>
-</dd>
+    <dt><a class="xref" href="Animeska34.C2D.JRPG.Direction.html">Direction</a></dt>
+    <dd>Simple JRPG-style player controller.</dd>
   </dl>
 
 
@@ -525,19 +673,19 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
 
 
-  <a id="Animeska34_InventorySystem_InventoryManager_instance_" data-uid="Animeska34.InventorySystem.InventoryManager.instance*"></a>
+  <a id="Animeska34_C2D_JRPG_JRPGController_isMoving_" data-uid="Animeska34.C2D.JRPG.JRPGController.isMoving*"></a>
 
-  <h3 id="Animeska34_InventorySystem_InventoryManager_instance" data-uid="Animeska34.InventorySystem.InventoryManager.instance">
-  instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_C2D_JRPG_JRPGController_isMoving" data-uid="Animeska34.C2D.JRPG.JRPGController.isMoving">
+  isMoving
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the current instance of the InventoryManager.</p>
+  <div class="markdown level1 summary"><p>Gets whether the player is currently moving.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static InventoryManager instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isMoving { get; set; }</code></pre>
   </div>
 
 
@@ -546,8 +694,8 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Animeska34.InventorySystem.InventoryManager.html">InventoryManager</a></dt>
-    <dd>Manages all item libraries, providing access to items and their properties.</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Simple JRPG-style player controller.</dd>
   </dl>
 
 
@@ -561,7 +709,7 @@ public class InventoryManager : MonoBehaviour</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/C2D.JRPG/blob/main/Assets/JRPGController.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

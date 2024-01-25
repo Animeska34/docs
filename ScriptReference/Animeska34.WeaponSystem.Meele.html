@@ -8,7 +8,7 @@
       <meta name="title" content="Class Meele
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Represents a simple melee weapon based on a trigger mechanism.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Meele.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Meele%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Meele.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Meele%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Meele" data-uid="Animeska34.WeaponSystem.Meele" class="text-break">
     Class Meele
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,11 +100,13 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Represents a simple melee weapon based on a trigger mechanism.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Meele : Weapon</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Weapon System/Melee&quot;)]
+public class Meele : Weapon</code></pre>
   </div>
 
 
@@ -481,6 +483,10 @@
 
 
 
+  <h2 id="Animeska34_WeaponSystem_Meele_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class defines a basic melee weapon that operates based on a trigger input.
+Developers can use this class as a foundation for implementing melee weapons in their Unity projects.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -490,10 +496,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_damage" data-uid="Animeska34.WeaponSystem.Meele.damage">
   damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Damage</p>
+  <div class="markdown level1 summary"><p>The base damage of the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -507,13 +513,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_damage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the initial or base amount of damage inflicted by the melee weapon.
+Developers can adjust this value to set the baseline damage caused by the melee weapon.</p>
+</div>
 
 
 
@@ -521,10 +531,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_damageType" data-uid="Animeska34.WeaponSystem.Meele.damageType">
   damageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of damage</p>
+  <div class="markdown level1 summary"><p>The type of damage inflicted by the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -538,13 +548,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_damageType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This integer variable represents the type of damage, such as elemental damage.
+Developers can use different values to denote various damage types, providing flexibility for categorizing damage.</p>
+</div>
 
 
 
@@ -552,10 +566,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_onFire" data-uid="Animeska34.WeaponSystem.Meele.onFire">
   onFire
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes when weapon fires</p>
+  <div class="markdown level1 summary"><p>Event triggered when the melee weapon is used (fire event).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -569,13 +583,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_onFire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterless and can be subscribed to by listeners to handle the event when the melee weapon is used.
+Developers can use this event to execute actions when the melee weapon is triggered or &quot;fired.&quot;</p>
+</div>
 
 
 
@@ -583,10 +601,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_onHit" data-uid="Animeska34.WeaponSystem.Meele.onHit">
   onHit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes when hits damageable object</p>
+  <div class="markdown level1 summary"><p>Event triggered when the melee weapon successfully hits an object implementing the IDamageable interface.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -600,13 +618,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="Animeska34.WeaponSystem.IDamageable.html">IDamageable</a>&gt;</dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_onHit_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with an IDamageable interface representing the object that was successfully hit.
+Subscribers can listen to this event to perform actions when the melee weapon hits an object implementing IDamageable.</p>
+</div>
 
 
 
@@ -614,10 +636,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_reload" data-uid="Animeska34.WeaponSystem.Meele.reload">
   reload
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Time between attacks</p>
+  <div class="markdown level1 summary"><p>Time between consecutive attacks, representing the reload time for the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -631,13 +653,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_reload_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the duration, in seconds, between each attack as the melee weapon &quot;reloads&quot; for the next strike.
+Developers can adjust this value to control the time between successive attacks for the melee weapon.</p>
+</div>
 
 
 
@@ -650,10 +676,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_cooldown" data-uid="Animeska34.WeaponSystem.Meele.cooldown">
   cooldown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Time until end of reload</p>
+  <div class="markdown level1 summary"><p>Property representing the remaining time until the next attack is possible.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -668,12 +694,16 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_cooldown_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This read-only float property provides the remaining cooldown time until the next attack can be initiated.
+Developers can use this property to check the cooldown status of the melee weapon.</p>
+</div>
 
 
 
@@ -682,10 +712,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_reloading" data-uid="Animeska34.WeaponSystem.Meele.reloading">
   reloading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is weapon currently reloading</p>
+  <div class="markdown level1 summary"><p>Property indicating whether the melee weapon is currently in the process of reloading.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -700,12 +730,16 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>Represents a simple melee weapon based on a trigger mechanism.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_reloading_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This boolean property returns true if the cooldown is less than or equal to zero, indicating that the melee weapon is ready for the next attack.
+Developers can use this property to check if the melee weapon is actively reloading or ready for another strike.</p>
+</div>
 
 
 
@@ -718,10 +752,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_Fire" data-uid="Animeska34.WeaponSystem.Meele.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Fire now</p>
+  <div class="markdown level1 summary"><p>Abstract method for firing the weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -737,6 +771,9 @@
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Meele_Fire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Derived classes must implement this method to define the firing behavior specific to each type of weapon.</p>
+</div>
 
 
 
@@ -745,7 +782,7 @@
 
   <h3 id="Animeska34_WeaponSystem_Meele_Update" data-uid="Animeska34.WeaponSystem.Meele.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -771,7 +808,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Melee.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Melee.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

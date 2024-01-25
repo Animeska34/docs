@@ -8,7 +8,7 @@
       <meta name="title" content="Class Cannon
  | Animeska34 Docs ">
       
-      <meta name="description" content="Cannon, which shoots physical shells">
+      <meta name="description" content="Cannon class responsible for instantiating physical shells during the Fire operation.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Cannon.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Cannon%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Cannon.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Cannon%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Cannon" data-uid="Animeska34.WeaponSystem.Cannon" class="text-break">
     Class Cannon
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,12 +100,13 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Cannon, which shoots physical shells</p>
+  <div class="markdown summary"><p>Cannon class responsible for instantiating physical shells during the Fire operation.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Cannon : Weapon</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Weapon System/Cannon&quot;)]
+public class Cannon : Weapon</code></pre>
   </div>
 
 
@@ -482,6 +483,10 @@
 
 
 
+  <h2 id="Animeska34_WeaponSystem_Cannon_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class derives from the Weapon base class and is specifically designed to represent a cannon with the ability to fire physical shells.
+Developers can use this class as a foundation for implementing cannons in their Unity projects.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -491,10 +496,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_delay" data-uid="Animeska34.WeaponSystem.Cannon.delay">
   delay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Delay between shots (For multi barrel cannons only)</p>
+  <div class="markdown level1 summary"><p>Delay between shooting from the next origin, useful for multiple barrel systems like naval guns.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -508,13 +513,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_delay_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the duration, in seconds, between consecutive shots from different origins.
+Developers can adjust this value to introduce a delay between shots when firing from multiple barrel systems.</p>
+</div>
 
 
 
@@ -522,10 +531,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_maxRandomDelay" data-uid="Animeska34.WeaponSystem.Cannon.maxRandomDelay">
   maxRandomDelay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Max random delay between shots (For multi barrel cannons only)</p>
+  <div class="markdown level1 summary"><p>The maximum amount of random delay introduced between shots.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -539,13 +548,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_maxRandomDelay_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the maximum duration, in seconds, of the random delay introduced between consecutive shots.
+Developers can adjust this value to control the maximum randomization of the delay.</p>
+</div>
 
 
 
@@ -553,10 +566,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_onFire" data-uid="Animeska34.WeaponSystem.Cannon.onFire">
   onFire
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Calls when gun fires (executes for each barrel exclusively)</p>
+  <div class="markdown level1 summary"><p>Event triggered when the cannon is fired, providing the firing origin.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -570,13 +583,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a>&gt;</dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_onFire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a Transform representing the firing origin.
+Subscribers can listen to this event to perform actions when the cannon is fired from a specific origin.</p>
+</div>
 
 
 
@@ -584,10 +601,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_origins" data-uid="Animeska34.WeaponSystem.Cannon.origins">
   origins
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Shell origins</p>
+  <div class="markdown level1 summary"><p>Array of origins for shell instantiation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -601,13 +618,16 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a>[]</dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_origins_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Each element in this array represents a position for instantiating shells, useful for multiple barrel systems such as naval guns.</p>
+</div>
 
 
 
@@ -615,10 +635,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_randomDelay" data-uid="Animeska34.WeaponSystem.Cannon.randomDelay">
   randomDelay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Add random delay (For multi barrel cannons only)</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether to slightly randomize the delay between shots.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -632,13 +652,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_randomDelay_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the delay between consecutive shots will be slightly randomized, adding variability to the firing pattern.
+Developers can use this flag to introduce randomness in the delay between shots.</p>
+</div>
 
 
 
@@ -646,10 +670,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_reload" data-uid="Animeska34.WeaponSystem.Cannon.reload">
   reload
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Reload time</p>
+  <div class="markdown level1 summary"><p>Time between consecutive shots, representing the reload time for the cannon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -663,13 +687,17 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_reload_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the duration, in seconds, between each shot as the cannon reloads for the next firing.
+Developers can adjust this value to control the reload time for the cannon.</p>
+</div>
 
 
 
@@ -677,10 +705,10 @@
 
   <h3 id="Animeska34_WeaponSystem_Cannon_shell" data-uid="Animeska34.WeaponSystem.Cannon.shell">
   shell
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Shell prefab</p>
+  <div class="markdown level1 summary"><p>The Shell prefab associated with the cannon for instantiating during the Fire operation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -695,13 +723,17 @@ protected Shell shell</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.WeaponSystem.Shell.html">Shell</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_shell_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This variable represents the Shell prefab that will be instantiated when the cannon is fired.
+Developers can assign the appropriate Shell prefab to be launched from the cannon.</p>
+</div>
 
 
 
@@ -709,10 +741,10 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_spread" data-uid="Animeska34.WeaponSystem.Cannon.spread">
   spread
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Spread of cannon in degrees</p>
+  <div class="markdown level1 summary"><p>The random spread of shells fired from the cannon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -726,13 +758,17 @@ protected Shell shell</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_spread_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the random spread angle, in degrees, applied to shells fired from the cannon.
+Developers can adjust this value to control the dispersion or randomness in the firing direction.</p>
+</div>
 
 
 
@@ -745,10 +781,10 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_cooldown" data-uid="Animeska34.WeaponSystem.Cannon.cooldown">
   cooldown
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Time remains to load next shell</p>
+  <div class="markdown level1 summary"><p>Property representing the remaining time until the next shot is ready.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -763,12 +799,16 @@ protected Shell shell</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_cooldown_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This read-only float property provides the remaining cooldown time until the next shot can be fired.
+Developers can use this property to check the cooldown status of the cannon.</p>
+</div>
 
 
 
@@ -777,10 +817,10 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_reloading" data-uid="Animeska34.WeaponSystem.Cannon.reloading">
   reloading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is weapon currently reloading</p>
+  <div class="markdown level1 summary"><p>Property indicating whether the cannon is currently in the process of reloading.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -795,12 +835,16 @@ protected Shell shell</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_reloading_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This boolean property returns true if the cooldown is greater than 0, indicating that the cannon is actively reloading.
+Developers can use this property to check if the cannon is in the reloading state.</p>
+</div>
 
 
 
@@ -813,10 +857,10 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_Fire" data-uid="Animeska34.WeaponSystem.Cannon.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Fire now</p>
+  <div class="markdown level1 summary"><p>Abstract method for firing the weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -832,6 +876,9 @@ protected Shell shell</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Cannon_Fire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Derived classes must implement this method to define the firing behavior specific to each type of weapon.</p>
+</div>
 
 
 
@@ -840,7 +887,7 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_FireCoroutine" data-uid="Animeska34.WeaponSystem.Cannon.FireCoroutine">
   FireCoroutine()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -854,7 +901,7 @@ protected Shell shell</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">IEnumerator</a></dt>
-    <dd>Cannon, which shoots physical shells</dd>
+    <dd>Cannon class responsible for instantiating physical shells during the Fire operation.</dd>
   </dl>
 
 
@@ -871,7 +918,7 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_Start" data-uid="Animeska34.WeaponSystem.Cannon.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L141"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -897,7 +944,7 @@ protected Shell shell</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Cannon_Update" data-uid="Animeska34.WeaponSystem.Cannon.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -923,7 +970,7 @@ protected Shell shell</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Cannon.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Cannon.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

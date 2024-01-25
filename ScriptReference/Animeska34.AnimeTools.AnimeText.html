@@ -8,7 +8,7 @@
       <meta name="title" content="Class AnimeText
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Animated text printing letter by letter with custom time interval.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_AnimeTools_AnimeText" data-uid="Animeska34.AnimeTools.AnimeText" class="text-break">
     Class AnimeText
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.AnimeTools.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Animated text printing letter by letter with custom time interval.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -481,12 +482,44 @@
 
 
 
-  <h3 id="Animeska34_AnimeTools_AnimeText_speed" data-uid="Animeska34.AnimeTools.AnimeText.speed">
-  speed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_AnimeTools_AnimeText_richText" data-uid="Animeska34.AnimeTools.AnimeText.richText">
+  richText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Handle Rich Text tags when printing text.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool richText</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Animated text printing letter by letter with custom time interval.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_AnimeTools_AnimeText_speed" data-uid="Animeska34.AnimeTools.AnimeText.speed">
+  speed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The speed at which the text is printed, measured in seconds per character.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -500,7 +533,7 @@ public float speed</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
+    <dd>Animated text printing letter by letter with custom time interval.</dd>
   </dl>
 
 
@@ -515,14 +548,79 @@ public float speed</code></pre>
 </h2>
 
 
+  <a id="Animeska34_AnimeTools_AnimeText_normalized_" data-uid="Animeska34.AnimeTools.AnimeText.normalized*"></a>
+
+  <h3 id="Animeska34_AnimeTools_AnimeText_normalized" data-uid="Animeska34.AnimeTools.AnimeText.normalized">
+  normalized
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Normalized progress of text printing. Returns 0 if the text is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float normalized { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Animated text printing letter by letter with custom time interval.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_AnimeTools_AnimeText_position_" data-uid="Animeska34.AnimeTools.AnimeText.position*"></a>
+
+  <h3 id="Animeska34_AnimeTools_AnimeText_position" data-uid="Animeska34.AnimeTools.AnimeText.position">
+  position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current position in the text. Represents the index of the character being printed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int position { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd>Animated text printing letter by letter with custom time interval.</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="Animeska34_AnimeTools_AnimeText_text_" data-uid="Animeska34.AnimeTools.AnimeText.text*"></a>
 
   <h3 id="Animeska34_AnimeTools_AnimeText_text" data-uid="Animeska34.AnimeTools.AnimeText.text">
   text
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets the text to be animated.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -536,7 +634,7 @@ public float speed</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>Animated text printing letter by letter with custom time interval.</dd>
   </dl>
 
 
@@ -550,10 +648,11 @@ public float speed</code></pre>
 
   <h3 id="Animeska34_AnimeTools_AnimeText_writing" data-uid="Animeska34.AnimeTools.AnimeText.writing">
   writing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets whether the text is currently in the process of being printed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -567,7 +666,7 @@ public float speed</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>Animated text printing letter by letter with custom time interval.</dd>
   </dl>
 
 
@@ -581,7 +680,7 @@ public float speed</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/AnimeText.cs/#L22" class="edit-link">Edit this page</a>
         </div>
 
 

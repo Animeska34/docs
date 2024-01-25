@@ -99,17 +99,17 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Beam.html">Beam</a></dt>
-      <dd><p>Beam weapon, shooting beam which reflects from surfaces</p>
+      <dd><p>Represents a beam weapon in the game.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Cannon.html">Cannon</a></dt>
-      <dd><p>Cannon, which shoots physical shells</p>
+      <dd><p>Cannon class responsible for instantiating physical shells during the Fire operation.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Damageable.html">Damageable</a></dt>
-      <dd><p>Default bamageable component (Note: it not uses damage type)</p>
+      <dd><p>Default implementation of IDamageable interface. Does not use damage types.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -119,26 +119,27 @@ Classes
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Firearm.html">Firearm</a></dt>
-      <dd><p>Basic firearm using physical raycast to damage objects</p>
+      <dd><p>Represents a basic firearm using physical raycast to hit targets.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Meele.html">Meele</a></dt>
-      <dd></dd>
+      <dd><p>Represents a simple melee weapon based on a trigger mechanism.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.PhysicalMelee.html">PhysicalMelee</a></dt>
-      <dd><p>Physically based weapin, damages IDamageable objects by colliding with them</p>
+      <dd><p>Represents a physically based melee weapon damaging objects colliding with it.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Shell.html">Shell</a></dt>
-      <dd><p>Default Shell, which deals damage to damageable object on collision</p>
+      <dd><p>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="Animeska34.WeaponSystem.Weapon.html">Weapon</a></dt>
-      <dd><p>Base weapon class</p>
+      <dd><p>Abstract class representing a generic weapon in the game.</p>
 </dd>
     </dl>
     <h3 id="interfaces">

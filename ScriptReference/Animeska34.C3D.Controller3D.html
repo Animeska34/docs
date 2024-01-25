@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class InventoryManager
+      <title>Class Controller3D
  | Animeska34 Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class InventoryManager
+      <meta name="title" content="Class Controller3D
  | Animeska34 Docs ">
       
-      <meta name="description" content="Manages all item libraries, providing access to items and their properties.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Inventory/new/main/apiSpec/new?filename=Animeska34_InventorySystem_InventoryManager.md&amp;value=---%0Auid%3A%20Animeska34.InventorySystem.InventoryManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/C3D.FPS/new/main/apiSpec/new?filename=Animeska34_C3D_Controller3D.md&amp;value=---%0Auid%3A%20Animeska34.C3D.Controller3D%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,28 +86,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Animeska34.InventorySystem.InventoryManager">
+        <article data-uid="Animeska34.C3D.Controller3D">
 
 
 
-  <h1 id="Animeska34_InventorySystem_InventoryManager" data-uid="Animeska34.InventorySystem.InventoryManager" class="text-break">
-    Class InventoryManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Animeska34_C3D_Controller3D" data-uid="Animeska34.C3D.Controller3D" class="text-break">
+    Class Controller3D
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.InventorySystem.html">InventorySystem</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.C3D.html">C3D</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.C3D.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Manages all item libraries, providing access to items and their properties.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
-[AddComponentMenu(&quot;Animeska34/Inventory System/Inventory Manager&quot;)]
-public class InventoryManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(CharacterController))]
+public class Controller3D : MonoBehaviour</code></pre>
   </div>
 
 
@@ -121,7 +119,7 @@ public class InventoryManager : MonoBehaviour</code></pre>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-      <div><span class="xref">InventoryManager</span></div>
+      <div><span class="xref">Controller3D</span></div>
     </dd>
   </dl>
 
@@ -477,45 +475,580 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
 
 
-  <h2 id="Animeska34_InventorySystem_InventoryManager_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This class is marked as disallowing multiple components and can be found in the &quot;Animeska34/Inventory System&quot; menu.</p>
-</div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_allowCrouch" data-uid="Animeska34.C3D.Controller3D.allowCrouch">
+  allowCrouch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowCrouch</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_allowJump" data-uid="Animeska34.C3D.Controller3D.allowJump">
+  allowJump
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Features&quot;)]
+public bool allowJump</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_allowLook" data-uid="Animeska34.C3D.Controller3D.allowLook">
+  allowLook
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowLook</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_allowMove" data-uid="Animeska34.C3D.Controller3D.allowMove">
+  allowMove
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowMove</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_crouchingSpeed" data-uid="Animeska34.C3D.Controller3D.crouchingSpeed">
+  crouchingSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float crouchingSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_heightCrouching" data-uid="Animeska34.C3D.Controller3D.heightCrouching">
+  heightCrouching
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float heightCrouching</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_heightStanding" data-uid="Animeska34.C3D.Controller3D.heightStanding">
+  heightStanding
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Crouching&quot;)]
+public float heightStanding</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_jumpHeight" data-uid="Animeska34.C3D.Controller3D.jumpHeight">
+  jumpHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float jumpHeight</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_lookSensetivity" data-uid="Animeska34.C3D.Controller3D.lookSensetivity">
+  lookSensetivity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lookSensetivity</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_moveSpeed" data-uid="Animeska34.C3D.Controller3D.moveSpeed">
+  moveSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float moveSpeed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_onCrouch" data-uid="Animeska34.C3D.Controller3D.onCrouch">
+  onCrouch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onCrouch</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_onFall" data-uid="Animeska34.C3D.Controller3D.onFall">
+  onFall
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onFall</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_onGround" data-uid="Animeska34.C3D.Controller3D.onGround">
+  onGround
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onGround</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_onJump" data-uid="Animeska34.C3D.Controller3D.onJump">
+  onJump
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onJump</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_onStand" data-uid="Animeska34.C3D.Controller3D.onStand">
+  onStand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onStand</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_switchMode" data-uid="Animeska34.C3D.Controller3D.switchMode">
+  switchMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool switchMode</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_verticalAxis" data-uid="Animeska34.C3D.Controller3D.verticalAxis">
+  verticalAxis
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform verticalAxis</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_C3D_Controller3D_verticalBounds" data-uid="Animeska34.C3D.Controller3D.verticalBounds">
+  verticalBounds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 verticalBounds</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Animeska34_InventorySystem_InventoryManager_Item_" data-uid="Animeska34.InventorySystem.InventoryManager.Item*"></a>
+  <a id="Animeska34_C3D_Controller3D_controller_" data-uid="Animeska34.C3D.Controller3D.controller*"></a>
 
-  <h3 id="Animeska34_InventorySystem_InventoryManager_Item_System_String_" data-uid="Animeska34.InventorySystem.InventoryManager.Item(System.String)">
-  this[string]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_C3D_Controller3D_controller" data-uid="Animeska34.C3D.Controller3D.controller">
+  controller
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds an item by its name.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Item this[string name] { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CharacterController controller { get; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Name of the item to search for.</p>
-</dd>
-  </dl>
 
 
 
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
-    <dd><p>The found item, if any.</p>
-</dd>
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/CharacterController.html">CharacterController</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -525,19 +1058,18 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
 
 
-  <a id="Animeska34_InventorySystem_InventoryManager_instance_" data-uid="Animeska34.InventorySystem.InventoryManager.instance*"></a>
+  <a id="Animeska34_C3D_Controller3D_crouching_" data-uid="Animeska34.C3D.Controller3D.crouching*"></a>
 
-  <h3 id="Animeska34_InventorySystem_InventoryManager_instance" data-uid="Animeska34.InventorySystem.InventoryManager.instance">
-  instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_C3D_Controller3D_crouching" data-uid="Animeska34.C3D.Controller3D.crouching">
+  crouching
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L49"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the current instance of the InventoryManager.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static InventoryManager instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool crouching { get; }</code></pre>
   </div>
 
 
@@ -546,8 +1078,163 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Animeska34.InventorySystem.InventoryManager.html">InventoryManager</a></dt>
-    <dd>Manages all item libraries, providing access to items and their properties.</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_C3D_Controller3D_falling_" data-uid="Animeska34.C3D.Controller3D.falling*"></a>
+
+  <h3 id="Animeska34_C3D_Controller3D_falling" data-uid="Animeska34.C3D.Controller3D.falling">
+  falling
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool falling { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_C3D_Controller3D_grounded_" data-uid="Animeska34.C3D.Controller3D.grounded*"></a>
+
+  <h3 id="Animeska34_C3D_Controller3D_grounded" data-uid="Animeska34.C3D.Controller3D.grounded">
+  grounded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool grounded { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_C3D_Controller3D_jumping_" data-uid="Animeska34.C3D.Controller3D.jumping*"></a>
+
+  <h3 id="Animeska34_C3D_Controller3D_jumping" data-uid="Animeska34.C3D.Controller3D.jumping">
+  jumping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool jumping { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_C3D_Controller3D_lookDelta_" data-uid="Animeska34.C3D.Controller3D.lookDelta*"></a>
+
+  <h3 id="Animeska34_C3D_Controller3D_lookDelta" data-uid="Animeska34.C3D.Controller3D.lookDelta">
+  lookDelta
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 lookDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_C3D_Controller3D_moveDelta_" data-uid="Animeska34.C3D.Controller3D.moveDelta*"></a>
+
+  <h3 id="Animeska34_C3D_Controller3D_moveDelta" data-uid="Animeska34.C3D.Controller3D.moveDelta">
+  moveDelta
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 moveDelta { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd></dd>
   </dl>
 
 
@@ -561,7 +1248,7 @@ public class InventoryManager : MonoBehaviour</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/C3D.FPS/blob/main/Assets/FPSController.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
 

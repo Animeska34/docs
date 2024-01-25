@@ -8,7 +8,7 @@
       <meta name="title" content="Class Shell
  | Animeska34 Docs ">
       
-      <meta name="description" content="Default Shell, which deals damage to damageable object on collision">
+      <meta name="description" content="Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Shell.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Shell%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Shell.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Shell%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Shell" data-uid="Animeska34.WeaponSystem.Shell" class="text-break">
     Class Shell
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,12 +100,13 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Default Shell, which deals damage to damageable object on collision</p>
+  <div class="markdown summary"><p>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(Rigidbody))]
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Weapon System/Shell&quot;)]
+[RequireComponent(typeof(Rigidbody))]
 public class Shell : MonoBehaviour</code></pre>
   </div>
 
@@ -476,6 +477,10 @@ public class Shell : MonoBehaviour</code></pre>
 
 
 
+  <h2 id="Animeska34_WeaponSystem_Shell_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class defines a projectile (shell) that exhibits ballistic motion, causing damage upon impact and possessing additional behaviors such as ricocheting or exploding.
+Developers can use this class as a foundation for implementing shell-based projectiles in their Unity projects.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -485,10 +490,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_damage" data-uid="Animeska34.WeaponSystem.Shell.damage">
   damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L69"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Damage amount which will be applied to IDamageable object on contact</p>
+  <div class="markdown level1 summary"><p>The base damage inflicted when the shell hits an object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -502,13 +507,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_damage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the initial or base amount of damage inflicted by the shell upon hitting an object.
+Developers can adjust this value to set the baseline damage caused by the shell on impact.</p>
+</div>
 
 
 
@@ -516,10 +525,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_damageScale" data-uid="Animeska34.WeaponSystem.Shell.damageScale">
   damageScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>How impact force affects damage</p>
+  <div class="markdown level1 summary"><p>Scale applied to impact force before adding to base damage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -533,13 +542,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_damageScale_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the scale applied to the impact force before being added to the base damage.
+Developers can adjust this value to control how much the damage scales with impact force when scaled damage is enabled.</p>
+</div>
 
 
 
@@ -547,10 +560,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_damageType" data-uid="Animeska34.WeaponSystem.Shell.damageType">
   damageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of damage to apply to IDamageable object on contact</p>
+  <div class="markdown level1 summary"><p>The type of damage inflicted by the shell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -564,13 +577,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_damageType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This integer variable represents the type of damage, such as elemental damage.
+Developers can use different values to denote various damage types, providing flexibility for categorizing damage.</p>
+</div>
 
 
 
@@ -578,15 +595,15 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_explosionPrefab" data-uid="Animeska34.WeaponSystem.Shell.explosionPrefab">
   explosionPrefab
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Prefab of explosion to instantiate on contact</p>
+  <div class="markdown level1 summary"><p>The Explosion prefab associated with the shell for explosive effects upon impact.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameObject explosionPrefab</code></pre>
+    <pre><code class="lang-csharp hljs">public Explosion explosionPrefab</code></pre>
   </div>
 
 
@@ -594,14 +611,18 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">GameObject</span></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dt><a class="xref" href="Animeska34.WeaponSystem.Explosion.html">Explosion</a></dt>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_explosionPrefab_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This variable represents the Explosion prefab that will be instantiated upon the shell's impact to create explosive effects.
+Developers can assign the appropriate Explosion prefab to be triggered when the shell hits an object.</p>
+</div>
 
 
 
@@ -609,10 +630,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_force" data-uid="Animeska34.WeaponSystem.Shell.force">
   force
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Force, which appies to launch object</p>
+  <div class="markdown level1 summary"><p>The initial impulse force applied to launch the shell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -626,13 +647,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_force_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the force applied to the shell at the start, providing the initial impulse for its ballistic trajectory.
+Developers can adjust this value to control the strength of the impulse that launches the shell.</p>
+</div>
 
 
 
@@ -640,10 +665,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_forceMode" data-uid="Animeska34.WeaponSystem.Shell.forceMode">
   forceMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Current force mode</p>
+  <div class="markdown level1 summary"><p>The mode of the starting force applied to launch the shell.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -657,29 +682,33 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/ForceMode.html">ForceMode</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_forceMode_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This ForceMode variable represents the mode used for applying the initial force that launches the shell.
+Developers can adjust this value to use different force modes (e.g., Impulse, Acceleration) for the shell's starting force.</p>
+</div>
 
 
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Shell_m_lifetime" data-uid="Animeska34.WeaponSystem.Shell.m_lifetime">
-  m_lifetime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Shell_lifetime" data-uid="Animeska34.WeaponSystem.Shell.lifetime">
+  lifetime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Max lifetime, after witch object will be destroyed</p>
+  <div class="markdown level1 summary"><p>The maximum lifetime of the shell. The shell will be destroyed after this specified time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float m_lifetime</code></pre>
+    <pre><code class="lang-csharp hljs">public float lifetime</code></pre>
   </div>
 
 
@@ -688,13 +717,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_lifetime_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the maximum duration, in seconds, that the shell is allowed to exist before being automatically destroyed.
+Developers can adjust this value to control the maximum lifetime of the shell.</p>
+</div>
 
 
 
@@ -702,7 +735,7 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_m_rigidbody" data-uid="Animeska34.WeaponSystem.Shell.m_rigidbody">
   m_rigidbody
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -718,7 +751,7 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Rigidbody.html">Rigidbody</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
@@ -732,10 +765,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_onHit" data-uid="Animeska34.WeaponSystem.Shell.onHit">
   onHit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes, when hits collision</p>
+  <div class="markdown level1 summary"><p>Event triggered when the shell collides with an object, providing collision data, damage, and damage type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -749,13 +782,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_3.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Collision.html">Collision</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_onHit_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a Collision object, a float for inflicted damage, and an int for the damage type.
+Subscribers can listen to this event to perform actions when the shell hits an object, providing collision details and damage information.</p>
+</div>
 
 
 
@@ -763,10 +800,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_onRicochet" data-uid="Animeska34.WeaponSystem.Shell.onRicochet">
   onRicochet
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L170"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes, when ricochets from collision</p>
+  <div class="markdown level1 summary"><p>Event triggered when the shell initiates a ricochet, providing collision data, damage, and damage type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -780,13 +817,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_3.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Collision.html">Collision</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_onRicochet_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a Collision object, a float for inflicted damage, and an int for the damage type.
+Subscribers can listen to this event to perform actions when the shell initiates a ricochet, providing collision details and damage information.</p>
+</div>
 
 
 
@@ -794,10 +835,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_ricochet" data-uid="Animeska34.WeaponSystem.Shell.ricochet">
   ricochet
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is shell able to ricochet</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether the shell is capable of ricocheting off surfaces.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -811,13 +852,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_ricochet_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the shell is designed to ricochet off surfaces upon collision.
+Developers can use this flag to control whether the shell exhibits ricochet behavior.</p>
+</div>
 
 
 
@@ -825,10 +870,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_ricochetTreshold" data-uid="Animeska34.WeaponSystem.Shell.ricochetTreshold">
   ricochetTreshold
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L131"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Impact angle  when shell able to ricochet</p>
+  <div class="markdown level1 summary"><p>The angle of impact at which the shell will be allowed to ricochet.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -842,13 +887,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_ricochetTreshold_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the angle of impact at which the shell is permitted to initiate a ricochet.
+Developers can adjust this value to control the allowable angle for ricochet behavior.</p>
+</div>
 
 
 
@@ -856,10 +905,10 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_scaledDamage" data-uid="Animeska34.WeaponSystem.Shell.scaledDamage">
   scaledDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is damage scaled to impact force</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether to scale damage based on impact force during collisions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -873,13 +922,17 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Shell_scaledDamage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the damage will be scaled based on the impact force during collisions.
+Developers can use this flag to control whether the damage should vary depending on the impact force.</p>
+</div>
 
 
 
@@ -892,7 +945,7 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_OnCollisionEnter_UnityEngine_Collision_" data-uid="Animeska34.WeaponSystem.Shell.OnCollisionEnter(UnityEngine.Collision)">
   OnCollisionEnter(Collision)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -905,7 +958,7 @@ public class Shell : MonoBehaviour</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>collision</code> <a class="xref" href="https://docs.unity3d.com/ScriptReference/Collision.html">Collision</a></dt>
-    <dd>Default Shell, which deals damage to damageable object on collision</dd>
+    <dd>Represents a shell object that follows a ballistical trajectory, inflicting damage on hit and capable of ricocheting or exploding.</dd>
   </dl>
 
 
@@ -923,7 +976,7 @@ public class Shell : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Shell_Start" data-uid="Animeska34.WeaponSystem.Shell.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L197"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -949,7 +1002,7 @@ public class Shell : MonoBehaviour</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Shell.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Shell.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 

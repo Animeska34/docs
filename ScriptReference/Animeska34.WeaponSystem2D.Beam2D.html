@@ -491,6 +491,41 @@ public class Beam2D : Weapon2D</code></pre>
 
 
 
+  <h3 id="Animeska34_WeaponSystem2D_Beam2D_beamOffset" data-uid="Animeska34.WeaponSystem2D.Beam2D.beamOffset">
+  beamOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The offset from the collision point where the beam reflection should occur.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float beamOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Beam weapon class extending Weapon2D, utilizing LineRenderer to visualize shots. Supports reflections from surfaces.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_WeaponSystem2D_Beam2D_beamOffset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the offset from the collision point where the beam reflection point is adjusted.
+Developers can adjust this value to control the offset distance for the beam reflection point.</p>
+</div>
+
+
+
+
+
   <h3 id="Animeska34_WeaponSystem2D_Beam2D_damageType" data-uid="Animeska34.WeaponSystem2D.Beam2D.damageType">
   damageType
   <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L32"><i class="bi bi-code-slash"></i></a>
@@ -586,7 +621,7 @@ public class Beam2D : Weapon2D</code></pre>
 
   <h3 id="Animeska34_WeaponSystem2D_Beam2D_line" data-uid="Animeska34.WeaponSystem2D.Beam2D.line">
   line
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -671,6 +706,41 @@ public class Beam2D : Weapon2D</code></pre>
 
 
 
+
+
+
+
+
+  <h3 id="Animeska34_WeaponSystem2D_Beam2D_maxReflections" data-uid="Animeska34.WeaponSystem2D.Beam2D.maxReflections">
+  maxReflections
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum number of reflections allowed for the beam.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort maxReflections</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd>Beam weapon class extending Weapon2D, utilizing LineRenderer to visualize shots. Supports reflections from surfaces.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_WeaponSystem2D_Beam2D_maxReflections_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This ushort variable represents the maximum number of times the beam can reflect off surfaces.
+Developers can adjust this value to control the maximum number of reflections for the beam.</p>
+</div>
 
 
 
@@ -907,7 +977,7 @@ If false, Fire() needs to be called each frame to keep the beam shooting.</p>
 
   <h3 id="Animeska34_WeaponSystem2D_Beam2D_Fire" data-uid="Animeska34.WeaponSystem2D.Beam2D.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Enables Beam2D. If switchMode is off, the beam will fire for 1 frame; otherwise, it will continue firing until the next Fire() invocation.</p>
@@ -935,7 +1005,7 @@ public override void Fire()</code></pre>
 
   <h3 id="Animeska34_WeaponSystem2D_Beam2D_Start" data-uid="Animeska34.WeaponSystem2D.Beam2D.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -961,7 +1031,7 @@ public override void Fire()</code></pre>
 
   <h3 id="Animeska34_WeaponSystem2D_Beam2D_Update" data-uid="Animeska34.WeaponSystem2D.Beam2D.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem2D/blob/main/Assets/Beam2D.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>

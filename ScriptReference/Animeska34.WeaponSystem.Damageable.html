@@ -8,7 +8,7 @@
       <meta name="title" content="Class Damageable
  | Animeska34 Docs ">
       
-      <meta name="description" content="Default bamageable component (Note: it not uses damage type)">
+      <meta name="description" content="Default implementation of IDamageable interface. Does not use damage types.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Damageable.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Damageable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Damageable.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Damageable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Damageable" data-uid="Animeska34.WeaponSystem.Damageable" class="text-break">
     Class Damageable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,12 +100,13 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Default bamageable component (Note: it not uses damage type)</p>
+  <div class="markdown summary"><p>Default implementation of IDamageable interface. Does not use damage types.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Damageable : MonoBehaviour, IDamageable</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Weapon System/Damageable&quot;)]
+public class Damageable : MonoBehaviour, IDamageable</code></pre>
   </div>
 
 
@@ -488,17 +489,17 @@
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_m_autoDestroy" data-uid="Animeska34.WeaponSystem.Damageable.m_autoDestroy">
-  m_autoDestroy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_autoDestroy" data-uid="Animeska34.WeaponSystem.Damageable.autoDestroy">
+  autoDestroy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L42"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether the object should be automatically destroyed upon reaching zero health.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-protected bool m_autoDestroy</code></pre>
+    <pre><code class="lang-csharp hljs">public bool autoDestroy</code></pre>
   </div>
 
 
@@ -507,7 +508,38 @@ protected bool m_autoDestroy</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Animeska34_WeaponSystem_Damageable_destroyDelay" data-uid="Animeska34.WeaponSystem.Damageable.destroyDelay">
+  destroyDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delay before automatically destroying the object when reaching zero health.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float destroyDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
@@ -521,7 +553,7 @@ protected bool m_autoDestroy</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Damageable_m_hp" data-uid="Animeska34.WeaponSystem.Damageable.m_hp">
   m_hp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -538,7 +570,7 @@ protected float m_hp</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
@@ -550,17 +582,17 @@ protected float m_hp</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_m_maxHp" data-uid="Animeska34.WeaponSystem.Damageable.m_maxHp">
-  m_maxHp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_maxHp" data-uid="Animeska34.WeaponSystem.Damageable.maxHp">
+  maxHp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Maximum amount of health points for the IDamageable object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SerializeField]
-protected float m_maxHp</code></pre>
+    <pre><code class="lang-csharp hljs">public float maxHp</code></pre>
   </div>
 
 
@@ -569,7 +601,7 @@ protected float m_maxHp</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
@@ -581,17 +613,18 @@ protected float m_maxHp</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_m_onDamage" data-uid="Animeska34.WeaponSystem.Damageable.m_onDamage">
-  m_onDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_onDamage" data-uid="Animeska34.WeaponSystem.Damageable.onDamage">
+  onDamage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the object takes damage.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[SerializeField]
-protected UnityEvent&lt;float&gt; m_onDamage</code></pre>
+public UnityEvent&lt;float&gt; onDamage</code></pre>
   </div>
 
 
@@ -600,29 +633,34 @@ protected UnityEvent&lt;float&gt; m_onDamage</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Damageable_onDamage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a float representing the amount of damage taken.
+Subscribers can listen to this event to respond to damage events.</p>
+</div>
 
 
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_m_onDie" data-uid="Animeska34.WeaponSystem.Damageable.m_onDie">
-  m_onDie
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_onDie" data-uid="Animeska34.WeaponSystem.Damageable.onDie">
+  onDie
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the object dies.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[SerializeField]
-protected UnityEvent m_onDie</code></pre>
+public UnityEvent onDie</code></pre>
   </div>
 
 
@@ -631,29 +669,33 @@ protected UnityEvent m_onDie</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Damageable_onDie_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterless and can be subscribed to by listeners to handle the death of the object.</p>
+</div>
 
 
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_m_onRestore" data-uid="Animeska34.WeaponSystem.Damageable.m_onRestore">
-  m_onRestore
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_onHeal" data-uid="Animeska34.WeaponSystem.Damageable.onHeal">
+  onHeal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the object receives healing.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[SerializeField]
-protected UnityEvent&lt;float&gt; m_onRestore</code></pre>
+public UnityEvent&lt;float&gt; onHeal</code></pre>
   </div>
 
 
@@ -662,29 +704,34 @@ protected UnityEvent&lt;float&gt; m_onRestore</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Damageable_onHeal_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a float representing the amount of healing received.
+Subscribers can listen to this event to respond to healing events.</p>
+</div>
 
 
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_m_onRestored" data-uid="Animeska34.WeaponSystem.Damageable.m_onRestored">
-  m_onRestored
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_onHealed" data-uid="Animeska34.WeaponSystem.Damageable.onHealed">
+  onHealed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Event triggered when the object is healed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[SerializeField]
-protected UnityEvent m_onRestored</code></pre>
+public UnityEvent onHealed</code></pre>
   </div>
 
 
@@ -693,13 +740,16 @@ protected UnityEvent m_onRestored</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Damageable_onHealed_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterless and can be subscribed to by listeners to handle the healing of the object.</p>
+</div>
 
 
 
@@ -712,10 +762,10 @@ protected UnityEvent m_onRestored</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Damageable_hp" data-uid="Animeska34.WeaponSystem.Damageable.hp">
   hp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Current amount of hp</p>
+  <div class="markdown level1 summary"><p>Current amount of health points for the IDamageable object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -730,167 +780,7 @@ protected UnityEvent m_onRestored</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_WeaponSystem_Damageable_maxHp_" data-uid="Animeska34.WeaponSystem.Damageable.maxHp*"></a>
-
-  <h3 id="Animeska34_WeaponSystem_Damageable_maxHp" data-uid="Animeska34.WeaponSystem.Damageable.maxHp">
-  maxHp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L47"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Maximum amount of hp</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float maxHp { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_WeaponSystem_Damageable_onDamage_" data-uid="Animeska34.WeaponSystem.Damageable.onDamage*"></a>
-
-  <h3 id="Animeska34_WeaponSystem_Damageable_onDamage" data-uid="Animeska34.WeaponSystem.Damageable.onDamage">
-  onDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L55"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes, when damage recived</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;float&gt; onDamage { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_WeaponSystem_Damageable_onDie_" data-uid="Animeska34.WeaponSystem.Damageable.onDie*"></a>
-
-  <h3 id="Animeska34_WeaponSystem_Damageable_onDie" data-uid="Animeska34.WeaponSystem.Damageable.onDie">
-  onDie
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L63"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes, when hp reaches 0</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onDie { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_WeaponSystem_Damageable_onRestore_" data-uid="Animeska34.WeaponSystem.Damageable.onRestore*"></a>
-
-  <h3 id="Animeska34_WeaponSystem_Damageable_onRestore" data-uid="Animeska34.WeaponSystem.Damageable.onRestore">
-  onRestore
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L59"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes, when restores some hp</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;float&gt; onRestore { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_WeaponSystem_Damageable_onRestored_" data-uid="Animeska34.WeaponSystem.Damageable.onRestored*"></a>
-
-  <h3 id="Animeska34_WeaponSystem_Damageable_onRestored" data-uid="Animeska34.WeaponSystem.Damageable.onRestored">
-  onRestored
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L68"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes, when hp reaches maxHp</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onRestored { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
   </dl>
 
 
@@ -908,7 +798,7 @@ protected UnityEvent m_onRestored</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Damageable_Damage_System_Single_System_Int32_" data-uid="Animeska34.WeaponSystem.Damageable.Damage(System.Single,System.Int32)">
   Damage(float, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Apply certain amaount of damage to object</p>
@@ -922,7 +812,7 @@ protected UnityEvent m_onRestored</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>damage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Default bamageable component (Note: it not uses damage type)</dd>
+    <dd>Default implementation of IDamageable interface. Does not use damage types.</dd>
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>Damage type</p>
 </dd>
@@ -939,11 +829,11 @@ protected UnityEvent m_onRestored</code></pre>
 
 
 
-  <a id="Animeska34_WeaponSystem_Damageable_Restore_" data-uid="Animeska34.WeaponSystem.Damageable.Restore*"></a>
+  <a id="Animeska34_WeaponSystem_Damageable_Heal_" data-uid="Animeska34.WeaponSystem.Damageable.Heal*"></a>
 
-  <h3 id="Animeska34_WeaponSystem_Damageable_Restore_System_Single_" data-uid="Animeska34.WeaponSystem.Damageable.Restore(System.Single)">
-  Restore(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Damageable_Heal_System_Single_" data-uid="Animeska34.WeaponSystem.Damageable.Heal(System.Single)">
+  Heal(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Restore some amount of heath of object</p>
@@ -951,7 +841,7 @@ protected UnityEvent m_onRestored</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Restore(float count)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Heal(float count)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -975,7 +865,7 @@ protected UnityEvent m_onRestored</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Damageable.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Damageable.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

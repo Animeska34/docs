@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Explosion.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Explosion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Explosion.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Explosion%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Explosion" data-uid="Animeska34.WeaponSystem.Explosion" class="text-break">
     Class Explosion
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -105,7 +105,8 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[RequireComponent(typeof(SphereCollider))]
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Weapon System/Explosion&quot;)]
+[RequireComponent(typeof(SphereCollider))]
 public class Explosion : MonoBehaviour</code></pre>
   </div>
 
@@ -485,10 +486,11 @@ public class Explosion : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_autoDestroy" data-uid="Animeska34.WeaponSystem.Explosion.autoDestroy">
   autoDestroy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flag indicating whether the object should be automatically destroyed after it dies.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -509,6 +511,10 @@ public bool autoDestroy</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_autoDestroy_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the object will be automatically destroyed after the death event occurs.
+Developers can use this flag to control whether the object should persist or be removed upon death.</p>
+</div>
 
 
 
@@ -516,10 +522,10 @@ public bool autoDestroy</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_damage" data-uid="Animeska34.WeaponSystem.Explosion.damage">
   damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Base damage</p>
+  <div class="markdown level1 summary"><p>The base damage of the explosion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -540,6 +546,10 @@ public bool autoDestroy</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_damage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the initial or base amount of damage caused by the explosion.
+Developers can adjust this value to set the baseline damage inflicted by the explosion.</p>
+</div>
 
 
 
@@ -547,10 +557,10 @@ public bool autoDestroy</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_damageType" data-uid="Animeska34.WeaponSystem.Explosion.damageType">
   damageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L78"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of damage</p>
+  <div class="markdown level1 summary"><p>The type of damage inflicted by the explosion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -571,6 +581,10 @@ public bool autoDestroy</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_damageType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This integer variable represents the type of damage, such as elemental damage.
+Developers can use different values to denote various damage types, providing flexibility for categorizing damage.</p>
+</div>
 
 
 
@@ -578,10 +592,10 @@ public bool autoDestroy</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_destroyAfter" data-uid="Animeska34.WeaponSystem.Explosion.destroyAfter">
   destroyAfter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Destroy explosion after</p>
+  <div class="markdown level1 summary"><p>Time until the object is automatically destroyed after death.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -602,6 +616,10 @@ public bool autoDestroy</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_destroyAfter_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the duration, in seconds, until the object is automatically destroyed after the death event.
+Developers can adjust this value to control the delay before the object removal.</p>
+</div>
 
 
 
@@ -609,10 +627,11 @@ public bool autoDestroy</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_force" data-uid="Animeska34.WeaponSystem.Explosion.force">
   force
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The force of the explosion.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -633,6 +652,10 @@ public float force</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_force_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the strength or magnitude of the explosion.
+Developers can adjust this value to control the impact force of the explosion.</p>
+</div>
 
 
 
@@ -640,7 +663,7 @@ public float force</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_m_collider" data-uid="Animeska34.WeaponSystem.Explosion.m_collider">
   m_collider
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -670,10 +693,11 @@ public float force</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_scaleToForce" data-uid="Animeska34.WeaponSystem.Explosion.scaleToForce">
   scaleToForce
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Flag indicating whether to scale explosion damage to explosion force.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -694,6 +718,10 @@ public bool scaleToForce</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_scaleToForce_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the explosion damage will be scaled based on the force of the explosion.
+Developers can use this flag to control whether the damage should be proportional to the explosion force.</p>
+</div>
 
 
 
@@ -701,10 +729,10 @@ public bool scaleToForce</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_scaledDamage" data-uid="Animeska34.WeaponSystem.Explosion.scaledDamage">
   scaledDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L90"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Multiply damage to normalized distance</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether to scale damage based on normalized distance from the explosion center to its radius.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -725,6 +753,10 @@ public bool scaleToForce</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_scaledDamage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the damage will be scaled based on the normalized distance from the explosion center to its radius.
+Developers can use this flag to control whether the damage should vary depending on the distance from the explosion center.</p>
+</div>
 
 
 
@@ -732,10 +764,10 @@ public bool scaleToForce</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Explosion_upwardsModifier" data-uid="Animeska34.WeaponSystem.Explosion.upwardsModifier">
   upwardsModifier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Adjustment to the apparent position of the explosion to make it seem to lift</p>
+  <div class="markdown level1 summary"><p>The upwards modifier of the explosion.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -756,6 +788,10 @@ public bool scaleToForce</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Explosion_upwardsModifier_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the additional upward force applied to the explosion.
+Developers can adjust this value to control the upward lift or movement caused by the explosion.</p>
+</div>
 
 
 
@@ -764,7 +800,7 @@ public bool scaleToForce</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Explosion.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Explosion.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

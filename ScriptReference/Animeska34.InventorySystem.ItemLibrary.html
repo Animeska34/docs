@@ -8,7 +8,7 @@
       <meta name="title" content="Class ItemLibrary
  | Animeska34 Docs ">
       
-      <meta name="description" content="Library, containing items for  inventory system">
+      <meta name="description" content="ScriptableObject representing a library of items for the inventory system.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -100,7 +100,7 @@
   <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Library, containing items for  inventory system</p>
+  <div class="markdown summary"><p>ScriptableObject representing a library of items for the inventory system.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -304,10 +304,10 @@ public class ItemLibrary : ScriptableObject</code></pre>
 
   <h3 id="Animeska34_InventorySystem_ItemLibrary_Item_System_String_" data-uid="Animeska34.InventorySystem.ItemLibrary.Item(System.String)">
   this[string]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemLibrary.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/ItemLibrary.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get item by name</p>
+  <div class="markdown level1 summary"><p>Gets the item from the library by its name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -318,7 +318,7 @@ public class ItemLibrary : ScriptableObject</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Name of item to get</p>
+    <dd><p>Name of the item to retrieve.</p>
 </dd>
   </dl>
 
@@ -328,13 +328,16 @@ public class ItemLibrary : ScriptableObject</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
-    <dd><p>Item, if found</p>
+    <dd><p>The item with the specified name, or null if not found.</p>
 </dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_InventorySystem_ItemLibrary_Item_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If the specified item name is not found in the library, null is returned.</p>
+</div>
 
 
 

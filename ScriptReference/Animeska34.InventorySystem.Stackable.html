@@ -8,7 +8,7 @@
       <meta name="title" content="Class Stackable
  | Animeska34 Docs ">
       
-      <meta name="description" content="Item, which can be stacked up to 4E9">
+      <meta name="description" content="Stackable item, which can be stacked up to 4E9.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -100,7 +100,7 @@
   <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Item, which can be stacked up to 4E9</p>
+  <div class="markdown summary"><p>Stackable item, which can be stacked up to 4E9.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -363,10 +363,10 @@ public class Stackable : Item</code></pre>
 
   <h3 id="Animeska34_InventorySystem_Stackable_overallCost" data-uid="Animeska34.InventorySystem.Stackable.overallCost">
   overallCost
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Item cost. If items is stackable, represents cost of stack</p>
+  <div class="markdown level1 summary"><p>Gets the overall cost of the item. If the item is stackable, represents the cost of the entire stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -381,7 +381,7 @@ public class Stackable : Item</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Item, which can be stacked up to 4E9</dd>
+    <dd>Stackable item, which can be stacked up to 4E9.</dd>
   </dl>
 
 
@@ -395,10 +395,10 @@ public class Stackable : Item</code></pre>
 
   <h3 id="Animeska34_InventorySystem_Stackable_overallWeight" data-uid="Animeska34.InventorySystem.Stackable.overallWeight">
   overallWeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Item weight. If items is stackable, represents weight of stack</p>
+  <div class="markdown level1 summary"><p>Gets the overall weight of the item. If the item is stackable, represents the weight of the entire stack.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -413,7 +413,7 @@ public class Stackable : Item</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Item, which can be stacked up to 4E9</dd>
+    <dd>Stackable item, which can be stacked up to 4E9.</dd>
   </dl>
 
 
@@ -427,11 +427,10 @@ public class Stackable : Item</code></pre>
 
   <h3 id="Animeska34_InventorySystem_Stackable_quantity" data-uid="Animeska34.InventorySystem.Stackable.quantity">
   quantity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Current quantity of items in stack</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -445,7 +444,7 @@ public class Stackable : Item</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd>Item, which can be stacked up to 4E9</dd>
+    <dd>Stackable item, which can be stacked up to 4E9.</dd>
   </dl>
 
 
@@ -463,10 +462,10 @@ public class Stackable : Item</code></pre>
 
   <h3 id="Animeska34_InventorySystem_Stackable_SetQuantity_System_UInt32_" data-uid="Animeska34.InventorySystem.Stackable.SetQuantity(System.UInt32)">
   SetQuantity(uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Set quantity of items in stack</p>
+  <div class="markdown level1 summary"><p>Sets the quantity of the stackable item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -477,13 +476,15 @@ public class Stackable : Item</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>newQuantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd></dd>
+    <dd><p>New quantity value to set.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>True if the quantity was successfully set; otherwise, false.</p>
+</dd>
   </dl>
 
 
@@ -500,10 +501,10 @@ public class Stackable : Item</code></pre>
 
   <h3 id="Animeska34_InventorySystem_Stackable_Take_System_UInt32_" data-uid="Animeska34.InventorySystem.Stackable.Take(System.UInt32)">
   Take(uint)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Items/Stackable.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Take items from stack</p>
+  <div class="markdown level1 summary"><p>Takes a specified quantity from the stackable item.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -514,14 +515,14 @@ public class Stackable : Item</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>quantity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
-    <dd><p>Quantity to take</p>
+    <dd><p>Quantity to take from the stackable item.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.InventorySystem.Stackable.html">Stackable</a></dt>
-    <dd><p>Taken item</p>
+    <dd><p>A new stackable item with the taken quantity, or null if the operation fails.</p>
 </dd>
   </dl>
 

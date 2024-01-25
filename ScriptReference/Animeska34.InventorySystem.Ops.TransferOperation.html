@@ -8,7 +8,7 @@
       <meta name="title" content="Enum TransferOperation
  | Animeska34 Docs ">
       
-      <meta name="description" content="Result of Transfer operation">
+      <meta name="description" content="Result of a transfer operation between inventories.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -93,7 +93,7 @@
 
   <h1 id="Animeska34_InventorySystem_Ops_TransferOperation" data-uid="Animeska34.InventorySystem.Ops.TransferOperation" class="text-break">
     Enum TransferOperation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/TransferOperation.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/TransferOperation.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@
   <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Result of Transfer operation</p>
+  <div class="markdown summary"><p>Result of a transfer operation between inventories.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -121,31 +121,35 @@
 </h2>
   <dl class="parameters">
     <dt id="Animeska34_InventorySystem_Ops_TransferOperation_NoItem"><code>NoItem = 2</code></dt>
-    <dd><p>No item found in source inventory</p>
+    <dd><p>No item was found in the source inventory.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_TransferOperation_NonStackable"><code>NonStackable = 5</code></dt>
-    <dd><p>Item is not stackable</p>
+    <dd><p>The item being transferred is not stackable.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_TransferOperation_OverCount"><code>OverCount = 4</code></dt>
-    <dd><p>Exceeds size count limits of destination inventory</p>
+    <dd><p>The transfer operation exceeds the size count limits of the destination inventory.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_TransferOperation_OverWeight"><code>OverWeight = 3</code></dt>
-    <dd><p>Exceeds weight limits of destination inventory</p>
+    <dd><p>The transfer operation exceeds the weight limits of the destination inventory.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_TransferOperation_Success"><code>Success = 1</code></dt>
-    <dd><p>Operation success</p>
+    <dd><p>The transfer operation was successful.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_TransferOperation_UnknownError"><code>UnknownError = 0</code></dt>
-    <dd><p>Unknown error occured</p>
+    <dd><p>An unknown error occurred during the transfer operation.</p>
 </dd>
   </dl>
 
 
+  <h2 id="Animeska34_InventorySystem_Ops_TransferOperation_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This enumeration represents the possible outcomes of a transfer operation between two inventories.
+Developers can use these values to handle different scenarios during inventory transfers.</p>
+</div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/TransferOperation.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/TransferOperation.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -8,7 +8,7 @@
       <meta name="title" content="Class AnimeTimedActions
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Represents a MonoBehaviour class that implements the IAnimeActions interface specifically for timed actions.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_AnimeTools_AnimeTimedActions" data-uid="Animeska34.AnimeTools.AnimeTimedActions" class="text-break">
     Class AnimeTimedActions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.AnimeTools.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Represents a MonoBehaviour class that implements the IAnimeActions interface specifically for timed actions.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -486,45 +487,15 @@
 </h2>
 
 
-  <a id="Animeska34_AnimeTools_AnimeTimedActions_Count_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Count*"></a>
-
-  <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Count" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Count">
-  Count
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="Animeska34_AnimeTools_AnimeTimedActions_Item_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Item*"></a>
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Item_System_Int32_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Item(System.Int32)">
   this[int]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the AnimeTimedAction at the specified position in the collection of timed actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -534,7 +505,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The position of the desired timed action.</p>
+</dd>
   </dl>
 
 
@@ -543,7 +515,8 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd><p>The AnimeTimedAction at the specified position, or null if not found.</p>
+</dd>
   </dl>
 
 
@@ -557,10 +530,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Item_System_String_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Item(System.String)">
   this[string]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the AnimeTimedAction with the specified name from the collection of timed actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -570,7 +544,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the desired timed action.</p>
+</dd>
   </dl>
 
 
@@ -579,7 +554,72 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd><p>The AnimeTimedAction with the specified name, or null if not found.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_AnimeTools_AnimeTimedActions_actions_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.actions*"></a>
+
+  <h3 id="Animeska34_AnimeTools_AnimeTimedActions_actions" data-uid="Animeska34.AnimeTools.AnimeTimedActions.actions">
+  actions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the list of timed actions associated with this component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;AnimeTimedAction&gt; actions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a>&gt;</dt>
+    <dd>Represents a MonoBehaviour class that implements the IAnimeActions interface specifically for timed actions.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_AnimeTools_AnimeTimedActions_count_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.count*"></a>
+
+  <h3 id="Animeska34_AnimeTools_AnimeTimedActions_count" data-uid="Animeska34.AnimeTools.AnimeTimedActions.count">
+  count
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of anime actions in the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int count { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd>Represents a MonoBehaviour class that implements the IAnimeActions interface specifically for timed actions.</dd>
   </dl>
 
 
@@ -597,10 +637,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Add_Animeska34_AnimeTools_AnimeTimedAction_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Add(Animeska34.AnimeTools.AnimeTimedAction)">
   Add(AnimeTimedAction)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds the specified timed action to the collection of timed actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -610,48 +651,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>timedAction</code> <a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="Animeska34_AnimeTools_AnimeTimedActions_Add_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Add*"></a>
-
-  <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Add_System_String_System_Single_UnityEngine_Events_UnityEvent_System_Boolean_System_Boolean_System_Single_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Add(System.String,System.Single,UnityEngine.Events.UnityEvent,System.Boolean,System.Boolean,System.Single)">
-  Add(string, float, UnityEvent, bool, bool, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Add(string name, float time, UnityEvent events, bool running = true, bool repeat = false, float repeatEvery = 0)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-    <dt><code>events</code> <a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
-    <dd></dd>
-    <dt><code>running</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>repeat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-    <dt><code>repeatEvery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
+    <dd><p>The timed action to add to the collection.</p>
+</dd>
   </dl>
 
 
@@ -669,10 +670,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Execute_System_String_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Execute(System.String)">
   Execute(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Executes the anime action with the specified name from the collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -682,7 +684,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the anime action to be executed.</p>
+</dd>
   </dl>
 
 
@@ -700,10 +703,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_ExecuteAt_System_Int32_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.ExecuteAt(System.Int32)">
   ExecuteAt(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Executes the anime action at the specified position in the collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -713,7 +717,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The position of the anime action to be executed.</p>
+</dd>
   </dl>
 
 
@@ -731,10 +736,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Get_Animeska34_AnimeTools_AnimeTimedAction_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Get(Animeska34.AnimeTools.AnimeTimedAction)">
   Get(AnimeTimedAction)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the AnimeTimedAction with the specified name from the collection of timed actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -744,13 +750,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd><p>The timed action to search for in the collection.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd><p>The AnimeTimedAction with the specified name, or null if not found.</p>
+</dd>
   </dl>
 
 
@@ -767,10 +775,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Get_System_String_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Get(System.String)">
   Get(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the AnimeTimedAction with the specified name from the collection of timed actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -780,13 +789,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the desired timed action.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd><p>The AnimeTimedAction with the specified name, or null if not found.</p>
+</dd>
   </dl>
 
 
@@ -803,10 +814,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_GetAt_System_Int32_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.GetAt(System.Int32)">
   GetAt(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the AnimeTimedAction at the specified position in the collection of timed actions.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -816,13 +828,15 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd><p>The position of the desired timed action.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd><p>The AnimeTimedAction at the specified position, or null if not found.</p>
+</dd>
   </dl>
 
 
@@ -839,7 +853,7 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Remove_Animeska34_AnimeTools_AnimeTimedAction_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Remove(Animeska34.AnimeTools.AnimeTimedAction)">
   Remove(AnimeTimedAction)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L115"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -852,7 +866,7 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>action</code> <a class="xref" href="Animeska34.AnimeTools.AnimeTimedAction.html">AnimeTimedAction</a></dt>
-    <dd></dd>
+    <dd>Represents a MonoBehaviour class that implements the IAnimeActions interface specifically for timed actions.</dd>
   </dl>
 
 
@@ -870,10 +884,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_Remove_System_String_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.Remove(System.String)">
   Remove(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Removes the anime action with the specified name from the collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -883,7 +898,8 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The name of the anime action to be removed.</p>
+</dd>
   </dl>
 
 
@@ -901,10 +917,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_RemoveAll" data-uid="Animeska34.AnimeTools.AnimeTimedActions.RemoveAll">
   RemoveAll()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Removes all anime actions from the collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -927,10 +944,11 @@
 
   <h3 id="Animeska34_AnimeTools_AnimeTimedActions_RemoveAt_System_Int32_" data-uid="Animeska34.AnimeTools.AnimeTimedActions.RemoveAt(System.Int32)">
   RemoveAt(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L119"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Removes the anime action at the specified position in the collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -940,7 +958,7 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>pos</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
+    <dd>Represents a MonoBehaviour class that implements the IAnimeActions interface specifically for timed actions.</dd>
   </dl>
 
 
@@ -958,7 +976,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/AnimeTimedActions.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

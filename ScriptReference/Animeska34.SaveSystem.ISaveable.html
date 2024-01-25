@@ -8,7 +8,7 @@
       <meta name="title" content="Interface ISaveable
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="ISaveable interface used by Saveable to serialize/deserialize MonoBehaviours attached to Saveable GameObjects.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.save/new/main/apiSpec/new?filename=Animeska34_SaveSystem_ISaveable.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.ISaveable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/SaveSystem/new/main/apiSpec/new?filename=Animeska34_SaveSystem_ISaveable.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.ISaveable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_SaveSystem_ISaveable" data-uid="Animeska34.SaveSystem.ISaveable" class="text-break">
     Interface ISaveable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.SaveSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>ISaveable interface used by Saveable to serialize/deserialize MonoBehaviours attached to Saveable GameObjects.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -117,6 +118,10 @@
 
 
 
+  <h2 id="Animeska34_SaveSystem_ISaveable_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This interface is implemented by MonoBehaviours that need custom serialization and deserialization logic when attached to Saveable GameObjects.
+Saveable objects use this interface to interact with attached components during the game's saving and loading processes.</p>
+</div>
 
 
   <h2 class="section" id="methods">Methods
@@ -127,10 +132,11 @@
 
   <h3 id="Animeska34_SaveSystem_ISaveable_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_" data-uid="Animeska34.SaveSystem.ISaveable.Deserialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)">
   Deserialize(XmlElement, XMLUtility)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method called by Saveable to deserialize this ISaveable.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -140,15 +146,18 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlelement">XmlElement</a></dt>
-    <dd></dd>
+    <dd><p>The XmlElement containing the serialized data for the ISaveable.</p>
+</dd>
     <dt><code>utility</code> <a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a></dt>
-    <dd></dd>
+    <dd><p>The XMLUtility instance to assist in deserialization.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>True if deserialization is successful, otherwise false.</p>
+</dd>
   </dl>
 
 
@@ -157,6 +166,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_ISaveable_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called by Saveable to deserialize the current ISaveable object.
+Developers should implement custom deserialization logic for the ISaveable component within this method.</p>
+</div>
 
 
 
@@ -165,10 +178,11 @@
 
   <h3 id="Animeska34_SaveSystem_ISaveable_Load" data-uid="Animeska34.SaveSystem.ISaveable.Load">
   Load()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component is starting to load.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -183,6 +197,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_ISaveable_Load_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component is starting the loading process.
+Developers can override this method to implement custom loading logic for the SaveBehaviour.</p>
+</div>
 
 
 
@@ -191,10 +209,11 @@
 
   <h3 id="Animeska34_SaveSystem_ISaveable_Loaded" data-uid="Animeska34.SaveSystem.ISaveable.Loaded">
   Loaded()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component has just been loaded.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -209,6 +228,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_ISaveable_Loaded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component has completed the loading process.
+Developers can override this method to implement custom logic for when the SaveBehaviour has been loaded.</p>
+</div>
 
 
 
@@ -217,10 +240,11 @@
 
   <h3 id="Animeska34_SaveSystem_ISaveable_Save" data-uid="Animeska34.SaveSystem.ISaveable.Save">
   Save()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component is starting to save.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -235,6 +259,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_ISaveable_Save_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component is starting the saving process.
+Developers can override this method to implement custom saving logic for the SaveBehaviour.</p>
+</div>
 
 
 
@@ -243,10 +271,11 @@
 
   <h3 id="Animeska34_SaveSystem_ISaveable_Saved" data-uid="Animeska34.SaveSystem.ISaveable.Saved">
   Saved()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component has just been saved.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -261,6 +290,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_ISaveable_Saved_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component has completed the saving process.
+Developers can override this method to implement custom logic for when the SaveBehaviour has been saved.</p>
+</div>
 
 
 
@@ -269,10 +302,11 @@
 
   <h3 id="Animeska34_SaveSystem_ISaveable_Serialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_" data-uid="Animeska34.SaveSystem.ISaveable.Serialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)">
   Serialize(XmlElement, XMLUtility)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method called by Saveable to serialize this ISaveable.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -282,15 +316,18 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlelement">XmlElement</a></dt>
-    <dd></dd>
+    <dd><p>The XmlElement to serialize the ISaveable into.</p>
+</dd>
     <dt><code>utility</code> <a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a></dt>
-    <dd></dd>
+    <dd><p>The XMLUtility instance to assist in serialization.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>True if serialization is successful, otherwise false.</p>
+</dd>
   </dl>
 
 
@@ -299,6 +336,10 @@
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_ISaveable_Serialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called by Saveable to serialize the current ISaveable object.
+Developers should implement custom serialization logic for the ISaveable component within this method.</p>
+</div>
 
 
 
@@ -307,7 +348,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/ISaveable.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/ISaveable.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -8,7 +8,7 @@
       <meta name="title" content="Interface IAnimeAction
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Represents an interface for anime actions that can be executed and reset, with properties for name and enabled state.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_AnimeTools_IAnimeAction" data-uid="Animeska34.AnimeTools.IAnimeAction" class="text-break">
     Interface IAnimeAction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.AnimeTools.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Represents an interface for anime actions that can be executed and reset, with properties for name and enabled state.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -123,18 +124,19 @@
 </h2>
 
 
-  <a id="Animeska34_AnimeTools_IAnimeAction_Enabled_" data-uid="Animeska34.AnimeTools.IAnimeAction.Enabled*"></a>
+  <a id="Animeska34_AnimeTools_IAnimeAction_enabled_" data-uid="Animeska34.AnimeTools.IAnimeAction.enabled*"></a>
 
-  <h3 id="Animeska34_AnimeTools_IAnimeAction_Enabled" data-uid="Animeska34.AnimeTools.IAnimeAction.Enabled">
-  Enabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_AnimeTools_IAnimeAction_enabled" data-uid="Animeska34.AnimeTools.IAnimeAction.enabled">
+  enabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether the anime action is enabled or not.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool Enabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">bool enabled { get; set; }</code></pre>
   </div>
 
 
@@ -144,7 +146,7 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd>Represents an interface for anime actions that can be executed and reset, with properties for name and enabled state.</dd>
   </dl>
 
 
@@ -154,18 +156,52 @@
 
 
 
-  <a id="Animeska34_AnimeTools_IAnimeAction_Name_" data-uid="Animeska34.AnimeTools.IAnimeAction.Name*"></a>
+  <a id="Animeska34_AnimeTools_IAnimeAction_events_" data-uid="Animeska34.AnimeTools.IAnimeAction.events*"></a>
 
-  <h3 id="Animeska34_AnimeTools_IAnimeAction_Name" data-uid="Animeska34.AnimeTools.IAnimeAction.Name">
-  Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L5"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_AnimeTools_IAnimeAction_events" data-uid="Animeska34.AnimeTools.IAnimeAction.events">
+  events
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The UnityEvent associated with this anime action.
+Use this property to assign events that should be triggered by the action.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string Name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">UnityEvent events { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html">UnityEvent</a></dt>
+    <dd>Represents an interface for anime actions that can be executed and reset, with properties for name and enabled state.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Animeska34_AnimeTools_IAnimeAction_name_" data-uid="Animeska34.AnimeTools.IAnimeAction.name*"></a>
+
+  <h3 id="Animeska34_AnimeTools_IAnimeAction_name" data-uid="Animeska34.AnimeTools.IAnimeAction.name">
+  name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the name of the anime action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string name { get; set; }</code></pre>
   </div>
 
 
@@ -175,7 +211,7 @@
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>Represents an interface for anime actions that can be executed and reset, with properties for name and enabled state.</dd>
   </dl>
 
 
@@ -193,10 +229,11 @@
 
   <h3 id="Animeska34_AnimeTools_IAnimeAction_Execute" data-uid="Animeska34.AnimeTools.IAnimeAction.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Executes the anime action.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -219,10 +256,11 @@
 
   <h3 id="Animeska34_AnimeTools_IAnimeAction_Reset" data-uid="Animeska34.AnimeTools.IAnimeAction.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Resets the anime action to its initial state.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -245,7 +283,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L3" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/AnimeTools/blob/main/Assets/Actions/IAnimeAction.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

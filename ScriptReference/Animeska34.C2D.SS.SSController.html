@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class InventoryManager
+      <title>Class SSController
  | Animeska34 Docs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class InventoryManager
+      <meta name="title" content="Class SSController
  | Animeska34 Docs ">
       
-      <meta name="description" content="Manages all item libraries, providing access to items and their properties.">
+      <meta name="description" content="Simple scroll shooter controller.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Inventory/new/main/apiSpec/new?filename=Animeska34_InventorySystem_InventoryManager.md&amp;value=---%0Auid%3A%20Animeska34.InventorySystem.InventoryManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/C2D.SS/new/main/apiSpec/new?filename=Animeska34_C2D_SS_SSController.md&amp;value=---%0Auid%3A%20Animeska34.C2D.SS.SSController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -86,28 +86,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Animeska34.InventorySystem.InventoryManager">
+        <article data-uid="Animeska34.C2D.SS.SSController">
 
 
 
-  <h1 id="Animeska34_InventorySystem_InventoryManager" data-uid="Animeska34.InventorySystem.InventoryManager" class="text-break">
-    Class InventoryManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Animeska34_C2D_SS_SSController" data-uid="Animeska34.C2D.SS.SSController" class="text-break">
+    Class SSController
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.InventorySystem.html">InventorySystem</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Animeska34.html">Animeska34</a>.<a class="xref" href="Animeska34.C2D.html">C2D</a>.<a class="xref" href="Animeska34.C2D.SS.html">SS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Animeska34.C2D.SS.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Manages all item libraries, providing access to items and their properties.</p>
+  <div class="markdown summary"><p>Simple scroll shooter controller.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
-[AddComponentMenu(&quot;Animeska34/Inventory System/Inventory Manager&quot;)]
-public class InventoryManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Animeska34/Controllers 2D/SS/SS Controller&quot;)]
+public class SSController : MonoBehaviour</code></pre>
   </div>
 
 
@@ -121,7 +120,7 @@ public class InventoryManager : MonoBehaviour</code></pre>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
       <div><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
-      <div><span class="xref">InventoryManager</span></div>
+      <div><span class="xref">SSController</span></div>
     </dd>
   </dl>
 
@@ -477,82 +476,214 @@ public class InventoryManager : MonoBehaviour</code></pre>
 
 
 
-  <h2 id="Animeska34_InventorySystem_InventoryManager_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This class is marked as disallowing multiple components and can be found in the &quot;Animeska34/Inventory System&quot; menu.</p>
-</div>
 
 
-  <h2 class="section" id="properties">Properties
+  <h2 class="section" id="fields">Fields
 </h2>
 
 
-  <a id="Animeska34_InventorySystem_InventoryManager_Item_" data-uid="Animeska34.InventorySystem.InventoryManager.Item*"></a>
 
-  <h3 id="Animeska34_InventorySystem_InventoryManager_Item_System_String_" data-uid="Animeska34.InventorySystem.InventoryManager.Item(System.String)">
-  this[string]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_C2D_SS_SSController_destroyDelay" data-uid="Animeska34.C2D.SS.SSController.destroyDelay">
+  destroyDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Finds an item by its name.</p>
+  <div class="markdown level1 summary"><p>The delay, in seconds, before destroying the player upon collision.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Item this[string name] { get; }</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Name of the item to search for.</p>
-</dd>
-  </dl>
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Animeska34.InventorySystem.Item.html">Item</a></dt>
-    <dd><p>The found item, if any.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="Animeska34_InventorySystem_InventoryManager_instance_" data-uid="Animeska34.InventorySystem.InventoryManager.instance*"></a>
-
-  <h3 id="Animeska34_InventorySystem_InventoryManager_instance" data-uid="Animeska34.InventorySystem.InventoryManager.instance">
-  instance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L20"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets the current instance of the InventoryManager.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static InventoryManager instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float destroyDelay</code></pre>
   </div>
 
 
 
 
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Animeska34.InventorySystem.InventoryManager.html">InventoryManager</a></dt>
-    <dd>Manages all item libraries, providing access to items and their properties.</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Simple scroll shooter controller.</dd>
   </dl>
 
 
 
 
+
+  <h4 class="section" id="Animeska34_C2D_SS_SSController_destroyDelay_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the duration of delay before destroying the player upon collision.
+Developers can adjust this value to introduce a delay between collision and player destruction.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_C2D_SS_SSController_destroyOnCollision" data-uid="Animeska34.C2D.SS.SSController.destroyOnCollision">
+  destroyOnCollision
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flag indicating whether the player should be destroyed upon collision.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool destroyOnCollision</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Simple scroll shooter controller.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_C2D_SS_SSController_destroyOnCollision_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the player will be destroyed upon colliding with other objects.
+Developers can use this flag to control whether the player should be destroyed on collision.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_C2D_SS_SSController_forceInsideViewport" data-uid="Animeska34.C2D.SS.SSController.forceInsideViewport">
+  forceInsideViewport
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flag indicating whether to always keep the player inside the viewport area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool forceInsideViewport</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Simple scroll shooter controller.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_C2D_SS_SSController_forceInsideViewport_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the player will be kept inside the viewport area to ensure visibility.
+Developers can use this flag to control whether the player's position is constrained within the viewport.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_C2D_SS_SSController_moveWithRigidbody" data-uid="Animeska34.C2D.SS.SSController.moveWithRigidbody">
+  moveWithRigidbody
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flag indicating whether the player should move using a Rigidbody component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool moveWithRigidbody</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Simple scroll shooter controller.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_C2D_SS_SSController_moveWithRigidbody_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the player will move using a Rigidbody component.
+Developers can use this flag to control the movement behavior of the player using physics simulations.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_C2D_SS_SSController_speed" data-uid="Animeska34.C2D.SS.SSController.speed">
+  speed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Speed of the player's movement in the scroll shooter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float speed</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Simple scroll shooter controller.</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Animeska34_C2D_SS_SSController_EnsureInViewport_" data-uid="Animeska34.C2D.SS.SSController.EnsureInViewport*"></a>
+
+  <h3 id="Animeska34_C2D_SS_SSController_EnsureInViewport" data-uid="Animeska34.C2D.SS.SSController.EnsureInViewport">
+  EnsureInViewport()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Forces the player to be inside the viewport area.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnsureInViewport()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Animeska34_C2D_SS_SSController_EnsureInViewport_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method ensures that the player's position is within the bounds of the viewport area.
+Developers can call this method to force the player to stay inside the viewport.</p>
+</div>
 
 
 
@@ -561,7 +692,7 @@ public class InventoryManager : MonoBehaviour</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/InventoryManager.cs/#L14" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/C2D.SS/blob/main/Assets/SSController.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

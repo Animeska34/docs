@@ -8,7 +8,7 @@
       <meta name="title" content="Class Saveable
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="Saveable class responsible for serializing and deserializing GameObjects during game saving/loading.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.save/new/main/apiSpec/new?filename=Animeska34_SaveSystem_Saveable.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.Saveable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/SaveSystem/new/main/apiSpec/new?filename=Animeska34_SaveSystem_Saveable.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.Saveable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_SaveSystem_Saveable" data-uid="Animeska34.SaveSystem.Saveable" class="text-break">
     Class Saveable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/Saveable.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.SaveSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Saveable class responsible for serializing and deserializing GameObjects during game saving/loading.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -477,24 +478,68 @@ public class Saveable : MonoBehaviour</code></pre>
 
 
 
+  <h2 id="Animeska34_SaveSystem_Saveable_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class is designed to handle the serialization and deserialization of GameObjects during the game's saving and loading processes.
+Developers can attach this script to GameObjects they want to persist across scene loads and customize serialization/deserialization logic.</p>
+</div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Animeska34_SaveSystem_Saveable_ignore" data-uid="Animeska34.SaveSystem.Saveable.ignore">
+  ignore
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flag indicating whether to ignore this object during scene serialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ignore</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd>Saveable class responsible for serializing and deserializing GameObjects during game saving/loading.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_SaveSystem_Saveable_ignore_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, this flag indicates that the Saveable object should be ignored during the serialization process.
+Developers can use this flag to exclude specific objects from being serialized with the scene.</p>
+</div>
+
+
 
 
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="Animeska34_SaveSystem_Saveable_id_" data-uid="Animeska34.SaveSystem.Saveable.id*"></a>
+  <a id="Animeska34_SaveSystem_Saveable_guid_" data-uid="Animeska34.SaveSystem.Saveable.guid*"></a>
 
-  <h3 id="Animeska34_SaveSystem_Saveable_id" data-uid="Animeska34.SaveSystem.Saveable.id">
-  id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/Saveable.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_SaveSystem_Saveable_guid" data-uid="Animeska34.SaveSystem.Saveable.guid">
+  guid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the GUID (Globally Unique Identifier) of the Saveable object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string id { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string guid { get; }</code></pre>
   </div>
 
 
@@ -504,12 +549,16 @@ public class Saveable : MonoBehaviour</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd>Saveable class responsible for serializing and deserializing GameObjects during game saving/loading.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_Saveable_guid_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property returns the GUID associated with the Saveable object.
+Developers can use this property to obtain the unique identifier for the object.</p>
+</div>
 
 
 
@@ -518,7 +567,7 @@ public class Saveable : MonoBehaviour</code></pre>
 
   <h3 id="Animeska34_SaveSystem_Saveable_type" data-uid="Animeska34.SaveSystem.Saveable.type">
   type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/Saveable.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -535,7 +584,7 @@ public class Saveable : MonoBehaviour</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="Animeska34.SaveSystem.Saveable.html">Saveable</a>.<a class="xref" href="Animeska34.SaveSystem.Saveable.Type.html">Type</a></dt>
-    <dd></dd>
+    <dd>Saveable class responsible for serializing and deserializing GameObjects during game saving/loading.</dd>
   </dl>
 
 
@@ -545,11 +594,98 @@ public class Saveable : MonoBehaviour</code></pre>
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Animeska34_SaveSystem_Saveable_Deserialize_" data-uid="Animeska34.SaveSystem.Saveable.Deserialize*"></a>
+
+  <h3 id="Animeska34_SaveSystem_Saveable_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_" data-uid="Animeska34.SaveSystem.Saveable.Deserialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)">
+  Deserialize(XmlElement, XMLUtility)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Manually deserializes the Saveable object from an XmlElement using the provided XMLUtility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deserialize(XmlElement root, XMLUtility utility)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>root</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlelement">XmlElement</a></dt>
+    <dd><p>The root XmlElement containing the serialized data for the Saveable object.</p>
+</dd>
+    <dt><code>utility</code> <a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a></dt>
+    <dd><p>The XMLUtility instance to assist in deserialization.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="Animeska34_SaveSystem_Saveable_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method allows developers to manually deserialize the Saveable object from an XmlElement using custom logic.
+It is called during the deserialization process, and developers can implement custom logic to restore the object's state.</p>
+</div>
+
+
+
+
+  <a id="Animeska34_SaveSystem_Saveable_Serialize_" data-uid="Animeska34.SaveSystem.Saveable.Serialize*"></a>
+
+  <h3 id="Animeska34_SaveSystem_Saveable_Serialize_Animeska34_Serialization_XML_XMLUtility_" data-uid="Animeska34.SaveSystem.Saveable.Serialize(Animeska34.Serialization.XML.XMLUtility)">
+  Serialize(XMLUtility)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Manually serializes the Saveable object into an XmlElement using the provided XMLUtility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlElement Serialize(XMLUtility utility)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>utility</code> <a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a></dt>
+    <dd><p>The XMLUtility instance to assist in serialization.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlelement">XmlElement</a></dt>
+    <dd><p>The XmlElement representing the serialized data of the Saveable object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Animeska34_SaveSystem_Saveable_Serialize_Animeska34_Serialization_XML_XMLUtility__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method allows developers to manually serialize the Saveable object into an XmlElement using custom logic.
+It is called during the serialization process and returns the XmlElement containing the serialized data.</p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/Saveable.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/Saveable.cs/#L18" class="edit-link">Edit this page</a>
         </div>
 
 

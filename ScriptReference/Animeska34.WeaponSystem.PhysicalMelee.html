@@ -8,7 +8,7 @@
       <meta name="title" content="Class PhysicalMelee
  | Animeska34 Docs ">
       
-      <meta name="description" content="Physically based weapin, damages IDamageable objects by colliding with them">
+      <meta name="description" content="Represents a physically based melee weapon damaging objects colliding with it.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_PhysicalMelee.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.PhysicalMelee%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_PhysicalMelee.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.PhysicalMelee%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_PhysicalMelee" data-uid="Animeska34.WeaponSystem.PhysicalMelee" class="text-break">
     Class PhysicalMelee
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,12 +100,13 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Physically based weapin, damages IDamageable objects by colliding with them</p>
+  <div class="markdown summary"><p>Represents a physically based melee weapon damaging objects colliding with it.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[RequireComponent(typeof(Collider))]
+[AddComponentMenu(&quot;Animeska34/Weapon System/Physical Melee&quot;)]
 public class PhysicalMelee : Weapon</code></pre>
   </div>
 
@@ -483,6 +484,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
 
 
+  <h2 id="Animeska34_WeaponSystem_PhysicalMelee_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class defines a melee weapon that utilizes physics to inflict damage on objects colliding with it.
+Developers can use this class as a foundation for implementing physically interactive melee weapons in their Unity projects.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -492,10 +497,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_damage" data-uid="Animeska34.WeaponSystem.PhysicalMelee.damage">
   damage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Base damage</p>
+  <div class="markdown level1 summary"><p>The base damage of the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -509,13 +514,17 @@ public class PhysicalMelee : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Physically based weapin, damages IDamageable objects by colliding with them</dd>
+    <dd>Represents a physically based melee weapon damaging objects colliding with it.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_damage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the initial or base amount of damage inflicted by the melee weapon.
+Developers can adjust this value to set the baseline damage caused by the physically based melee weapon.</p>
+</div>
 
 
 
@@ -523,10 +532,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_damageScale" data-uid="Animeska34.WeaponSystem.PhysicalMelee.damageScale">
   damageScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Scale impact magnityde by</p>
+  <div class="markdown level1 summary"><p>Scale applied to impact force before adding to base damage.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -540,13 +549,17 @@ public class PhysicalMelee : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Physically based weapin, damages IDamageable objects by colliding with them</dd>
+    <dd>Represents a physically based melee weapon damaging objects colliding with it.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_damageScale_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the scale applied to the impact force before being added to the base damage.
+Developers can adjust this value to control how much the damage scales with impact force when scaled damage is enabled.</p>
+</div>
 
 
 
@@ -554,10 +567,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_damageType" data-uid="Animeska34.WeaponSystem.PhysicalMelee.damageType">
   damageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of damage</p>
+  <div class="markdown level1 summary"><p>The base damage of the melee weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -571,13 +584,17 @@ public class PhysicalMelee : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd>Physically based weapin, damages IDamageable objects by colliding with them</dd>
+    <dd>Represents a physically based melee weapon damaging objects colliding with it.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_damageType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the initial or base amount of damage inflicted by the melee weapon.
+Developers can adjust this value to set the baseline damage caused by the physically based melee weapon.</p>
+</div>
 
 
 
@@ -585,10 +602,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_onDamage" data-uid="Animeska34.WeaponSystem.PhysicalMelee.onDamage">
   onDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes, when weapon starts colliding with IDamageable object. Invokes before onHit, contains damage and type of damage.</p>
+  <div class="markdown level1 summary"><p>Event triggered when the physically based melee weapon inflicts damage during a collision.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -602,13 +619,17 @@ public class PhysicalMelee : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_3.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Collision.html">Collision</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
-    <dd>Physically based weapin, damages IDamageable objects by colliding with them</dd>
+    <dd>Represents a physically based melee weapon damaging objects colliding with it.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_onDamage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a Collision object representing the collision data, a float for the inflicted damage, and an int for the damage type.
+Subscribers can listen to this event to perform actions when the weapon damages an object during a collision.</p>
+</div>
 
 
 
@@ -616,10 +637,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_onHit" data-uid="Animeska34.WeaponSystem.PhysicalMelee.onHit">
   onHit
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes, when weapon starts colliding with another object</p>
+  <div class="markdown level1 summary"><p>Event triggered when the physically based melee weapon collides with an object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -633,13 +654,17 @@ public class PhysicalMelee : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Events.UnityEvent_1.html">UnityEvent</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Collision.html">Collision</a>&gt;</dt>
-    <dd>Physically based weapin, damages IDamageable objects by colliding with them</dd>
+    <dd>Represents a physically based melee weapon damaging objects colliding with it.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_onHit_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This UnityEvent is parameterized with a Collision object representing the collision data.
+Subscribers can listen to this event to perform actions when the melee weapon collides with an object.</p>
+</div>
 
 
 
@@ -647,10 +672,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_scaledDamage" data-uid="Animeska34.WeaponSystem.PhysicalMelee.scaledDamage">
   scaledDamage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Scale damage by impact magnitude</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether to scale damage based on impact during collisions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -664,13 +689,17 @@ public class PhysicalMelee : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Physically based weapin, damages IDamageable objects by colliding with them</dd>
+    <dd>Represents a physically based melee weapon damaging objects colliding with it.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_scaledDamage_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the damage will be scaled based on the impact force during collisions.
+Developers can use this flag to control whether the damage should vary depending on the impact force.</p>
+</div>
 
 
 
@@ -683,10 +712,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_PhysicalMelee_Fire" data-uid="Animeska34.WeaponSystem.PhysicalMelee.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L99"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Fire now</p>
+  <div class="markdown level1 summary"><p>Implements the Fire method for compatibility with the parent class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -702,6 +731,10 @@ public class PhysicalMelee : Weapon</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_PhysicalMelee_Fire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is provided for compatibility with the parent class and does nothing.
+Developers can override this method in derived classes to implement specific firing behavior if needed.</p>
+</div>
 
 
 
@@ -710,7 +743,7 @@ public class PhysicalMelee : Weapon</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/PhysicalMelee.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/PhysicalMelee.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

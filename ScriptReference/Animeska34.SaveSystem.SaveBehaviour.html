@@ -8,7 +8,7 @@
       <meta name="title" content="Class SaveBehaviour
  | Animeska34 Docs ">
       
-      
+      <meta name="description" content="SaveBehaviour abstract class implementing ISaveable interface.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/com.animeska34.save/new/main/apiSpec/new?filename=Animeska34_SaveSystem_SaveBehaviour.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.SaveBehaviour%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/SaveSystem/new/main/apiSpec/new?filename=Animeska34_SaveSystem_SaveBehaviour.md&amp;value=---%0Auid%3A%20Animeska34.SaveSystem.SaveBehaviour%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_SaveSystem_SaveBehaviour" data-uid="Animeska34.SaveSystem.SaveBehaviour" class="text-break">
     Class SaveBehaviour
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +100,8 @@
   <dl><dt>Assembly</dt><dd>Animeska34.SaveSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>SaveBehaviour abstract class implementing ISaveable interface.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -131,13 +132,6 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="Animeska34.InventorySystem.Inventory.html">Inventory</a></div>
-      <div><a class="xref" href="Animeska34.InventorySystem.ItemObject.html">ItemObject</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
@@ -489,6 +483,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h2 id="Animeska34_SaveSystem_SaveBehaviour_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class, derived from MonoBehaviour, is designed to be saved to the save file during scene saving.
+Developers can extend this class for MonoBehaviour components that need to persist across scene loads.</p>
+</div>
 
 
   <h2 class="section" id="methods">Methods
@@ -499,10 +497,11 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveBehaviour_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_" data-uid="Animeska34.SaveSystem.SaveBehaviour.Deserialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)">
   Deserialize(XmlElement, XMLUtility)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method called by Saveable to deserialize this ISaveable.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -512,15 +511,18 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlelement">XmlElement</a></dt>
-    <dd></dd>
+    <dd><p>The XmlElement containing the serialized data for the ISaveable.</p>
+</dd>
     <dt><code>utility</code> <a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a></dt>
-    <dd></dd>
+    <dd><p>The XMLUtility instance to assist in deserialization.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>True if deserialization is successful, otherwise false.</p>
+</dd>
   </dl>
 
 
@@ -529,6 +531,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveBehaviour_Deserialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called by Saveable to deserialize the current ISaveable object.
+Developers should implement custom deserialization logic for the ISaveable component within this method.</p>
+</div>
 
 
 
@@ -537,10 +543,11 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveBehaviour_Load" data-uid="Animeska34.SaveSystem.SaveBehaviour.Load">
   Load()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component is starting to load.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -555,6 +562,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveBehaviour_Load_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component is starting the loading process.
+Developers can override this method to implement custom loading logic for the SaveBehaviour.</p>
+</div>
 
 
 
@@ -563,10 +574,11 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveBehaviour_Loaded" data-uid="Animeska34.SaveSystem.SaveBehaviour.Loaded">
   Loaded()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component has just been loaded.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -581,6 +593,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveBehaviour_Loaded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component has completed the loading process.
+Developers can override this method to implement custom logic for when the SaveBehaviour has been loaded.</p>
+</div>
 
 
 
@@ -589,10 +605,11 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveBehaviour_Save" data-uid="Animeska34.SaveSystem.SaveBehaviour.Save">
   Save()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component is starting to save.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -607,6 +624,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveBehaviour_Save_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component is starting the saving process.
+Developers can override this method to implement custom saving logic for the SaveBehaviour.</p>
+</div>
 
 
 
@@ -615,10 +636,11 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveBehaviour_Saved" data-uid="Animeska34.SaveSystem.SaveBehaviour.Saved">
   Saved()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L28"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Virtual method called when a SaveBehaviour component has just been saved.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -633,6 +655,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveBehaviour_Saved_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called when a SaveBehaviour component has completed the saving process.
+Developers can override this method to implement custom logic for when the SaveBehaviour has been saved.</p>
+</div>
 
 
 
@@ -641,10 +667,11 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
   <h3 id="Animeska34_SaveSystem_SaveBehaviour_Serialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility_" data-uid="Animeska34.SaveSystem.SaveBehaviour.Serialize(System.Xml.XmlElement,Animeska34.Serialization.XML.XMLUtility)">
   Serialize(XmlElement, XMLUtility)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method called by Saveable to serialize this ISaveable.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -654,15 +681,18 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>element</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.xmlelement">XmlElement</a></dt>
-    <dd></dd>
+    <dd><p>The XmlElement to serialize the ISaveable into.</p>
+</dd>
     <dt><code>utility</code> <a class="xref" href="Animeska34.Serialization.XML.XMLUtility.html">XMLUtility</a></dt>
-    <dd></dd>
+    <dd><p>The XMLUtility instance to assist in serialization.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>True if serialization is successful, otherwise false.</p>
+</dd>
   </dl>
 
 
@@ -671,6 +701,10 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_SaveSystem_SaveBehaviour_Serialize_System_Xml_XmlElement_Animeska34_Serialization_XML_XMLUtility__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is called by Saveable to serialize the current ISaveable object.
+Developers should implement custom serialization logic for the ISaveable component within this method.</p>
+</div>
 
 
 
@@ -679,7 +713,7 @@ public abstract class SaveBehaviour : MonoBehaviour, ISaveable</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/com.animeska34.save/blob/main/Assets/SaveBehaviour.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/SaveSystem/blob/main/Assets/SaveBehaviour.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -8,7 +8,7 @@
       <meta name="title" content="Class Beam
  | Animeska34 Docs ">
       
-      <meta name="description" content="Beam weapon, shooting beam which reflects from surfaces">
+      <meta name="description" content="Represents a beam weapon in the game.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -18,7 +18,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/Animeska34/Weapon-System/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Beam.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Beam%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/Animeska34/WeaponSystem/new/main/apiSpec/new?filename=Animeska34_WeaponSystem_Beam.md&amp;value=---%0Auid%3A%20Animeska34.WeaponSystem.Beam%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -92,7 +92,7 @@
 
   <h1 id="Animeska34_WeaponSystem_Beam" data-uid="Animeska34.WeaponSystem.Beam" class="text-break">
     Class Beam
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,12 +100,13 @@
   <dl><dt>Assembly</dt><dd>Animeska34.WeaponSystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Beam weapon, shooting beam which reflects from surfaces</p>
+  <div class="markdown summary"><p>Represents a beam weapon in the game.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[RequireComponent(typeof(LineRenderer))]
+[AddComponentMenu(&quot;Animeska34/Weapon System/Beam&quot;)]
 public class Beam : Weapon</code></pre>
   </div>
 
@@ -483,6 +484,10 @@ public class Beam : Weapon</code></pre>
 
 
 
+  <h2 id="Animeska34_WeaponSystem_Beam_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This class derives from the Weapon base class and is specifically designed to represent a beam weapon.
+Developers can use this class as a foundation for implementing beam weapons in their Unity projects.</p>
+</div>
 
 
   <h2 class="section" id="fields">Fields
@@ -490,12 +495,47 @@ public class Beam : Weapon</code></pre>
 
 
 
-  <h3 id="Animeska34_WeaponSystem_Beam_damageType" data-uid="Animeska34.WeaponSystem.Beam.damageType">
-  damageType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Animeska34_WeaponSystem_Beam_beamOffset" data-uid="Animeska34.WeaponSystem.Beam.beamOffset">
+  beamOffset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Type of damage</p>
+  <div class="markdown level1 summary"><p>The offset from the collision point where the beam reflection should occur.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float beamOffset</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd>Represents a beam weapon in the game.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_beamOffset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the offset from the collision point where the beam reflection point is adjusted.
+Developers can adjust this value to control the offset distance for the beam reflection point.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_WeaponSystem_Beam_damageType" data-uid="Animeska34.WeaponSystem.Beam.damageType">
+  damageType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The type of damage inflicted by the beam weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -509,13 +549,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_damageType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This byte variable represents the type of damage, such as elemental damage.
+Developers can use different values to denote various damage types, providing flexibility for categorizing damage.</p>
+</div>
 
 
 
@@ -523,10 +567,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_dps" data-uid="Animeska34.WeaponSystem.Beam.dps">
   dps
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Damage per second</p>
+  <div class="markdown level1 summary"><p>The damage per second (DPS) inflicted by the beam weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -540,13 +584,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_dps_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the amount of damage the beam inflicts per second.
+Developers can adjust this value to control the DPS of the beam weapon.</p>
+</div>
 
 
 
@@ -554,10 +602,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_dpsScale" data-uid="Animeska34.WeaponSystem.Beam.dpsScale">
   dpsScale
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Multiply normalized beam length to</p>
+  <div class="markdown level1 summary"><p>Scale applied to the damage per second (DPS) based on distance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -571,7 +619,41 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_dpsScale_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the scale applied to the DPS based on the distance from the origin to the target.
+Developers can adjust this value to control how much the DPS scales with distance when scaled DPS is enabled.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_WeaponSystem_Beam_line" data-uid="Animeska34.WeaponSystem.Beam.line">
+  line
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected LineRenderer line</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/LineRenderer.html">LineRenderer</a></dt>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
@@ -585,10 +667,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_mask" data-uid="Animeska34.WeaponSystem.Beam.mask">
   mask
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Layers affected by raycasting</p>
+  <div class="markdown level1 summary"><p>The layer mask determining which layers are affected by the beam weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -602,13 +684,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/LayerMask.html">LayerMask</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_mask_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This LayerMask variable specifies the layers that the beam weapon can interact with.
+Developers can adjust this mask to control which layers are affected by the beam.</p>
+</div>
 
 
 
@@ -616,10 +702,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_maxLength" data-uid="Animeska34.WeaponSystem.Beam.maxLength">
   maxLength
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Max beam length (in Units)</p>
+  <div class="markdown level1 summary"><p>The maximum length or range of the beam.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -633,13 +719,52 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_maxLength_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This float variable represents the maximum length or range of the beam weapon.
+Developers can adjust this value to control the maximum distance the beam can reach.</p>
+</div>
+
+
+
+
+
+  <h3 id="Animeska34_WeaponSystem_Beam_maxReflections" data-uid="Animeska34.WeaponSystem.Beam.maxReflections">
+  maxReflections
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum number of reflections allowed for the beam.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort maxReflections</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd>Represents a beam weapon in the game.</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_maxReflections_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This ushort variable represents the maximum number of times the beam can reflect off surfaces.
+Developers can adjust this value to control the maximum number of reflections for the beam.</p>
+</div>
 
 
 
@@ -647,10 +772,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_origin" data-uid="Animeska34.WeaponSystem.Beam.origin">
   origin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Beam origin</p>
+  <div class="markdown level1 summary"><p>The origin point from which the beam is emitted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -664,13 +789,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://docs.unity3d.com/ScriptReference/Transform.html">Transform</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_origin_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This Transform variable represents the point of origin for the beam emission.
+Developers can assign a specific Transform to control the starting position of the beam.</p>
+</div>
 
 
 
@@ -678,10 +807,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_reflectFromDamageable" data-uid="Animeska34.WeaponSystem.Beam.reflectFromDamageable">
   reflectFromDamageable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L160"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is beam reflects from damageable object</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether the beam should reflect from objects implementing the IDamageable interface.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -695,13 +824,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_reflectFromDamageable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the beam will reflect from objects that implement the IDamageable interface.
+Developers can use this flag to control whether reflection occurs from objects implementing IDamageable.</p>
+</div>
 
 
 
@@ -709,10 +842,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_reflectFromReflectiveOnly" data-uid="Animeska34.WeaponSystem.Beam.reflectFromReflectiveOnly">
   reflectFromReflectiveOnly
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is beam will reflect only from surfaces with reflectiveTag</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether the beam should reflect only from objects with reflective properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -726,13 +859,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_reflectFromReflectiveOnly_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the beam will only reflect from objects with reflective properties.
+Developers can use this flag to control whether reflection occurs only from reflective surfaces.</p>
+</div>
 
 
 
@@ -740,10 +877,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_reflectiveTag" data-uid="Animeska34.WeaponSystem.Beam.reflectiveTag">
   reflectiveTag
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Tag of reflective surface</p>
+  <div class="markdown level1 summary"><p>The tag assigned to objects that are considered reflective for beam reflection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -757,13 +894,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_reflectiveTag_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This string variable represents the tag assigned to objects that the beam can reflect from.
+Developers can adjust this value to define the tag used for identifying reflective surfaces.</p>
+</div>
 
 
 
@@ -771,10 +912,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_scaledDps" data-uid="Animeska34.WeaponSystem.Beam.scaledDps">
   scaledDps
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Add DPS scaled to normalized beam length to base DPS</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether to scale the damage per second (DPS) based on distance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -788,13 +929,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_scaledDps_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the DPS will be scaled based on the distance from the origin to the target.
+Developers can use this flag to control whether the DPS should vary depending on the distance.</p>
+</div>
 
 
 
@@ -802,10 +947,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_switchMode" data-uid="Animeska34.WeaponSystem.Beam.switchMode">
   switchMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Use Fire() to switch beam state</p>
+  <div class="markdown level1 summary"><p>Flag indicating whether to switch the beam on and off with the Fire method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -819,13 +964,17 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_switchMode_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When set to true, the beam is toggled on and off by calling the Fire method.
+If set to false, the Fire method needs to be called continuously each frame to keep the beam shooting.</p>
+</div>
 
 
 
@@ -838,10 +987,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_firing" data-uid="Animeska34.WeaponSystem.Beam.firing">
   firing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Is beam burrently firing</p>
+  <div class="markdown level1 summary"><p>Property indicating whether the beam weapon is currently in the firing state.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -856,12 +1005,16 @@ public class Beam : Weapon</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Beam weapon, shooting beam which reflects from surfaces</dd>
+    <dd>Represents a beam weapon in the game.</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_firing_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This boolean property returns true if the beam weapon is currently firing, and it can be set privately.
+Developers can use this property to check the firing status of the beam.</p>
+</div>
 
 
 
@@ -874,10 +1027,10 @@ public class Beam : Weapon</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_Fire" data-uid="Animeska34.WeaponSystem.Beam.Fire">
   Fire()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Fire now</p>
+  <div class="markdown level1 summary"><p>Abstract method for firing the weapon.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -894,6 +1047,9 @@ public override void Fire()</code></pre>
 
 
 
+  <h4 class="section" id="Animeska34_WeaponSystem_Beam_Fire_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Derived classes must implement this method to define the firing behavior specific to each type of weapon.</p>
+</div>
 
 
 
@@ -902,7 +1058,7 @@ public override void Fire()</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_Start" data-uid="Animeska34.WeaponSystem.Beam.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -928,7 +1084,7 @@ public override void Fire()</code></pre>
 
   <h3 id="Animeska34_WeaponSystem_Beam_Update" data-uid="Animeska34.WeaponSystem.Beam.Update">
   Update()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L257"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -954,7 +1110,7 @@ public override void Fire()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Weapon-System/blob/main/Assets/Beam.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/WeaponSystem/blob/main/Assets/Beam.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
 

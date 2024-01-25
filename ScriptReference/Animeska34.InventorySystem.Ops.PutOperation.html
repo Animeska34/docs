@@ -8,7 +8,7 @@
       <meta name="title" content="Enum PutOperation
  | Animeska34 Docs ">
       
-      <meta name="description" content="Result of PutOperation">
+      <meta name="description" content="Result of a Put operation in an inventory.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -93,7 +93,7 @@
 
   <h1 id="Animeska34_InventorySystem_Ops_PutOperation" data-uid="Animeska34.InventorySystem.Ops.PutOperation" class="text-break">
     Enum PutOperation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/PutOperation.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/PutOperation.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@
   <dl><dt>Assembly</dt><dd>Animeska34.InventorySystem.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Result of PutOperation</p>
+  <div class="markdown summary"><p>Result of a Put operation in an inventory.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -121,31 +121,35 @@
 </h2>
   <dl class="parameters">
     <dt id="Animeska34_InventorySystem_Ops_PutOperation_NonStackable"><code>NonStackable = 4</code></dt>
-    <dd><p>Trying to put multiple non stackable items using Put(). Please use PutMultiple() instead.</p>
+    <dd><p>Attempting to put multiple non-stackable items using Put(). Use PutMultiple() instead.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_PutOperation_OverCount"><code>OverCount = 2</code></dt>
-    <dd><p>Item count more than free space</p>
+    <dd><p>The item count is more than the free space available in the inventory.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_PutOperation_OverWeight"><code>OverWeight = 3</code></dt>
-    <dd><p>Item weight more than free space</p>
+    <dd><p>The item weight is more than the free space available in the inventory.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_PutOperation_Success"><code>Success = 1</code></dt>
-    <dd><p>Operation success</p>
+    <dd><p>The Put operation was successful.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_PutOperation_UnknownError"><code>UnknownError = 0</code></dt>
-    <dd><p>An unknown error occured</p>
+    <dd><p>An unknown error occurred during the Put operation.</p>
 </dd>
     <dt id="Animeska34_InventorySystem_Ops_PutOperation_Zero"><code>Zero = 5</code></dt>
-    <dd><p>Trying to put zero items</p>
+    <dd><p>Attempting to put zero items.</p>
 </dd>
   </dl>
 
 
+  <h2 id="Animeska34_InventorySystem_Ops_PutOperation_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This enumeration represents the possible outcomes of a Put operation in an inventory.
+Developers can use these values to handle different scenarios during item placement.</p>
+</div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/PutOperation.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Animeska34/Inventory/blob/main/Assets/Enums/PutOperation.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
