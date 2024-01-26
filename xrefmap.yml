@@ -3701,7 +3701,14 @@ references:
 - uid: Animeska34.DialogFramework.Character.rectTransform
   name: rectTransform
   href: ScriptReference/Animeska34.DialogFramework.Character.html#Animeska34_DialogFramework_Character_rectTransform
-  commentId: F:Animeska34.DialogFramework.Character.rectTransform
+  commentId: P:Animeska34.DialogFramework.Character.rectTransform
+  fullName: Animeska34.DialogFramework.Character.rectTransform
+  nameWithType: Character.rectTransform
+- uid: Animeska34.DialogFramework.Character.rectTransform*
+  name: rectTransform
+  href: ScriptReference/Animeska34.DialogFramework.Character.html#Animeska34_DialogFramework_Character_rectTransform_
+  commentId: Overload:Animeska34.DialogFramework.Character.rectTransform
+  isSpec: "True"
   fullName: Animeska34.DialogFramework.Character.rectTransform
   nameWithType: Character.rectTransform
 - uid: Animeska34.DialogFramework.CharacterDatabase
